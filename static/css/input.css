@@ -1,3 +1,68 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components{
+
+    /* MAIN COMPONENTS */
+    .container{
+        @apply max-w-screen-md min-h-screen min-w-[320px] flex flex-col lg:mx-auto;
+    }
+    .container-main{
+        @apply min-h-screen min-w-[320px] flex flex-col;
+    }
+    .container-section{
+        @apply max-w-screen-lg w-full min-w-[320px] lg:mx-auto p-4;
+    }
+    .styles{
+        @apply text bg-white dark:bg-neutral-900 selection:bg-primary selection:text-white;
+    }
+    .cs-rounded{
+        @apply rounded-xl;
+    }
+    .hr{
+        @apply w-48 h-1 mx-auto my-4 bg-neutral-100 border-0 rounded md:my-10 dark:bg-neutral-800;
+    }
+
+    /* BOX */
+    .box{
+        @apply bg-neutral-100 dark:bg-neutral-800 cs-rounded;
+    }
+
+    /* TEXTS */
+    .headline{
+        @apply font-bold text-2xl lg:text-3xl text-neutral-900 dark:text-neutral-100;
+    }
+    .subheadline{
+        @apply font-bold text-xl lg:text-2xl text-neutral-900 dark:text-neutral-100;
+    }
+    .text{
+        @apply font-normal text-sm lg:text-base text-neutral-800 dark:text-neutral-200;
+    }
+    .bold{
+        @apply font-medium text-sm lg:text-base text-neutral-900 dark:text-neutral-100;
+    }  
+    .link{
+        @apply font-medium text-sm lg:text-base hover:underline text-neutral-900 dark:text-neutral-100 focus:text-primary;
+    }
+    .link-bold{
+        @apply font-medium text-sm lg:text-base text-primary hover:underline focus:text-red-600;
+    }
+    .small{
+        @apply font-normal text-xs text-neutral-500;
+    }
+    .small-link{
+        @apply font-normal text-xs text-neutral-500 hover:underline;
+    }
+
+    /* ICONS */
+    .icon-sm{
+        @apply w-4 h-4;
+    }
+    .icon-md{
+        @apply w-8 h-8;
+    }
+    .icon-lg{
+        @apply w-12 h-12 text-primary;
+    }
+}
