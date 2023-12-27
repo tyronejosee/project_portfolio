@@ -7,10 +7,13 @@
   <title>{% block title %}{% endblock %}</title>
   <link rel="stylesheet" href="{% static 'css/output.css' %}">
 </head>
-<body>
+<body class="container styles">
+  
+  <!-- SIDEBAR -->
+  {% include 'includes/sidebar.html' %}
 
   <!-- MAIN CONTENT -->
-  <main>
+  <main class="sm:ml-48 space-y-4 p-4">
     {% block content %}{% endblock content %}
   </main>
 
