@@ -30,30 +30,41 @@ html {
 
     /* BOX */
     .box {
-        @apply bg-ultramarine-50 dark:bg-chartreuse-950 cs-rounded w-full h-60;
+        @apply bg-neutral-100 dark:bg-neutral-900 cs-rounded w-full h-60;
+    }
+    .box-list {
+        @apply flex items-center px-4 py-2 cs-rounded hover:bg-neutral-100 dark:hover:bg-neutral-900;
+    }
+    .box-icon {
+        @apply px-4 py-2 cs-rounded hover:bg-neutral-100 dark:hover:bg-neutral-900 hover:text-chartreuse-400;
     }
 
     /* TEXTS */
     .headline {
-        @apply font-extrabold text-2xl lg:text-3xl text-ultramarine-500 dark:text-chartreuse-400;
+        @apply font-bold text-2xl lg:text-3xl text-ultramarine-500 dark:text-chartreuse-400;
     }
     .text {
-        @apply font-normal text-sm lg:text-base text-ultramarine-950 dark:text-chartreuse-50;
+        @apply text-sm tracking-wide text-ultramarine-950 dark:text-chartreuse-50;
     }
     .bold {
-        @apply font-bold text-sm lg:text-base text-ultramarine-950 dark:text-chartreuse-50;
+        @apply text-base font-bold text-ultramarine-950 dark:text-chartreuse-50;
     }  
     .link {
-        @apply font-medium text-sm lg:text-base hover:underline text-chartreuse-500 dark:text-chartreuse-400;
+        @apply text-base font-bold hover:underline text-chartreuse-500 dark:text-chartreuse-400;
     }
 
     /* ICON */
     .icon-sm {
-        @apply w-4 h-4 hover:text-ultramarine-500 dark:hover:text-chartreuse-400;
+        @apply w-4 h-4 group-hover:text-chartreuse-400;
     }
 
     /* BUTTON */
     .btn-primary {
-        @apply flex items-center justify-center px-4 h-10 cs-rounded bold bg-ultramarine-500 hover:bg-ultramarine-600 active:bg-ultramarine-700 focus:ring-4 focus:outline-none focus:ring-ultramarine-400 text-ultramarine-50 dark:bg-chartreuse-400 dark:hover:bg-chartreuse-300 dark:active:bg-chartreuse-500 dark:text-chartreuse-950;
+        @apply flex items-center justify-center px-4 h-10 w-full cs-rounded bold bg-ultramarine-500 hover:bg-ultramarine-600 active:bg-ultramarine-700 focus:ring-4 focus:outline-none focus:ring-ultramarine-400 text-ultramarine-50 dark:bg-chartreuse-400 dark:hover:bg-chartreuse-300 dark:active:bg-chartreuse-500 dark:text-chartreuse-950;
+    }
+
+    /* FORM */
+    .input-text {
+        @apply dark:bg-neutral-900 placeholder:text-chartreuse-800 px-4 h-10 w-full cs-rounded;
     }
 }
