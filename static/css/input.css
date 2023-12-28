@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+    scroll-behavior: smooth;
+    }
+
 @layer components{
 
     /* MAIN COMPONENTS */
@@ -31,13 +35,13 @@
 
     /* TEXTS */
     .headline{
-        @apply font-bold text-2xl lg:text-3xl text-neutral-900 dark:text-neutral-100;
+        @apply font-black text-2xl lg:text-3xl text-neutral-900 dark:text-neutral-100;
     }
     .subheadline{
         @apply font-bold text-xl lg:text-2xl text-neutral-900 dark:text-neutral-100;
     }
     .text{
-        @apply font-normal text-sm lg:text-base text-neutral-800 dark:text-neutral-200;
+        @apply font-mono font-normal text-sm lg:text-base text-neutral-800 dark:text-neutral-200;
     }
     .bold{
         @apply font-medium text-sm lg:text-base text-neutral-900 dark:text-neutral-100;
