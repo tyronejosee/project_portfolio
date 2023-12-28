@@ -8,37 +8,50 @@
 <section class="space-y-4">
   <h2 class="headline" id="about">About</h2>
   <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
 </section>
 
 <!-- PROJECTS -->
-<section >
+<section class="space-y-4">
   <h2 class="headline" id="projects">Projects</h2>
   <div class="grid grid-cols-2 gap-4">
-    <div class="w-full h-48 bg-primary cs-rounded"></div>
-    <div class="w-full h-48 bg-primary cs-rounded"></div>
-    <div class="w-full h-48 bg-primary cs-rounded"></div>
-    <div class="w-full h-48 bg-primary cs-rounded"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
   </div>
-  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
 </section>
 
 <!-- EXPERIENCES -->
-<section>
+<section class="space-y-4">
   <h2 class="headline" id="experiences">Experiences</h2>
-  <div class="w-full h-60 bg-primary cs-rounded"></div>
+  <div class="box"></div>
 </section>
 
 <!-- SKILLS -->
-<section>
+<section class="space-y-4">
   <h2 class="headline" id="skills">Skills</h2>
-  <div class="w-full h-60 bg-primary cs-rounded"></div>
+  <div class="box"></div>
 </section>
 
 <!-- CONTACT -->
-<section>
+<section class="space-y-4">
   <h2 class="headline" id="contact">Contact</h2>
-  <div class="w-full h-60 bg-primary cs-rounded"></div>
+  <form action="POST" class="space-y-4">
+    <label class="block">
+      <span class="bold">Name:</span>
+      <input type="text" name="user" autocomplete="off" placeholder="You name here..." class="input-text">
+    </label>
+
+    <label class="block">
+      <span class="bold">Email:</span>
+      <input type="email" name="email" autocomplete="off" placeholder="You email here..." class="input-text">
+    </label>
+
+    <label class="block">
+      <span class="bold">Message:</span>
+      <input type="text" name="message" id="message" autocomplete="off" placeholder="You message here..." class="input-text h-40">
+    </label>
+  </form>
 </section>
 
 {% endblock %}
