@@ -8,12 +8,12 @@
   <link rel="stylesheet" href="{% static 'css/output.css' %}">
 </head>
 <body class="container styles">
-  
+
   <!-- SIDEBAR -->
   {% include 'includes/sidebar.html' %}
-
+  
   <!-- MAIN CONTENT -->
-  <main class="sm:ml-64 space-y-20 p-4">
+  <main class="sm:ml-72 space-y-8 p-8" id="main">
     {% block content %}{% endblock content %}
   </main>
 
