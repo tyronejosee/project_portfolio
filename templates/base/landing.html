@@ -58,18 +58,27 @@
 <!-- Contact -->
 <section class="section">
   <h2 class="section__title" id="contact">Contact</h2>
-  <form action="POST" class="space-y-4">
+  <form method="post" action="{% url 'home:landing_view' %}" class="space-y-4">{% csrf_token %}
+    {% if success_message %}
+      <div class="bg-green-200 p-3 mb-4 rounded">
+          {{ success_message }}
+      </div>
+    {% endif %}
     <div class="form__group">
       <label for="user" class="text__bold">Your Name:</label>
-      <input type="text" name="user" autocomplete="off" placeholder="You name here..." class="form__input form__input--text">
+      {{ form.name }}
     </div>
     <div class="form__group">
       <label for="email" class="text__bold">Your Email:</label>
-      <input type="email" name="email" autocomplete="off" placeholder="You email here..." class="form__input form__input--text">
+      {{ form.email }}
+    </div>
+    <div class="form__group">
+      <label for="message" class="text__bold">Your Phone Number:</label>
+      {{ form.phone_number }}
     </div>
     <div class="form__group">
       <label for="message" class="text__bold">Your Message:</label>
-      <input type="text" name="message" id="message" autocomplete="off" placeholder="You message here..." class="form__input form__input--textarea">
+      {{ form.message }}
     </div>
     <button type="submit" class="btn btn__primary">Send</button>
   </form>
