@@ -94,7 +94,7 @@ html {
   }
 
   .form__input {
-    @apply bg-neutral-800 placeholder:text-neutral-600 w-full rounded-xl;
+    @apply bg-neutral-800 placeholder:text-neutral-600 w-full rounded-xl focus:outline-none focus:ring focus:ring-chartreuse-400;
   }
 
   .form__input--text {
