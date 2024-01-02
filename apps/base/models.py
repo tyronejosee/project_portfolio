@@ -1,4 +1,4 @@
-"""Models for Home App."""
+"""Models for Base App."""
 
 from django.db import models
 

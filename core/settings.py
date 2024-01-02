@@ -1,4 +1,4 @@
-"""Global Project Configurations."""
+"""Global Project Configs."""
 
 import os
 from pathlib import Path
@@ -22,7 +22,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'apps.home',
+    'apps.base',
 ]
 
 MIDDLEWARE = [

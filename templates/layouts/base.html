@@ -4,20 +4,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{% block title %}{% endblock %}</title>
+  <meta name="description" content="A passionate web developer with a track record of crafting innovative digital solutions. Explore my portfolio to discover projects and learn about my skills in backend development.">
+  <meta name="keywords" content="backend developer, backend development, web developer, Python, Django, web projects, portfolio">
+  <title>José Reyes | {% block title %}{% endblock %}</title>
   <link rel="stylesheet" href="{% static 'css/output.css' %}">
 </head>
 <body class="container styles">
 
-  <!-- SIDEBAR -->
+  <!-- Sidebar -->
   {% include 'includes/sidebar.html' %}
   
-  <!-- MAIN CONTENT -->
+  <!-- Main content -->
   <main class="sm:ml-72 space-y-8 p-8" id="main">
     {% block content %}{% endblock content %}
   </main>
 
-  <!-- JS FILES -->
+  <!-- JavaScript files -->
   <script src="{% static 'js/main.js' %}"></script>
 
 </body>
