@@ -12,8 +12,8 @@ class ContactForm(forms.ModelForm):
         model = Contact
         fields = ['name', 'email', 'phone_number', 'message']
         widgets = {
-            'name': forms.TextInput(attrs={'class': 'bg-chartreuse-400'}),
-            'email': forms.EmailInput(attrs={'class': 'bg-chartreuse-400'}),
-            'phone_number': forms.TextInput(attrs={'class': 'bg-chartreuse-400'}),
-            'message': forms.Textarea(attrs={'class': 'bg-chartreuse-400'}),
+            'name': forms.TextInput(attrs={'class': 'form__input form__input--text'}),
+            'email': forms.EmailInput(attrs={'class': 'form__input form__input--text'}),
+            'phone_number': forms.TextInput(attrs={'class': 'form__input form__input--text'}),
+            'message': forms.Textarea(attrs={'class': 'form__input form__input--textarea'}),
         }
