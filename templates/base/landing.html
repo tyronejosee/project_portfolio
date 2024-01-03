@@ -6,7 +6,7 @@
 
 <!-- About -->
 <section class="section">
-  <h2 class="section__title" id="about">About</h2>
+  <h2 class="section__title">About</h2>
   <article class="box">
     <h3 class="text__bold">Hi my name is {{ portfolio.full_name }}</h3>
     <p>{{ portfolio.about_me }}</p>
@@ -14,12 +14,12 @@
 </section>
 
 <!-- Projects -->
-<section class="section">
-  <h2 class="section__title" id="projects">Projects</h2>
+<section class="section pt-12" id="projects-section">
+  <h2 class="section__title">Projects</h2>
   {% for project in projects %}
   <article class="grid grid-cols-2 gap-4 box p-4">
     <figure class="bg-chartreuse-400 rounded-xl w-full h-full">
-      <img src="{{ project.image.url }}" alt="{{ project.title }}">
+      <img src="{{ project.image.url }}" alt="{{ project.title }}" class="rounded-xl">
     </figure>
     <div>
       <h3 class="text__bold">{{ project.title }}</h3>
@@ -32,8 +32,8 @@
 </section>
 
 <!-- Work Experiences -->
-<section class="section">
-  <h2 class="section__title" id="experiences">Work Experiences</h2>
+<section class="section pt-12" id="experiences-section">
+  <h2 class="section__title">Experiences</h2>
   {% for experience in experiences %}
   <article class="box p-4">
     <span class="block">{{ experience.job_title }}</span>
@@ -47,21 +47,21 @@
 </section>
 
 <!-- Skills -->
-<section class="section">
-  <h2 class="section__title" id="skills">Skills</h2>
-  <div class="skill__grid">
+<section class="section pt-12" id="skills-section">
+  <h2 class="section__title">Skills</h2>
+  <section class="skill__grid">
     {% for skill in skills %}
-    <article class="skill">
+    <article class="skill group">
       {{ skill.icon|safe }}
       <span class="skill__name">{{ skill.name }}</span>
     </article>
     {% endfor %}
-  </div>
+  </section>
 </section>
 
 <!-- Contact -->
-<section class="section">
-  <h2 class="section__title" id="contact">Contact</h2>
+<section class="section pt-12" id="contact-section">
+  <h2 class="section__title">Contact</h2>
   <form method="post" action="{% url 'home:landing_view' %}" class="space-y-4">{% csrf_token %}
     {% if success_message %}
       <div class="bg-green-200 p-3 mb-4 rounded">

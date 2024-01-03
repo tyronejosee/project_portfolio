@@ -85,7 +85,7 @@ html {
 
   /* Icon */
   .icon {
-    @apply w-4 h-4 group-hover:text-chartreuse-400;
+    @apply w-4 h-4;
   }
 
   /* Form */
@@ -107,7 +107,7 @@ html {
 
   /* Section */
   .section {
-    @apply border-neutral-800 space-y-2;
+    @apply border-neutral-800 space-y-4;
   }
 
   .section__title {
@@ -132,7 +132,11 @@ html {
   }
 
   .sidebar__link {
-    @apply flex items-center space-x-2 ease-in-out duration-200 hover:translate-x-2;
+    @apply flex px-2 py-1 hover:text-chartreuse-400 font-medium hover:font-bold hover:bg-neutral-800 items-center space-x-2 rounded-xl;
+  }
+  
+  .sidebar__link--active {
+    @apply flex px-2 py-1 text-chartreuse-400 font-bold bg-neutral-800 items-center space-x-2 rounded-xl;
   }
   
   .sidebar__link--box {
@@ -150,19 +154,26 @@ html {
 
   /* Skill */
   .skill {
-    @apply w-full h-20 box rounded-xl p-2;
+    @apply p-4 h-28 bg-neutral-800 hover:bg-chartreuse-400 hover:text-neutral-900 rounded-xl flex flex-col items-center justify-center space-y-2 hover-scale transform hover:scale-105;
   }
   
   .skill__grid {
-    @apply grid grid-cols-5 gap-2;
+    @apply grid grid-cols-6 gap-4;
   }
 
   .skill__icon {
-    @apply w-12 h-12 text-chartreuse-400;
+    @apply w-12 h-12;
   }
 
   .skill__name {
-    @apply text-xs;
+    @apply text-xs font-bold opacity-0 group-hover:opacity-100 transition-opacity duration-300;
   }
 
+
+  /* ease-in-out duration-200 hover:translate-x-2 */
+
+  /* ANIMATIONS [hover-scale transform hover:scale-105] */
+  .hover-scale {
+    transition: transform 0.3s ease;
+  }
 }
