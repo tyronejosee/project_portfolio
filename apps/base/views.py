@@ -4,6 +4,7 @@ from django.views.generic import TemplateView
 from django.shortcuts import render
 
 from apps.base.forms import ContactForm
+from apps.base.models import Project, WorkExperience, Skill
 
 
 class LandingTemplateView(TemplateView):
@@ -14,7 +15,19 @@ class LandingTemplateView(TemplateView):
     def get(self, request, *args, **kwargs):
         # Create an instance of the form
         form = ContactForm()
-        return render(request, self.template_name, {'form': form})
+
+        # Retrieve all contexts with a status set to True
+        projects = Project.objects.filter(status=True)
+        experiences = WorkExperience.objects.filter(status=True)
+        skills = Skill.objects.filter(status=True)
+
+        return render(request, self.template_name, {
+            'projects': projects,
+            'experiences': experiences,
+            'skills': skills,
+            'form': form
+            }
+        )
 
     def post(self, request, *args, **kwargs):
         """Handle POST requests for processing the submitted form."""
