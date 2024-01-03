@@ -31,17 +31,24 @@
   {% endfor %}
 </section>
 
-<!-- Work Experiences -->
+<!-- Experiences -->
 <section class="section pt-12" id="experiences-section">
   <h2 class="section__title">Experiences</h2>
   {% for experience in experiences %}
-  <article class="box p-4">
-    <span class="block">{{ experience.job_title }}</span>
-    <span class="block">{{ experience.company }}</span>
-    <span class="block">{{ experience.description }}</span>
-    <span class="block">{{ experience.skill_id.name }}</span>
-    <span class="block">{{ experience.start_date }}</span>
-    <span class="block">{{ experience.end_date }}</span>
+  <article class="bg-neutral-800 rounded-xl p-4 grid grid-cols-3 gap-4">
+    <div>
+      <span>
+        {{ experience.start_date|date:"M Y" }} - {{ experience.end_date|date:"M Y" }}
+      </span>
+    </div>
+    <div class="col-span-2 space-y-4">
+      <div>
+        <h3 class="text__bold">{{ experience.job_title }}</h3>
+        <span class="block text-neutral-500 text__medium">{{ experience.company }}</span>
+      </div>
+      <p>{{ experience.description }}</p>
+      <span class="block text-neutral-500">{{ experience.skill_id.name }}</span>
+    </div>  
   </article>
   {% endfor %}
 </section>
