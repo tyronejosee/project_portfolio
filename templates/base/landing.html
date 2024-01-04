@@ -1,21 +1,21 @@
 {% extends 'layouts/base.html' %}{% load static i18n %}
 
-{% block title %}{% trans "Portfolio" %}{% endblock %}
+{% block title %}{% translate "Portfolio" %}{% endblock %}
 
 {% block content %}
 
 <!-- About -->
 <section class="section">
-  <h2 class="section__title">{% trans "About" %}</h2>
+  <h2 class="section__title">{% translate "About" %}</h2>
   <article class="box">
-    <h3 class="text__bold">{% trans "Hi my name is " %}{{ portfolio.full_name }}</h3>
+    <h3 class="text__bold">{% translate "Hi my name is " %}{{ portfolio.full_name }}</h3>
     <p>{{ portfolio.about_me }}</p>
   </article>
 </section>
 
 <!-- Projects -->
 <section class="section pt-12" id="projects-section">
-  <h2 class="section__title">{% trans "Projects" %}</h2>
+  <h2 class="section__title">{% translate "Projects" %}</h2>
   {% for project in projects %}
   <article class="grid grid-cols-2 gap-4 box p-4">
     <figure class="bg-chartreuse-400 rounded-xl w-full h-full">
@@ -33,7 +33,7 @@
 
 <!-- Experiences -->
 <section class="section pt-12" id="experiences-section">
-  <h2 class="section__title">{% trans "Experiences" %}</h2>
+  <h2 class="section__title">{% translate "Experiences" %}</h2>
   {% for experience in experiences %}
   <article class="bg-neutral-800 rounded-xl p-4 grid grid-cols-3 gap-4">
     <div>
@@ -55,7 +55,7 @@
 
 <!-- Skills -->
 <section class="section pt-12" id="skills-section">
-  <h2 class="section__title">{% trans "Skills" %}</h2>
+  <h2 class="section__title">{% translate "Skills" %}</h2>
   <section class="skill__grid">
     {% for skill in skills %}
     <article class="skill group">
@@ -68,7 +68,7 @@
 
 <!-- Contact -->
 <section class="section pt-12" id="contact-section">
-  <h2 class="section__title">{% trans "Contact" %}</h2>
+  <h2 class="section__title">{% translate "Contact" %}</h2>
   <form method="post" action="{% url 'home:landing_view' %}" class="space-y-4">{% csrf_token %}
     {% if success_message %}
       <div class="bg-green-200 p-3 mb-4 rounded">
@@ -76,22 +76,22 @@
       </div>
     {% endif %}
     <div class="form__group">
-      <label for="user" class="text__bold">{% trans "Your Name:" %}</label>
+      <label for="user" class="text__bold">{% translate "Your Name:" %}</label>
       {{ form.name }}
     </div>
     <div class="form__group">
-      <label for="email" class="text__bold">{% trans "Your Email:" %}</label>
+      <label for="email" class="text__bold">{% translate "Your Email:" %}</label>
       {{ form.email }}
     </div>
     <div class="form__group">
-      <label for="message" class="text__bold">{% trans "Your Phone Number:" %}</label>
+      <label for="message" class="text__bold">{% translate "Your Phone Number:" %}</label>
       {{ form.phone_number }}
     </div>
     <div class="form__group">
-      <label for="message" class="text__bold">{% trans "Your Message:" %}</label>
+      <label for="message" class="text__bold">{% translate "Your Message:" %}</label>
       {{ form.message }}
     </div>
-    <button type="submit" class="btn btn__primary">{% trans "Send Message" %}</button>
+    <button type="submit" class="btn btn__primary">{% translate "Send Message" %}</button>
   </form>
 </section>
 
