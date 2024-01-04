@@ -7,8 +7,8 @@ from apps.bookmarks.models import Bookmark
 class BookmarksListView(ListView):
     """Pending."""
     model = Bookmark
-    template_name = 'bookmarks/bookmark_list.html'
-    context_object_name = 'bookmarks'
+    template_name = "bookmarks/bookmark_list.html"
+    context_object_name = "bookmarks"
     paginate_by = 12
 
     def get_queryset(self):

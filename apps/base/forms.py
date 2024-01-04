@@ -10,10 +10,10 @@ class ContactForm(forms.ModelForm):
     class Meta:
         """Meta definition for ContactForm."""
         model = Contact
-        fields = ['name', 'email', 'phone_number', 'message']
+        fields = ["name", "email", "phone_number", "message"]
         widgets = {
-            'name': forms.TextInput(attrs={'class': 'form__input form__input--text'}),
-            'email': forms.EmailInput(attrs={'class': 'form__input form__input--text'}),
-            'phone_number': forms.TextInput(attrs={'class': 'form__input form__input--text'}),
-            'message': forms.Textarea(attrs={'class': 'form__input form__input--textarea'}),
+            "name": forms.TextInput(attrs={"class": "form__input form__input--text"}),
+            "email": forms.EmailInput(attrs={"class": "form__input form__input--text"}),
+            "phone_number": forms.TextInput(attrs={"class": "form__input form__input--text"}),
+            "message": forms.Textarea(attrs={"class": "form__input form__input--textarea"}),
         }

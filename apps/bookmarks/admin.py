@@ -7,5 +7,5 @@ from apps.bookmarks.models import Bookmark
 @admin.register(Bookmark)
 class BookmarkAdmin(admin.ModelAdmin):
     """Admin config for the Bookmark model."""
-    list_display = ('name', 'website', 'status',)
-    ordering = ('pk',)
+    list_display = ("name", "website", "status",)
+    ordering = ("pk",)

@@ -7,17 +7,15 @@ from apps.base.mixins import TimestampMixin
 
 class Portfolio(models.Model):
     """Entity type model for Portfolio."""
-    full_name = models.CharField(max_length=100, verbose_name=_('Full Name'))
-    specialization = models.CharField(max_length=255, verbose_name=_('Specialization'))
-    bio = models.TextField(verbose_name=_('Bio'))
-    about_me = models.TextField(verbose_name=_('About Me'))
-    gmail = models.URLField(blank=True, verbose_name=_('Gmail'))
-    github = models.URLField(blank=True, verbose_name=_('GitHub'))
-    linkedin = models.URLField(blank=True, verbose_name=_('LinkedIn'))
-    image_file = models.ImageField(upload_to='portfolio/', verbose_name=_('Image File'))
-    resume_file = models.FileField(
-        upload_to='portfolio/', null=True, blank=True, verbose_name=_('Resume File')
-    )
+    full_name = models.CharField(_("Full Name"), max_length=100)
+    specialization = models.CharField(_("Specialization"), max_length=255)
+    bio = models.TextField(_("Bio"))
+    about_me = models.TextField(_("About Me"))
+    gmail = models.URLField(_("Gmail"), blank=True)
+    github = models.URLField(_("GitHub"), blank=True)
+    linkedin = models.URLField(_("LinkedIn"), blank=True)
+    image_file = models.ImageField(_("Image File"), upload_to='portfolio/')
+    resume_file = models.FileField(_("Resume File"), upload_to='portfolio/', null=True, blank=True)
 
     class Meta:
         """Meta definition for Portfolio."""
@@ -30,12 +28,12 @@ class Portfolio(models.Model):
 
 class Project(TimestampMixin, models.Model):
     """Entity type model for Project."""
-    title = models.CharField(max_length=100, unique=True, verbose_name=_('Title'))
-    description = models.TextField(verbose_name=_('Description'))
-    repository = models.URLField(verbose_name=_('Repository'))
-    website = models.URLField(null=True, blank=True, verbose_name=_('Website'))
-    image = models.FileField(upload_to='project/', verbose_name=_('Image'))
-    status = models.BooleanField(default=True, verbose_name=_('Status'))
+    title = models.CharField(_("Title"), max_length=100, unique=True)
+    description = models.TextField(_("Description"))
+    repository = models.URLField(_("Repository"))
+    website = models.URLField(_("Website"), null=True, blank=True)
+    image = models.FileField(_("Image"), upload_to='project/')
+    status = models.BooleanField(_("Status"), default=True)
 
     class Meta:
         """Meta definition for Project."""
@@ -48,9 +46,9 @@ class Project(TimestampMixin, models.Model):
 
 class Skill(TimestampMixin, models.Model):
     """Entity type model for Skill."""
-    name = models.CharField(max_length=50, unique=True, verbose_name=_('Name'))
-    icon = models.TextField(verbose_name=_('Icon'))
-    status = models.BooleanField(default=True, verbose_name=_('Status'))
+    name = models.CharField(_("Name"), max_length=50, unique=True)
+    icon = models.TextField(_("Icon"))
+    status = models.BooleanField(_("Status"), default=True)
 
     class Meta:
         """Meta definition for Skill."""
@@ -63,13 +61,13 @@ class Skill(TimestampMixin, models.Model):
 
 class WorkExperience(TimestampMixin, models.Model):
     """Entity type model for WorkExperience."""
-    job_title = models.CharField(max_length=100, verbose_name=_('Job Title'))
-    company = models.CharField(max_length=100, verbose_name=_('Company'))
-    description = models.TextField(verbose_name=_('Description'))
-    skill_id = models.ManyToManyField(Skill, related_name='skills', verbose_name=_('Skills'))
-    start_date = models.DateField(verbose_name=_('Start Date'))
-    end_date = models.DateField(null=True, blank=True, verbose_name=_('End Date'))
-    status = models.BooleanField(default=True, verbose_name=_('Status'))
+    job_title = models.CharField(_("Job Title"), max_length=100)
+    company = models.CharField(_("Company"), max_length=100)
+    description = models.TextField(_("Description"))
+    skill_id = models.ManyToManyField(Skill, verbose_name=_("Skills"))
+    start_date = models.DateField(_("Start Date"))
+    end_date = models.DateField(_("End Date"), null=True, blank=True)
+    status = models.BooleanField(_("Status"), default=True)
 
     class Meta:
         """Meta definition for WorkExperience."""
@@ -82,12 +80,10 @@ class WorkExperience(TimestampMixin, models.Model):
 
 class Contact(models.Model):
     """Entity type model for Contact."""
-    name = models.CharField(max_length=255, verbose_name=_('Name'))
-    email = models.EmailField(verbose_name=_('Email'))
-    phone_number = models.CharField(
-        max_length=20, blank=True, null=True, verbose_name=_('Phone Number')
-    )
-    message = models.TextField(verbose_name=_('Message'))
+    name = models.CharField(_("Name"), max_length=255)
+    email = models.EmailField(_("Email"))
+    phone_number = models.CharField(_("Phone Number"), max_length=20, blank=True, null=True)
+    message = models.TextField(_("Message"))
 
     class Meta:
         """Meta definition for Contact."""

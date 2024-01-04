@@ -9,7 +9,7 @@ from apps.base.models import Project, WorkExperience, Skill
 
 class LandingTemplateView(TemplateView):
     """View for rendering the site landing."""
-    template_name = 'base/landing.html'
+    template_name = "base/landing.html"
 
     def get(self, request, *args, **kwargs):
         # Create an instance of the form
@@ -21,10 +21,10 @@ class LandingTemplateView(TemplateView):
         skills = Skill.objects.filter(status=True)
 
         return render(request, self.template_name, {
-            'projects': projects,
-            'experiences': experiences,
-            'skills': skills,
-            'form': form
+            "projects": projects,
+            "experiences": experiences,
+            "skills": skills,
+            "form": form
             }
         )
 
@@ -39,10 +39,10 @@ class LandingTemplateView(TemplateView):
             success_message = _("Message sent successfully!")
 
             return render(request, self.template_name, {
-                'form': ContactForm(),
-                'success_message': success_message
+                "form": ContactForm(),
+                "success_message": success_message
                 }
             )
 
         # If the form is not valid, render the template with the form
-        return render(request, self.template_name, {'form': form})
+        return render(request, self.template_name, {"form": form})
