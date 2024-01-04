@@ -3,6 +3,7 @@
 from django.contrib import admin
 from django.urls import path, include
 from django.conf import settings
+from django.utils.translation import gettext as _
 from django.conf.urls.static import static
 
 
@@ -20,6 +21,6 @@ if settings.DEBUG:
 
 
 # Custom attributes for admin
-admin.site.site_header = "Porfolio"
-admin.site.site_title = "Porfolio"
-admin.site.index_title = "Admin"
+admin.site.site_header = _("Porfolio")
+admin.site.site_title = _("Porfolio")
+admin.site.index_title = _("Admin")

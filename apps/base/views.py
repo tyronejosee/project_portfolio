@@ -2,14 +2,13 @@
 
 from django.views.generic import TemplateView
 from django.shortcuts import render
-
+from django.utils.translation import gettext as _
 from apps.base.forms import ContactForm
 from apps.base.models import Project, WorkExperience, Skill
 
 
 class LandingTemplateView(TemplateView):
     """View for rendering the site landing."""
-
     template_name = 'base/landing.html'
 
     def get(self, request, *args, **kwargs):
@@ -37,7 +36,7 @@ class LandingTemplateView(TemplateView):
         # If the form is valid, save it and provide feedback to the user
         if form.is_valid():
             form.save()
-            success_message = "Message sent successfully!"
+            success_message = _("Message sent successfully!")
 
             return render(request, self.template_name, {
                 'form': ContactForm(),
