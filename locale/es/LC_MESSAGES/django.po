@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-04 16:23-0300\n"
+"POT-Creation-Date: 2024-01-04 16:58-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,224 +19,216 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 #: .\apps\base\mixins.py:9
 msgid "Created at"
-msgstr ""
+msgstr "Creado en"
 
 #: .\apps\base\mixins.py:10
 msgid "Updated at"
-msgstr ""
+msgstr "Actualizado en"
 
 #: .\apps\base\models.py:10
 msgid "Full Name"
-msgstr ""
+msgstr "Nombre Completo"
 
 #: .\apps\base\models.py:11
 msgid "Specialization"
-msgstr ""
+msgstr "Especialización"
 
 #: .\apps\base\models.py:12
 msgid "Bio"
-msgstr ""
+msgstr "Biografía"
 
 #: .\apps\base\models.py:13
 msgid "About Me"
-msgstr ""
+msgstr "Acerca de Mí"
 
 #: .\apps\base\models.py:14
 msgid "Gmail"
-msgstr ""
+msgstr "Gmail"
 
 #: .\apps\base\models.py:15
 msgid "GitHub"
-msgstr ""
+msgstr "GitHub"
 
 #: .\apps\base\models.py:16
 msgid "LinkedIn"
-msgstr ""
+msgstr "LinkedIn"
 
 #: .\apps\base\models.py:17
 msgid "Image File"
-msgstr ""
+msgstr "Archivo de Imagen"
 
 #: .\apps\base\models.py:18
 msgid "Resume File"
-msgstr ""
+msgstr "Archivo de Currículum"
 
 #: .\apps\base\models.py:22 .\apps\base\models.py:23
 #: .\templates\base\landing.html:3
 msgid "Portfolio"
-msgstr ""
+msgstr "Portafolio"
 
 #: .\apps\base\models.py:31
 msgid "Title"
-msgstr ""
+msgstr "Título"
 
 #: .\apps\base\models.py:32 .\apps\base\models.py:66
 #: .\apps\bookmarks\models.py:10
 msgid "Description"
-msgstr ""
+msgstr "Descripción"
 
 #: .\apps\base\models.py:33
 msgid "Repository"
-msgstr ""
+msgstr "Repositorio"
 
 #: .\apps\base\models.py:34 .\apps\bookmarks\models.py:11
 msgid "Website"
-msgstr ""
+msgstr "Sitio Web"
 
 #: .\apps\base\models.py:35 .\apps\bookmarks\models.py:12
 msgid "Image"
-msgstr ""
+msgstr "Imagen"
 
 #: .\apps\base\models.py:36 .\apps\base\models.py:51 .\apps\base\models.py:70
 #: .\apps\bookmarks\models.py:13
 msgid "Status"
-msgstr ""
+msgstr "Estado"
 
 #: .\apps\base\models.py:40
 msgid "Project"
-msgstr ""
+msgstr "Proyecto"
 
 #: .\apps\base\models.py:41 .\templates\base\landing.html:18
 #: .\templates\includes\sidebar.html:35
 msgid "Projects"
-msgstr ""
+msgstr "Proyectos"
 
 #: .\apps\base\models.py:49 .\apps\base\models.py:83
 #: .\apps\bookmarks\models.py:9
 msgid "Name"
-msgstr ""
+msgstr "Nombre"
 
 #: .\apps\base\models.py:50
 msgid "Icon"
-msgstr ""
+msgstr "Icono"
 
 #: .\apps\base\models.py:55
 msgid "Skill"
-msgstr ""
+msgstr "Habilidad"
 
 #: .\apps\base\models.py:56 .\apps\base\models.py:67
 #: .\templates\base\landing.html:58 .\templates\includes\sidebar.html:54
 msgid "Skills"
-msgstr ""
+msgstr "Habilidades"
 
 #: .\apps\base\models.py:64
 msgid "Job Title"
-msgstr ""
+msgstr "Cargo"
 
 #: .\apps\base\models.py:65
 msgid "Company"
-msgstr ""
+msgstr "Empresa"
 
 #: .\apps\base\models.py:68
 msgid "Start Date"
-msgstr ""
+msgstr "Fecha de Inicio"
 
 #: .\apps\base\models.py:69
 msgid "End Date"
-msgstr ""
+msgstr "Fecha de Finalización"
 
 #: .\apps\base\models.py:74
 msgid "WorkExperience"
-msgstr ""
+msgstr "Experiencia Laboral"
 
 #: .\apps\base\models.py:75
 msgid "WorkExperiences"
-msgstr ""
+msgstr "Experiencias Laborales"
 
 #: .\apps\base\models.py:84
 msgid "Email"
-msgstr ""
+msgstr "Correo Electrónico"
 
 #: .\apps\base\models.py:85
 msgid "Phone Number"
-msgstr ""
+msgstr "Número de Teléfono"
 
 #: .\apps\base\models.py:86
 msgid "Message"
-msgstr ""
+msgstr "Mensaje"
 
 #: .\apps\base\models.py:90 .\templates\base\landing.html:71
 #: .\templates\includes\sidebar.html:63
 msgid "Contact"
-msgstr ""
+msgstr "Contáctame"
 
 #: .\apps\base\models.py:91
 msgid "Contacts"
-msgstr ""
+msgstr "Contactos"
 
 #: .\apps\base\views.py:39
 msgid "Message sent successfully!"
-msgstr ""
+msgstr "¡Mensaje enviado exitosamente!"
 
 #: .\apps\bookmarks\models.py:17
 msgid "Bookmark"
-msgstr ""
+msgstr "Marcador"
 
 #: .\apps\bookmarks\models.py:18 .\templates\bookmarks\bookmark_list.html:3
 #: .\templates\bookmarks\bookmark_list.html:8
 #: .\templates\includes\sidebar.html:73
 msgid "Bookmarks"
-msgstr ""
+msgstr "Marcadores"
 
-#: .\core\settings.py:96
-msgid "Spanish"
-msgstr ""
-
-#: .\core\settings.py:97
-msgid "English"
-msgstr ""
-
-#: .\core\urls.py:24 .\core\urls.py:25
+#: .\core\urls.py:25 .\core\urls.py:26
 msgid "Porfolio"
-msgstr ""
+msgstr "Portafolio"
 
-#: .\core\urls.py:26
+#: .\core\urls.py:27
 msgid "Admin"
-msgstr ""
+msgstr "Admin"
 
 #: .\templates\base\landing.html:9 .\templates\includes\sidebar.html:27
 msgid "About"
-msgstr ""
+msgstr "Acerca de"
 
 #: .\templates\base\landing.html:11
 msgid "Hi my name is "
-msgstr ""
+msgstr "Hola, mi nombre es "
 
 #: .\templates\base\landing.html:36 .\templates\includes\sidebar.html:44
 msgid "Experiences"
-msgstr ""
+msgstr "Experiencias"
 
 #: .\templates\base\landing.html:79
 msgid "Your Name:"
-msgstr ""
+msgstr "Nombre:"
 
 #: .\templates\base\landing.html:83
 msgid "Your Email:"
-msgstr ""
+msgstr "Correo Electrónico:"
 
 #: .\templates\base\landing.html:87
 msgid "Your Phone Number:"
-msgstr ""
+msgstr "Número de Teléfono:"
 
 #: .\templates\base\landing.html:91
 msgid "Your Message:"
-msgstr ""
+msgstr "Mensaje:"
 
 #: .\templates\base\landing.html:94
 msgid "Send Message"
-msgstr ""
+msgstr "Enviar Mensaje"
 
 #: .\templates\includes\sidebar.html:4
 msgid "Open sidebar"
-msgstr ""
+msgstr "Abrir barra lateral"
 
 #: .\templates\includes\sidebar.html:80
 msgid "Download CV"
-msgstr ""
+msgstr "Descargar CV"
 
 #: .\templates\includes\sidebar.html:82
 msgid "No Resume Available"
-msgstr ""
+msgstr "CV No Disponible"
 
 #: .\templates\layouts\base.html:7
 msgid ""
