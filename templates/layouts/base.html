@@ -1,10 +1,10 @@
-{% load static %}
+{% load static i18n %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="A passionate web developer with a track record of crafting innovative digital solutions. Explore my portfolio to discover projects and learn about my skills in backend development.">
+  <meta name="description" content="{% trans "A passionate web developer with a track record of crafting innovative digital solutions. Explore my portfolio to discover projects and learn about my skills in backend development." %}">
   <meta name="keywords" content="backend developer, backend development, web developer, Python, Django, web projects, portfolio">
   <title>José Reyes | {% block title %}{% endblock %}</title>
   <link rel="stylesheet" href="{% static 'css/output.css' %}">
@@ -15,12 +15,12 @@
   <!-- Sidebar -->
   {% include 'includes/sidebar.html' %}
   
-  <!-- Main content -->
+  <!-- Main Content -->
   <main class="sm:ml-72 p-8" id="main">
     {% block content %}{% endblock content %}
   </main>
 
-  <!-- JavaScript files -->
+  <!-- JavaScript Files -->
   <script src="{% static 'js/main.js' %}"></script>
 
 </body>

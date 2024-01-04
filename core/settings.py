@@ -2,6 +2,7 @@
 
 import os
 from pathlib import Path
+from django.utils.translation import gettext_lazy as _
 
 
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -83,8 +84,16 @@ AUTH_PASSWORD_VALIDATORS = [
 
 
 LANGUAGE_CODE = 'en-us'
+
+LANGUAGES = [
+    ('es', _('Spanish')),
+    ('en', _('English')),
+]
+
 TIME_ZONE = 'UTC'
+
 USE_I18N = True
+
 USE_TZ = True
 
 
