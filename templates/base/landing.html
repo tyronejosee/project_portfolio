@@ -4,22 +4,6 @@
 
 {% block content %}
 
-<form action="{% url 'set_language' %}" method="post" class="flex">{% csrf_token %}
-  <input name="next" type="hidden" value="{{ redirect_to }}" class="hidden">
-  <select name="language" class="bg-neutral-800 rounded-xl px-2 py-2 ring-2 focus:outline-none ring-transparent focus:ring focus:ring-chartreuse-400">
-    {% get_current_language as LANGUAGE_CODE %}
-    {% get_available_languages as LANGUAGES %}
-    {% get_language_info_list for LANGUAGES as languages %}
-    {% for language in languages %}
-      <option value="{{ language.code }}"{% if language.code == LANGUAGE_CODE %} selected{% endif %}>
-        {{ language.code }} - {{ language.name_local }}
-      </option>
-    {% endfor %}
-  </select>
-  <input type="submit" value="Go" class="btn btn__primary w-10 ml-2">
-</form>
-
-
 <!-- About -->
 <section class="section">
   <h2 class="section__title">{% translate "About" %}</h2>

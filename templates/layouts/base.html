@@ -1,6 +1,6 @@
 {% load static i18n %}
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="dark">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,18 +10,20 @@
   <link rel="stylesheet" href="{% static 'css/output.css' %}">
   <link rel="icon" type="image/svg+xml" href="{% static 'img/icon.svg' %}">
 </head>
-<body class="container styles">
+<body class="container styles" id="appContainer">
 
   <!-- Sidebar -->
   {% include 'includes/sidebar.html' %}
-  
+
+  <!-- Navbar -->
+  {% include 'includes/navbar.html' %}
+
   <!-- Main Content -->
-  <main class="sm:ml-72 p-8" id="main">
+  <main class="sm:ml-72 p-4" id="main">
     {% block content %}{% endblock content %}
   </main>
-
+  
   <!-- JavaScript Files -->
   <script src="{% static 'js/main.js' %}"></script>
-
 </body>
 </html>
