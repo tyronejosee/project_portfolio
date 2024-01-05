@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="{% static 'css/output.css' %}">
   <link rel="icon" type="image/svg+xml" href="{% static 'img/icon.svg' %}">
 </head>
-<body class="container styles" id="appContainer">
+<body class="container styles my-4" id="appContainer">
 
   <!-- Sidebar -->
   {% include 'includes/sidebar.html' %}
@@ -19,7 +19,7 @@
   {% include 'includes/navbar.html' %}
 
   <!-- Main Content -->
-  <main class="sm:ml-72 p-4" id="main">
+  <main class="sm:ml-64 p-4 border border-neutral-800 rounded-xl mt-4">
     {% block content %}{% endblock content %}
   </main>
   
