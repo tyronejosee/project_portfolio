@@ -79,7 +79,7 @@ html {
 
 @layer components {
   
-  .container {
+  .content__wrapper {
     @apply max-w-screen-lg flex flex-col lg:mx-auto lg:my-auto;
   }
 
@@ -89,7 +89,7 @@ html {
 
   /* Box */
   .box {
-    @apply bg-neutral-200 dark:bg-neutral-800 rounded-xl p-4;
+    @apply bg-neutral-200 hover:bg-neutral-300 dark:bg-neutral-800 dark:hover:bg-neutral-700 rounded-xl p-4 hover:transition-all duration-300;
   }
 
   /* Text */
@@ -141,7 +141,7 @@ html {
   }
 
   .intro {
-    @apply h-screen bg-neutral-200 dark:bg-neutral-800 rounded-xl flex flex-col items-center p-4
+    @apply h-screen bg-neutral-200 dark:bg-neutral-800 p-4;
   }
 
   /* Project */  
@@ -198,10 +198,7 @@ html {
   }
 
   .navbar__content {
-    @apply flex items-center justify-between p-4;
-  }
-  .navbar__language-form {
-    @apply flex items-center space-x-4;
+    @apply flex items-center justify-between py-4;
   }
 
   /* Btn */
@@ -210,11 +207,11 @@ html {
   }
 
   .btn--primary {
-    @apply bg-neutral-800 hover:bg-neutral-700 dark:bg-chartreuse-400 text-chartreuse-400 dark:hover:bg-chartreuse-300 dark:text-neutral-900 focus:outline-none focus:ring focus:ring-chartreuse-400;
+    @apply bg-neutral-800 hover:bg-neutral-700 dark:bg-chartreuse-400 text-chartreuse-400 dark:hover:bg-chartreuse-300 dark:text-neutral-900;
   }
 
   .btn--secondary {
-    @apply bg-neutral-200 dark:bg-neutral-800 dark:hover:bg-neutral-700 focus:outline-none focus:ring focus:ring-chartreuse-400;
+    @apply bg-neutral-200 hover:bg-neutral-300 dark:bg-neutral-800 dark:hover:bg-neutral-700 outline-none;
   }
 
   /* Skill */

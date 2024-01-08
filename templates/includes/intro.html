@@ -1,16 +1,28 @@
 {% if request.path == '/' %}
-<section class="intro">
-<div class="flex justify-center h-96">
-  <div>Tyrone José</div>
-  <a href="{% url 'home:landing_view' %}#about-section" class="btn btn--primary">View CV</a>
-</div>
-
-<div class="mt-auto flex flex-col items-center">
-  <span class="relative flex h-3 w-3">
-    <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"></span>
-    <span class="relative inline-flex rounded-full h-3 w-3 bg-sky-500"></span>
-  </span>
-  <span class="block">Scroll down</span>
-</div>
+<section class="intro" id="intro-section">
+  <div class="max-w-screen-lg flex flex-col mx-auto h-full">
+    <div class="flex justify-center items-center space-x-4 h-full">
+      <div class="w-full h-96 rounded-xl overflow-hidden">
+        <h1 class="flex justify-center section__title">Tyrone José</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus ab est maiores ut enim, recusandae iste eos iure cum obcaecati eius velit temporibus consectetur totam mollitia earum sapiente deleniti id.
+        Exercitationem dolorem porro laborum libero esse maxime, accusamus beatae vero tenetur. Suscipit, eum possimus rerum tenetur blanditiis quisquam, nobis ratione voluptas omnis aspernatur optio animi itaque, cupiditate a aliquid neque.
+        Corrupti voluptatum inventore rerum explicabo tenetur hic adipisci! Nulla, voluptas minima, numquam nobis nesciunt esse quasi est rem totam quibusdam ipsum, repudiandae ullam? Reprehenderit possimus, exercitationem autem amet deserunt provident!
+        Voluptatem quidem sed nobis voluptatum omnis hic harum, dignissimos et repudiandae reprehenderit. Voluptatibus fugit numquam sed esse facere, temporibus magnam sequi eligendi, architecto, at eum inventore dolor ipsum officiis consequatur.
+        Unde accusantium eius voluptatum, sed sint blanditiis. Libero ab voluptatibus consequuntur debitis consectetur error cumque atque dicta ullam expedita ut, esse commodi veritatis ipsa nam fugit tempore hic ipsam delectus!
+        Odit minima rerum voluptates earum repellat, iure impedit ab iusto. Dolor architecto cum rem consequuntur, vero labore molestiae deleniti dicta quisquam error commodi quibusdam eos quaerat quos. Aliquid, suscipit numquam!
+        Voluptas, ad dolores nihil, quam doloribus placeat laborum sint animi eum ullam amet aperiam asperiores autem quaerat hic assumenda. Eum commodi quae non mollitia sit accusamus! Qui exercitationem iure ex?</p>
+      </div>
+      <div class="w-full h-96 bg-chartreuse-400 rounded-xl"></div>
+    </div>
+    <a href="{% url 'home:landing_view' %}#main-content" class="mt-auto flex justify-center items-center animate-bounce">
+      <div class="relative flex h-10 w-10">
+        <span class="w-6 h-6 rounded-full animate-ping absolute inline-flex bg-chartreuse-400"></span>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="relative w-6 h-6 inline-flex">
+          <path fill-rule="evenodd" d="M12.53 16.28a.75.75 0 0 1-1.06 0l-7.5-7.5a.75.75 0 0 1 1.06-1.06L12 14.69l6.97-6.97a.75.75 0 1 1 1.06 1.06l-7.5 7.5Z" clip-rule="evenodd" />
+        </svg>
+      </div>
+    </a>
+    </div>
+  </div>
 </section>
 {% endif %}
