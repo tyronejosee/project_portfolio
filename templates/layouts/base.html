@@ -12,28 +12,11 @@
 </head>
 <body class="container styles">
   <!-- Intro -->
-  {% if request.path == '/' %}
-  <section id="intro-section" class="h-screen bg-neutral-200 dark:bg-neutral-800 rounded-xl flex flex-col items-center p-4">
-    <div class="flex justify-center h-96">
-      <div>Tyrone José</div>
-      <a href="{% url 'home:landing_view' %}#about-section" class="btn btn__primary">View CV</a>
-    </div>
-    <div class="mt-auto flex flex-col items-center">
-      <span class="relative flex h-3 w-3">
-        <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"></span>
-        <span class="relative inline-flex rounded-full h-3 w-3 bg-sky-500"></span>
-      </span>
-      <span class="block">Scroll down</span>
-    </div>
-  </section>
-  {% endif %}
+  {% include 'includes/intro.html' %}
   <!-- Main Content -->
   <main class="flex">
-    <!-- Sidebar -->
     {% include 'includes/sidebar.html' %}
-    <!-- Content -->
     <section class="w-full p-4 space-y-4">
-      <!-- Navbar -->
       {% include 'includes/navbar.html' %}
       {% block content %}{% endblock content %}
     </section>

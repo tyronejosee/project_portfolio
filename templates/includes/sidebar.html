@@ -13,9 +13,9 @@
   <figure>
     <img src="{{ portfolio.image_file.url }}" alt="{{ portfolio.full_name }}" class="sidebar__avatar">
   </figure>
-  <div class="sidebar__info">
-    <h1 class="text__bold">{{ portfolio.full_name }}</h1>
-    <span class="text__medium">{{ portfolio.specialization }}</span>
+  <div class="section">
+    <h1 class="section__title">{{ portfolio.full_name }}</h1>
+    <span class="text__medium block">{{ portfolio.specialization }}</span>
     <span>{{ portfolio.bio }}</span>
   </div>
   <nav class="sidebar__nav">
@@ -78,9 +78,9 @@
   </nav>
   <div class="space-y-2">
     {% if portfolio.resume_file %}
-    <a href="{{ portfolio.resume_file.url }}" role="button" target="_blank" class="btn btn__primary">{% translate "Download CV" %}</a>
+    <a href="{{ portfolio.resume_file.url }}" role="button" target="_blank" class="btn btn--primary">{% translate "Download CV" %}</a>
     {% else %}
-    <a href="#" role="button" class="btn btn__primary">{% translate "No Resume Available" %}</a>
+    <a href="#" role="button" class="btn btn--primary">{% translate "No Resume Available" %}</a>
     {% endif %}
     <div class="flex justify-center">
       <a href="{{ portfolio.gmail }}" role="button" title="Gmail" target="_blank" class="sidebar__link--box" rel="noopener noreferrer">

@@ -140,6 +140,33 @@ html {
     @apply text-3xl font-bold text-neutral-800 dark:text-chartreuse-400;
   }
 
+  .intro {
+    @apply h-screen bg-neutral-200 dark:bg-neutral-800 rounded-xl flex flex-col items-center p-4
+  }
+
+  /* Project */  
+  .project__grid {
+    @apply grid grid-cols-2 gap-4 box p-4;
+  }
+
+  .project__img {
+    @apply bg-chartreuse-400 rounded-xl w-full h-full;
+  }
+
+  /* Experience */  
+  .experience__grid {
+    @apply box rounded-xl p-4 grid grid-cols-3 gap-4;
+  }
+
+  /* Bookmark */
+  .bookmark {
+    @apply bg-neutral-800 p-2 rounded-xl w-full h-52;
+  }
+
+  .bookmark__grid {
+    @apply grid grid-cols-3 gap-2;
+  }
+
   /* Sidebar */
   .sidebar {
     @apply sticky sm:w-1/3 h-full top-0 z-10 transition-transform duration-300 -translate-x-full sm:translate-x-0 p-4 space-y-8;
@@ -147,10 +174,6 @@ html {
 
   .sidebar__avatar {
     @apply w-full h-full rounded-xl;
-  }
-
-  .sidebar__info {
-    @apply flex flex-col space-y-2;
   }
 
   .sidebar__nav {
@@ -169,16 +192,28 @@ html {
     @apply px-4 py-2 rounded-xl ease-in-out duration-200 hover:bg-neutral-200 dark:hover:bg-neutral-800 dark:hover:text-chartreuse-400;
   }
 
+  /* Navbar */  
+  .navbar {
+    @apply bg-neutral-100 dark:bg-neutral-900 sticky top-0 z-10;
+  }
+
+  .navbar__content {
+    @apply flex items-center justify-between p-4;
+  }
+  .navbar__language-form {
+    @apply flex items-center space-x-4;
+  }
+
   /* Btn */
   .btn {
     @apply text__bold flex items-center justify-center px-4 h-10 rounded-xl;
   }
 
-  .btn__primary {
+  .btn--primary {
     @apply bg-neutral-800 hover:bg-neutral-700 dark:bg-chartreuse-400 text-chartreuse-400 dark:hover:bg-chartreuse-300 dark:text-neutral-900 focus:outline-none focus:ring focus:ring-chartreuse-400;
   }
 
-  .btn__secondary {
+  .btn--secondary {
     @apply bg-neutral-200 dark:bg-neutral-800 dark:hover:bg-neutral-700 focus:outline-none focus:ring focus:ring-chartreuse-400;
   }
 
