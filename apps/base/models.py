@@ -82,7 +82,6 @@ class Contact(models.Model):
     """Entity type model for Contact."""
     name = models.CharField(_("Name"), max_length=255)
     email = models.EmailField(_("Email"))
-    phone_number = models.CharField(_("Phone Number"), max_length=20, blank=True, null=True)
     message = models.TextField(_("Message"))
 
     class Meta:

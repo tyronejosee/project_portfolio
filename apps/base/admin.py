@@ -42,5 +42,5 @@ class WorkExperienceAdmin(admin.ModelAdmin):
 @admin.register(Contact)
 class ContactAdmin(admin.ModelAdmin):
     """Admin config for the Contact model."""
-    list_display = ("name", "email", "phone_number",)
+    list_display = ("name", "email",)
     ordering = ("pk",)
