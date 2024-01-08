@@ -3,7 +3,9 @@
 {% block content %}
 <!-- About -->
 <section id="about-section" class="section">
-  <h2 class="section__title">{% translate "About" %}</h2>
+  <h2>
+    <span class="section__title">{% translate "About" %}</span>
+  </h2>
   <article class="box">
     <h3 class="text__bold">{% translate "Hi my name is " %}{{ portfolio.full_name }}</h3>
     <p>{{ portfolio.about_me }}</p>
@@ -11,7 +13,9 @@
 </section>
 <!-- Projects -->
 <section id="projects-section" class="section opacity-0 transform translate-y-20 transition-all duration-500 ease-in-out">
-  <h2 class="section__title">{% translate "Projects" %}</h2>
+  <h2>
+    <span class="section__title">{% translate "Projects" %}</span>
+  </h2>
   {% for project in projects %}
   <article class="grid grid-cols-2 gap-4 box p-4">
     <figure class="bg-chartreuse-400 rounded-xl w-full h-full">
@@ -28,9 +32,11 @@
 </section>
 <!-- Experiences -->
 <section id="experiences-section" class="section">
-  <h2 class="section__title">{% translate "Experiences" %}</h2>
+  <h2>
+    <span class="section__title">{% translate "Experiences" %}</span>
+  </h2>
   {% for experience in experiences %}
-  <article class="bg-neutral-800 rounded-xl p-4 grid grid-cols-3 gap-4">
+  <article class="box rounded-xl p-4 grid grid-cols-3 gap-4">
     <div>
       <span>
         {{ experience.start_date|date:"M Y" }} - {{ experience.end_date|date:"M Y" }}
@@ -50,7 +56,9 @@
 </section>
 <!-- Skills -->
 <section class="section">
-  <h2 class="section__title">{% translate "Skills" %}</h2>
+  <h2>
+    <span class="section__title">{% translate "Skills" %}</span>
+  </h2>
   <section class="skill__grid">
     {% for skill in skills %}
     <article class="skill group">
@@ -63,7 +71,9 @@
 </section>
 <!-- Contact -->
 <section class="section">
-  <h2 class="section__title">{% translate "Contact" %}</h2>
+  <h2>
+    <span class="section__title">{% translate "Contact" %}</span>
+  </h2>
   <form method="post" action="{% url 'home:landing_view' %}" class="space-y-4">{% csrf_token %}
     {% if success_message %}
       <div class="bg-green-200 p-3 mb-4 rounded">
@@ -86,7 +96,7 @@
       <label for="message" class="text__bold">{% translate "Your Message:" %}</label>
       {{ form.message }}
     </div>
-    <button type="submit" class="btn btn__primary">{% translate "Send Message" %}</button>
+    <button type="submit" class="btn btn__primary w-full">{% translate "Send Message" %}</button>
   </form>
 </section>
 {% endblock %}

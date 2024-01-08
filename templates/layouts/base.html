@@ -11,12 +11,9 @@
   <link rel="icon" type="image/svg+xml" href="{% static 'img/icon.svg' %}">
 </head>
 <body class="container styles">
-  <!-- Navbar
-  {% include 'includes/navbar.html' %}
-  -->
   <!-- Intro -->
   {% if request.path == '/' %}
-  <section id="intro-section" class="h-screen bg-neutral-800 rounded-xl flex flex-col items-center p-4">
+  <section id="intro-section" class="h-screen bg-neutral-200 dark:bg-neutral-800 rounded-xl flex flex-col items-center p-4">
     <div class="flex justify-center h-96">
       <div>Tyrone José</div>
       <a href="{% url 'home:landing_view' %}#about-section" class="btn btn__primary">View CV</a>
@@ -36,6 +33,8 @@
     {% include 'includes/sidebar.html' %}
     <!-- Content -->
     <section class="w-full p-4 space-y-4">
+      <!-- Navbar -->
+      {% include 'includes/navbar.html' %}
       {% block content %}{% endblock content %}
     </section>
   </main>
