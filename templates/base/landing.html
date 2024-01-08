@@ -1,24 +1,16 @@
 {% extends 'layouts/base.html' %}{% load static i18n %}
-
 {% block title %}{% translate "Portfolio" %}{% endblock %}
-
 {% block content %}
-<div>
-  <span id="about-section" class="block"></span>
-</div>
-
 <!-- About -->
-<section class="section mt-4">
+<section id="about-section" class="section">
   <h2 class="section__title">{% translate "About" %}</h2>
   <article class="box">
     <h3 class="text__bold">{% translate "Hi my name is " %}{{ portfolio.full_name }}</h3>
     <p>{{ portfolio.about_me }}</p>
   </article>
-  <span id="projects-section" class="block"></span>
 </section>
-
 <!-- Projects -->
-<section class="section mt-4">
+<section id="projects-section" class="section opacity-0 transform translate-y-20 transition-all duration-500 ease-in-out">
   <h2 class="section__title">{% translate "Projects" %}</h2>
   {% for project in projects %}
   <article class="grid grid-cols-2 gap-4 box p-4">
@@ -33,11 +25,9 @@
     </div>
   </article>
   {% endfor %}
-  <span id="experiences-section" class="block"></span>
 </section>
-
 <!-- Experiences -->
-<section class="section mt-4">
+<section id="experiences-section" class="section">
   <h2 class="section__title">{% translate "Experiences" %}</h2>
   {% for experience in experiences %}
   <article class="bg-neutral-800 rounded-xl p-4 grid grid-cols-3 gap-4">
@@ -58,9 +48,8 @@
   {% endfor %}
   <span id="skills-section" class="block"></span>
 </section>
-
 <!-- Skills -->
-<section class="section mt-4">
+<section class="section">
   <h2 class="section__title">{% translate "Skills" %}</h2>
   <section class="skill__grid">
     {% for skill in skills %}
@@ -72,9 +61,8 @@
   </section>
   <span id="contact-section" class="block"></span>
 </section>
-
 <!-- Contact -->
-<section class="section mt-4">
+<section class="section">
   <h2 class="section__title">{% translate "Contact" %}</h2>
   <form method="post" action="{% url 'home:landing_view' %}" class="space-y-4">{% csrf_token %}
     {% if success_message %}
@@ -101,5 +89,4 @@
     <button type="submit" class="btn btn__primary">{% translate "Send Message" %}</button>
   </form>
 </section>
-
 {% endblock %}

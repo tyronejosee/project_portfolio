@@ -16,3 +16,20 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 });
+
+const projectsSection = document.getElementById('projects-section');
+let animationExecuted = false;
+
+window.addEventListener('scroll', () => {
+  if (!animationExecuted) {
+    const rect = projectsSection.getBoundingClientRect();
+
+    if (rect.top < window.innerHeight && rect.bottom >= 0) {
+      projectsSection.classList.remove('opacity-0', 'translate-y-20');
+      projectsSection.classList.add('opacity-100', 'translate-y-0');
+      
+      // Marcar la animación como ejecutada
+      animationExecuted = true;
+    }
+  }
+});

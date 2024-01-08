@@ -10,19 +10,35 @@
   <link rel="stylesheet" href="{% static 'css/output.css' %}">
   <link rel="icon" type="image/svg+xml" href="{% static 'img/icon.svg' %}">
 </head>
-<body class="container styles my-4" id="appContainer">
-
-  <!-- Sidebar -->
-  {% include 'includes/sidebar.html' %}
-
-  <!-- Navbar -->
+<body class="container styles">
+  <!-- Navbar
   {% include 'includes/navbar.html' %}
-
+  -->
+  <!-- Intro -->
+  {% if request.path == '/' %}
+  <section id="intro-section" class="h-screen bg-neutral-800 rounded-xl flex flex-col items-center p-4">
+    <div class="flex justify-center h-96">
+      <div>Tyrone José</div>
+      <a href="{% url 'home:landing_view' %}#about-section" class="btn btn__primary">View CV</a>
+    </div>
+    <div class="mt-auto flex flex-col items-center">
+      <span class="relative flex h-3 w-3">
+        <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"></span>
+        <span class="relative inline-flex rounded-full h-3 w-3 bg-sky-500"></span>
+      </span>
+      <span class="block">Scroll down</span>
+    </div>
+  </section>
+  {% endif %}
   <!-- Main Content -->
-  <main class="sm:ml-64 p-4 border border-neutral-800 rounded-xl mt-4">
-    {% block content %}{% endblock content %}
+  <main class="flex">
+    <!-- Sidebar -->
+    {% include 'includes/sidebar.html' %}
+    <!-- Content -->
+    <section class="w-full p-4 space-y-4">
+      {% block content %}{% endblock content %}
+    </section>
   </main>
-  
   <!-- JavaScript Files -->
   <script src="{% static 'js/main.js' %}"></script>
 </body>

@@ -112,19 +112,19 @@ html {
 
   /* Sidebar */
   .sidebar {
-    @apply fixed z-10 w-60 transition-transform -translate-x-full sm:translate-x-0 flex flex-col p-4;
+    @apply sticky sm:w-1/3 h-full top-0 z-10 transition-transform duration-300 -translate-x-full sm:translate-x-0 p-4 space-y-8;
   }
 
   .sidebar__avatar {
-    @apply w-full rounded-xl;
+    @apply w-full h-full rounded-xl;
   }
 
   .sidebar__info {
-    @apply flex flex-col space-y-2 mt-4;
+    @apply flex flex-col space-y-2;
   }
 
   .sidebar__nav {
-    @apply overflow-y-auto overflow-x-hidden my-auto;
+    @apply overflow-y-auto overflow-x-hidden;
   }
 
   .sidebar__link {
