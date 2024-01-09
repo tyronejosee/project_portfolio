@@ -13,10 +13,10 @@
   <figure>
     <img src="{{ portfolio.image_file.url }}" alt="{{ portfolio.full_name }}" class="sidebar__avatar">
   </figure>
-  <div class="section">
-    <h1 class="section__title">{{ portfolio.full_name }}</h1>
+  <h1 class="section__title text-nowrap">{{ portfolio.full_name }}</h1>
+  <div>
     <span class="text__medium block">{{ portfolio.specialization }}</span>
-    <span>{{ portfolio.bio }}</span>
+    <span class="line-clamp-3">{{ portfolio.bio }}</span>
   </div>
   <nav class="sidebar__nav">
     <ul class="space-y-2">

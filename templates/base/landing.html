@@ -15,9 +15,9 @@
   {% for project in projects %}
   <article class="project__grid">
     <figure class="project__img">
-      <img src="{{ project.image.url }}" alt="{{ project.title }}" class="rounded-xl">
+      <img src="{{ project.image.url }}" alt="{{ project.title }}" class="object-cover w-full h-full">
     </figure>
-    <div>
+    <div class="overflow-x-clip">
       <h3 class="text__bold">{{ project.title }}</h3>
       <span class="block">{{ project.description }}</span>
       <span class="block">{{ project.repository }}</span>

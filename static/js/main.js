@@ -16,3 +16,13 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 });
+
+document.addEventListener('DOMContentLoaded', function () {
+    const toggleHidden = document.getElementById('toggleHidden');
+    const introSection = document.getElementById('intro-section');
+
+    toggleHidden.addEventListener('click', function (event) {
+        event.preventDefault();
+        introSection.style.display = 'none';
+    });
+});
