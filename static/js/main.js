@@ -26,3 +26,10 @@ document.addEventListener('DOMContentLoaded', function () {
         introSection.style.display = 'none';
     });
 });
+
+var notification = document.getElementById('pushNotification');
+function ocultarDiv() {
+  notification.style.opacity = '0';
+}
+
+setTimeout(ocultarDiv, 5000);

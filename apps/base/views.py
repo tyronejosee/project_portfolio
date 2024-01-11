@@ -2,6 +2,7 @@
 
 from django.views.generic import TemplateView
 from django.shortcuts import render
+from django.shortcuts import redirect
 from django.utils.translation import gettext as _
 from apps.base.forms import ContactForm
 from apps.base.models import Project, WorkExperience, Skill
