@@ -32,4 +32,4 @@ function ocultarDiv() {
   notification.style.opacity = '0';
 }
 
-setTimeout(ocultarDiv, 5000);
+setTimeout(ocultarDiv, 3000);

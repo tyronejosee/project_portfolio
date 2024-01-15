@@ -1,9 +1,25 @@
 {% extends 'layouts/base.html' %}{% load i18n %}
 {% block title %}{% translate "Bookmarks" %}{% endblock %}
 {% block content %}
+
 <section class="section">
   <h2 class="section__title">{% translate "Bookmarks" %}</h2>
-  <nav class="box"></nav>
+  <!-- Filter -->
+  <form method="get" action="{% url 'bookmarks:bookmark_list' %}" class="box p-4 rounded-xl space-y-4">
+    {% for tag in tags %}
+    <label class="flex">
+      <input
+        type="checkbox"
+        name="tags"
+        value="{{ tag.id }}"
+        {% if tag.id|stringformat:"s" in selected_tags %}checked{% endif %} >
+      <span class="ml-2">{{ tag.name }}</span>
+    </label>
+    {% endfor %}
+    <button type="submit" class="btn btn--primary w-full">Apply</button>
+  </form>
+
+  <!-- Bookmarks -->
   {% for bookmark in bookmarks %}
   <section class="bookmark__grid">
     <article class="bookmark">
@@ -14,5 +30,7 @@
     </article>
   </section>
   {% endfor %}
+
 </section>
+
 {% endblock %}
