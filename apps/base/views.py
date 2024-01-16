@@ -12,46 +12,43 @@ class LandingTemplateView(TemplateView):
     """View for rendering the site landing."""
     template_name = "base/landing.html"
 
-    def get(self, request, *args, **kwargs):
-        # Create an instance of the form
-        form = ContactForm()
+    def get_context_data(self, **kwargs):
+        """Override to provide additional context data."""
+        context = super().get_context_data(**kwargs)
+        context['projects'] = Project.objects.filter(status=True)
+        context['experiences'] = WorkExperience.objects.filter(status=True)
+        context['skills'] = Skill.objects.filter(status=True)
+        context['contact_form'] = ContactForm()
 
-        # Retrieve all contexts with a status set to True
+        return context
+
+    def post(self, request, *args, **kwargs):
+        """Overrides to handle POST requests."""
         projects = Project.objects.filter(status=True)
         experiences = WorkExperience.objects.filter(status=True)
         skills = Skill.objects.filter(status=True)
 
-        return render(request, self.template_name, {
-            "projects": projects,
-            "experiences": experiences,
-            "skills": skills,
-            "form": form,
-            }
-        )
-
-    def post(self, request, *args, **kwargs):
-        """Pending."""
-        form = ContactForm(request.POST)
+        # Forms
+        contact_form = ContactForm(request.POST)
         theme_form = ThemePreferenceForm(request.POST)
 
-        if form.is_valid():
-            form.save()
+        # Save the contact form data, return message
+        if contact_form.is_valid():
+            contact_form.save()
             success_message = _("Message sent successfully!")
 
             return redirect(reverse('home:landing_view') + '?success_message=' + success_message)
 
+        # Handle ThemePreferenceForm submission
         if theme_form.is_valid():
             theme_preference = theme_form.cleaned_data['theme_preference']
             request.session['theme_preference'] = theme_preference
-
-        projects = Project.objects.filter(status=True)
-        experiences = WorkExperience.objects.filter(status=True)
-        skills = Skill.objects.filter(status=True)
 
         return render(request, self.template_name, {
             "projects": projects,
             "experiences": experiences,
             "skills": skills,
-            "form": form,
+            "contact_form": contact_form,
             "theme_form": theme_form,
-        })
+            }
+        )

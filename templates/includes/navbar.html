@@ -2,10 +2,12 @@
 <nav class="navbar">
   <section class="navbar__content">
     <!-- Theme Form -->
-    <form method="post" action="{% url 'home:landing_view' %}">{% csrf_token %}
-      {{ theme_form }}
-      <button type="submit">OK</button>
-    </form>
+    <div class="flex space-x-4">
+      <form method="post" action="{% url 'home:landing_view' %}" class="flex">{% csrf_token %}
+        {{ theme_form }}
+        <button type="submit" class="btn btn--primary rounded-s-none">OK</button>
+      </form>
+    </div>
     <div class="flex space-x-4">
       <form action="{% url 'set_language' %}" method="POST" class="flex">{% csrf_token %}
         <input name="next" type="hidden" value="{{ redirect_to }}" class="hidden">

@@ -65,15 +65,15 @@
   <form method="POST" action="{% url 'home:landing_view' %}" class="section">{% csrf_token %}
     <div class="form__group">
       <label for="user" class="text__bold">{% translate "Your Name:" %}</label>
-      {{ form.name }}
+      {{ contact_form.name }}
     </div>
     <div class="form__group">
       <label for="email" class="text__bold">{% translate "Your Email:" %}</label>
-      {{ form.email }}
+      {{ contact_form.email }}
     </div>
     <div class="form__group">
       <label for="message" class="text__bold">{% translate "Your Message:" %}</label>
-      {{ form.message }}
+      {{ contact_form.message }}
     </div>
     <button type="submit" class="btn btn--primary w-full">{% translate "Send Message" %}</button>
   </form>
