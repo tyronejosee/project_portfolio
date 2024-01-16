@@ -16,3 +16,16 @@ class ContactForm(forms.ModelForm):
             "email": forms.EmailInput(attrs={"class": "form__input form__input--text"}),
             "message": forms.Textarea(attrs={"class": "form__input form__input--textarea"}),
         }
+
+
+class ThemePreferenceForm(forms.Form):
+    """Base form for Theme Preference."""
+    THEME_CHOICES = [
+        ('dark', 'Dark Theme'),
+        ('light', 'Light Theme'),
+    ]
+    theme_preference = forms.ChoiceField(
+        choices=THEME_CHOICES,
+        widget=forms.Select(attrs={}),
+        label=False
+    )

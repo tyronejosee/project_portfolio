@@ -5,15 +5,16 @@
 <section class="section">
   <h2 class="section__title">{% translate "Bookmarks" %}</h2>
   <!-- Filter -->
-  <form method="get" action="{% url 'bookmarks:bookmark_list' %}" class="box p-4 rounded-xl space-y-4">
+  <form method="get" action="{% url 'bookmarks:bookmark_list' %}" class="box p-4 rounded-xl space-y-2">
     {% for tag in tags %}
     <label class="flex">
       <input
         type="checkbox"
+        class="accent-chartreuse-400 focus:accent-pink-500"
         name="tags"
         value="{{ tag.id }}"
         {% if tag.id|stringformat:"s" in selected_tags %}checked{% endif %} >
-      <span class="ml-2">{{ tag.name }}</span>
+      <span class="ml-2">{{ tag.name }} ({{ tag.id }})</span>
     </label>
     {% endfor %}
     <button type="submit" class="btn btn--primary w-full">Apply</button>
@@ -26,6 +27,9 @@
       <a href="{{ bookmark.website }}" target="_blank" class="section">
         <img src="{{ bookmark.image.url }}" alt="{{ bookmark.name }}" class="rounded-lg">
         <span class="text__bold block">{{ bookmark.name }}</span>
+        {% for tag in bookmark.tags.all %}
+        <span class="text-xs p-1 bg-chartreuse-400 text-neutral-800 rounded">{{ tag.id }}</span>
+        {% endfor %}
       </a>
     </article>
   </section>

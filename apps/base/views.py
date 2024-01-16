@@ -4,7 +4,7 @@ from django.views.generic import TemplateView
 from django.shortcuts import render, redirect
 from django.urls import reverse
 from django.utils.translation import gettext as _
-from apps.base.forms import ContactForm
+from apps.base.forms import ContactForm, ThemePreferenceForm
 from apps.base.models import Project, WorkExperience, Skill
 
 
@@ -25,19 +25,24 @@ class LandingTemplateView(TemplateView):
             "projects": projects,
             "experiences": experiences,
             "skills": skills,
-            "form": form
+            "form": form,
             }
         )
 
     def post(self, request, *args, **kwargs):
         """Pending."""
         form = ContactForm(request.POST)
+        theme_form = ThemePreferenceForm(request.POST)
 
         if form.is_valid():
             form.save()
             success_message = _("Message sent successfully!")
 
             return redirect(reverse('home:landing_view') + '?success_message=' + success_message)
+
+        if theme_form.is_valid():
+            theme_preference = theme_form.cleaned_data['theme_preference']
+            request.session['theme_preference'] = theme_preference
 
         projects = Project.objects.filter(status=True)
         experiences = WorkExperience.objects.filter(status=True)
@@ -47,5 +52,6 @@ class LandingTemplateView(TemplateView):
             "projects": projects,
             "experiences": experiences,
             "skills": skills,
-            "form": form
+            "form": form,
+            "theme_form": theme_form,
         })
