@@ -1,6 +1,7 @@
 """Forms for Base App."""
 
 from django import forms
+from django.utils.translation import gettext as _
 from apps.base.models import Contact
 
 
@@ -21,8 +22,8 @@ class ContactForm(forms.ModelForm):
 class ThemePreferenceForm(forms.Form):
     """Base form for Theme Preference."""
     THEME_CHOICES = [
-        ('dark', 'Dark Theme'),
-        ('light', 'Light Theme'),
+        ('dark', _('Dark Theme')),
+        ('light', _('Light Theme')),
     ]
     theme_preference = forms.ChoiceField(
         choices=THEME_CHOICES,
