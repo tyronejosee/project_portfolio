@@ -9,6 +9,7 @@
       </form>
     </div>
     <div class="flex space-x-4">
+      <!-- Language Form -->
       <form action="{% url 'set_language' %}" method="POST" class="flex">{% csrf_token %}
         <input name="next" type="hidden" value="{{ redirect_to }}" class="hidden">
         <select name="language" class="btn btn--secondary rounded-e-none">
@@ -23,6 +24,7 @@
         </select>
         <input type="submit" value="OK" class="btn btn--primary rounded-s-none">
       </form>
+      <!-- Bookmark Button -->
       <a href="{% url 'bookmarks:bookmark_list' %}" class="btn btn--primary">
         <span>{% translate "Bookmarks" %}</span>
       </a>

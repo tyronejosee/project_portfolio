@@ -160,11 +160,11 @@ html {
 
   /* Bookmark */
   .bookmark {
-    @apply bg-neutral-800 p-2 rounded-xl w-full h-52;
+    @apply grid grid-cols-2 gap-2;
   }
-
-  .bookmark__grid {
-    @apply grid grid-cols-3 gap-2;
+  
+  .bookmark__wrapper {
+    @apply box p-2 rounded-xl w-full h-52;
   }
 
   /* Sidebar */
@@ -230,6 +230,39 @@ html {
   .skill__name {
     @apply text-xs font-bold opacity-0 group-hover:opacity-100 transition-opacity duration-300;
   }
+
+  /* Forms */
+	.form__wrapper {
+		@apply max-w-screen-sm px-4 mx-auto;
+	}
+	
+	.form__header {
+		@apply flex flex-col items-center p-4;
+	}
+	
+	.form__input-text {
+		@apply bg-neutral-100 dark:bg-neutral-800 rounded-xl block w-full h-10 px-4 focus:outline-none focus:ring focus:ring-chartreuse-400 placeholder-neutral-400 text-sm dark:placeholder-neutral-600;
+	}
+	
+	.form__input-file {
+		@apply block w-full file:mr-4 file:h-10 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-neutral-100 file:text-chartreuse-400 hover:file:bg-neutral-200;
+	}
+	
+	.form__input-number {
+		@apply bg-neutral-100 dark:bg-neutral-800 rounded-xl block w-full h-10 px-4  focus:outline-none focus:ring focus:ring-chartreuse-400 placeholder-neutral-400 dark:placeholder-neutral-600;
+	}
+	
+	.form__input-select {
+		@apply bg-neutral-100 dark:bg-neutral-800 w-full rounded-xl h-10 px-4 focus:outline-none focus:ring focus:ring-chartreuse-400;
+	}
+	
+	.form__input-checkbox {
+		@apply appearance-none w-6 h-6 border border-gray-300 rounded-md checked:bg-chartreuse-400 checked:border-transparent focus:outline-none focus:ring focus:ring-white;
+	}
+
+	.form__input-textarea {
+		@apply bg-neutral-100 dark:bg-neutral-800 rounded-xl block w-full h-64 px-4 focus:outline-none focus:ring focus:ring-chartreuse-400 placeholder-neutral-400 text-sm dark:placeholder-neutral-600;
+	}
 
   /* ease-in-out duration-200 hover:translate-x-2 */
 

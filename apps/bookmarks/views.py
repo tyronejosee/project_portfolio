@@ -1,6 +1,9 @@
 """Views for Bookmarks App."""
 
 from django.views.generic import ListView
+from django.shortcuts import render
+from django.core.paginator import Paginator
+from django.db.models import Q
 from apps.bookmarks.models import Bookmark, Tag
 
 
@@ -26,3 +29,30 @@ class BookmarksListView(ListView):
         context['selected_tags'] = self.request.GET.getlist('tags')
 
         return context
+
+def bookmark_search(request):
+    """Search bar, filtering by product title and brand."""
+    queryset = request.GET.get("search")
+    bookmarks = Bookmark.objects.filter(status=True)
+
+    # Search filter
+    if queryset:
+        bookmarks = Bookmark.objects.filter(
+            Q(name__icontains=queryset) |
+            Q(tags__name__icontains=queryset)
+        ).distinct()
+
+    # Bookmark count
+    results = bookmarks.count()
+
+    # Pagination
+    paginator = Paginator(bookmarks, 12)
+    page_number = request.GET.get("page")
+    page_obj = paginator.get_page(page_number)
+
+    return render(request, "bookmarks/bookmark_list.html", {
+        'bookmarks': bookmarks,
+        'title': queryset,
+        'results': results,
+        'page_obj': page_obj
+    })

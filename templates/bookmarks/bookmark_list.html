@@ -4,6 +4,19 @@
 
 <section class="section">
   <h2 class="section__title">{% translate "Bookmarks" %}</h2>
+  <!-- Search Bar -->  
+  <div class="relative">
+    <form method="GET" action="{% url 'bookmarks:search' %}">
+      <input type="search" id="search-navbar"
+        class="form__input-text text-center focus:text-left focus:pl-12"
+        placeholder="What topic are you interested in?" name="search" value="{{ request.GET.search }}">
+      <div class="absolute rounded-full inset-y-0 left-0 p-4 flex items-center pointer-events-none">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon--sm">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+        </svg>
+      </div>
+    </form>
+  </div>
   <!-- Filter -->
   <form method="get" action="{% url 'bookmarks:bookmark_list' %}" class="box p-4 rounded-xl space-y-2">
     {% for tag in tags %}
@@ -21,9 +34,9 @@
   </form>
 
   <!-- Bookmarks -->
-  {% for bookmark in bookmarks %}
-  <section class="bookmark__grid">
-    <article class="bookmark">
+  <section class="bookmark">
+    {% for bookmark in bookmarks %}
+    <article class="bookmark__wrapper">
       <a href="{{ bookmark.website }}" target="_blank" class="section">
         <img src="{{ bookmark.image.url }}" alt="{{ bookmark.name }}" class="rounded-lg">
         <span class="text__bold block">{{ bookmark.name }}</span>
@@ -32,8 +45,8 @@
         {% endfor %}
       </a>
     </article>
+    {% endfor %}
   </section>
-  {% endfor %}
 
 </section>
 
