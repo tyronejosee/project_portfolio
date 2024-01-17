@@ -173,7 +173,7 @@ html {
   }
 
   .sidebar__avatar {
-    @apply w-full h-full rounded-xl;
+    @apply w-72 h-full rounded-xl;
   }
 
   .sidebar__nav {
@@ -241,7 +241,7 @@ html {
 	}
 	
 	.form__input-text {
-		@apply bg-neutral-100 dark:bg-neutral-800 rounded-xl block w-full h-10 px-4 focus:outline-none focus:ring focus:ring-chartreuse-400 placeholder-neutral-400 text-sm dark:placeholder-neutral-600;
+		@apply bg-neutral-200 dark:bg-neutral-800 rounded-xl block w-full h-10 px-4 focus:outline-none focus:ring focus:ring-chartreuse-400 placeholder-neutral-400 text-sm dark:placeholder-neutral-600;
 	}
 	
 	.form__input-file {
