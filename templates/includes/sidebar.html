@@ -10,6 +10,7 @@
 
 <!-- Sidebar Content -->
 <aside id="sidebar" class="sidebar">
+  {% if request.path == '/' %}
   <figure>
     <img src="{{ portfolio.image_file.url }}" alt="{{ portfolio.full_name }}" class="sidebar__avatar">
   </figure>
@@ -90,4 +91,25 @@
       </a>
     </div>
   </div>
+  {% endif %}
+  {% if '/bookmarks/' in request.path %}
+  <!-- Filter -->
+  <details class="bg-neutral-200 hover:bg-neutral-300 dark:bg-neutral-800 dark:hover:bg-neutral-700 cursor-pointer select-none rounded-xl" open>
+    <summary class="text__bold p-4">Filters</summary>
+    <form method="get" action="{% url 'bookmarks:bookmark_list' %}" class="box space-y-2">
+      {% for tag in tags %}
+      <label class="flex">
+        <input
+          type="checkbox"
+          class="w-4 h-4 accent-neutral-800 hover:accent-neutral-600 dark:accent-chartreuse-400 dark:hover:accent-chartreuse-300"
+          name="tags"
+          value="{{ tag.id }}"
+          {% if tag.id|stringformat:"s" in selected_tags %}checked{% endif %} >
+        <span class="ml-2">{{ tag.name }} ({{ tag.id }})</span>
+      </label>
+      {% endfor %}
+      <button type="submit" class="btn btn--primary w-full">Apply</button>
+    </form>
+  </details>
+  {% endif %}
 </aside>
