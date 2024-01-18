@@ -1,8 +1,25 @@
 """Models for Base App."""
 
 from django.db import models
+from django.core.exceptions import ValidationError
 from django.utils.translation import gettext as _
 from apps.base.mixins import TimestampMixin
+
+
+def validate_image_extension(value):
+    """Validates that the uploaded file has a '.webp' extension."""
+    valid_extensions = ['.webp']
+    extension = value.name.split('.')[-1]
+    if not extension.lower() in valid_extensions:
+        raise ValidationError(_('Only .webp files are allowed.'))
+
+
+def validate_resume_extension(value):
+    """Validates that the uploaded file has a '.pdf' extension."""
+    valid_extensions = ['.pdf']
+    extension = value.name.split('.')[-1]
+    if not extension.lower() in valid_extensions:
+        raise ValidationError(_('Only .pdf files are allowed.'))
 
 
 class Portfolio(models.Model):
@@ -14,8 +31,8 @@ class Portfolio(models.Model):
     gmail = models.URLField(_("Gmail"), blank=True)
     github = models.URLField(_("GitHub"), blank=True)
     linkedin = models.URLField(_("LinkedIn"), blank=True)
-    image_file = models.ImageField(_("Image File"), upload_to='portfolio/')
-    resume_file = models.FileField(_("Resume File"), upload_to='portfolio/', null=True, blank=True)
+    image_file = models.ImageField(_("Image File"), upload_to='portfolio/', validators=[validate_image_extension])
+    resume_file = models.FileField(_("Resume File"), upload_to='portfolio/',validators=[validate_image_extension], null=True, blank=True)
 
     class Meta:
         """Meta definition for Portfolio."""
@@ -32,7 +49,9 @@ class Project(TimestampMixin, models.Model):
     description = models.TextField(_("Description"))
     repository = models.URLField(_("Repository"))
     website = models.URLField(_("Website"), null=True, blank=True)
-    image = models.FileField(_("Image"), upload_to='project/')
+    image = models.FileField(
+        _("Image"), upload_to='project/', validators=[validate_image_extension]
+    )
     status = models.BooleanField(_("Status"), default=True)
 
     class Meta:

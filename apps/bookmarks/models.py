@@ -2,6 +2,7 @@
 
 from django.db import models
 from django.utils.translation import gettext as _
+from apps.base.models import validate_image_extension
 
 
 class Tag(models.Model):
@@ -24,7 +25,7 @@ class Bookmark(models.Model):
     name = models.CharField(_("Name"), max_length=100)
     description = models.TextField(_("Description"), blank=True)
     website = models.URLField(_("Website"))
-    image = models.ImageField(_("Image"), upload_to="bookmarks/")
+    image = models.ImageField(_("Image"), upload_to="bookmarks/", validators=[validate_image_extension])
     tags = models.ManyToManyField(Tag, verbose_name=_("Tags"))
     status = models.BooleanField(_("Status"), default=True)
 
