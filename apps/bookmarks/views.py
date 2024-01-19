@@ -1,6 +1,7 @@
 """Views for Bookmarks App."""
 
 from django.views.generic import ListView
+from django.views.generic.detail import DetailView
 from django.shortcuts import render
 from django.core.paginator import Paginator
 from django.db.models import Q
@@ -29,6 +30,15 @@ class BookmarksListView(ListView):
         context['selected_tags'] = self.request.GET.getlist('tags')
 
         return context
+
+
+class BookmarkDetailView(DetailView):
+    """pending."""
+    model = Bookmark
+    template_name = "bookmarks/bookmark_detail.html"
+    context_object_name = "bookmark"
+    pk_url_kwarg = "pk"
+
 
 def bookmark_search(request):
     """Search bar, filtering by product title and brand."""

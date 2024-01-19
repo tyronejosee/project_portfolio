@@ -1,0 +1,15 @@
+{% extends 'layouts/base.html' %}{% load i18n %}
+{% block title %}{{ bookmark.name }}{% endblock %}
+{% block content %}
+
+<section>
+  <img src="{{ bookmark.image.url }}" alt="{{ bookmark.name }}" class="rounded-xl">
+  <h2 class="section__title">{{ bookmark.name }}</h2>
+  <p>{{ bookmark.description }}</p>
+  <p>{{ bookmark.website }}</p>
+  {% for tag in bookmark.tags.all %}
+  <span class="text-xs p-1 bg-chartreuse-400 text-neutral-800 rounded">{{ tag.name }}</span>
+  {% endfor %}
+</section>
+
+{% endblock %}
