@@ -1,13 +1,12 @@
-{% load i18n %}
+{% load static i18n %}
 <nav class="navbar">
   <section class="navbar__content">
-    <!-- Theme Form -->
-    <div class="flex space-x-4">
-      <form method="post" action="{% url 'home:landing_view' %}" class="flex">{% csrf_token %}
-        {{ theme_form }}
-        <button type="submit" class="btn btn--primary rounded-s-none">OK</button>
-      </form>
+    <div class="flex items-center space-x-2">
+      <img src="{% static 'img/icon.svg' %}" alt="Logo" class="w-6 h-6">
+      <a href="{% url 'home:landing_view' %}" class="text__bold">José Reyes</a>
     </div>
+    
+
     <div class="flex space-x-4">
       <!-- Language Form -->
       <form action="{% url 'set_language' %}" method="POST" class="flex">{% csrf_token %}
@@ -24,10 +23,13 @@
         </select>
         <input type="submit" value="OK" class="btn btn--primary rounded-s-none">
       </form>
-      <!-- Bookmark Button -->
-      <a href="{% url 'bookmarks:bookmark_list' %}" class="btn btn--primary">
-        <span>{% translate "Bookmarks" %}</span>
-      </a>
+
+      <!-- Resume Button -->
+      {% if portfolio.resume_file %}
+      <a href="{{ portfolio.resume_file.url }}" role="button" target="_blank" class="btn btn--primary">{% translate "Download CV" %}</a>
+      {% else %}
+      <a href="#" role="button" class="btn btn--primary">{% translate "No Resume Available" %}</a>
+      {% endif %}
     </div>
   </section>
 </nav>

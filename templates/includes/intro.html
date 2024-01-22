@@ -1,9 +1,15 @@
 {% if request.path == '/' and not request.GET.success_message %}
 <section class="intro" id="intro-section">
-  <div class="max-w-screen-lg flex flex-col mx-auto h-full">
+  <div class="flex flex-col mx-auto h-full">
     <div class="flex justify-center items-center space-x-4 h-full">
-      <div class="w-full h-96 bg-chartreuse-400 rounded-xl"></div>
-      <div class="w-full h-96 bg-chartreuse-400 rounded-xl"></div>
+      <figure>
+        <img src="{{ portfolio.image_file.url }}" alt="{{ portfolio.full_name }}" class="sidebar__avatar">
+      </figure>
+      <div>
+        <h1 class="section__title text-nowrap">{{ portfolio.full_name }}</h1>
+        <span class="text__medium block">{{ portfolio.specialization }}</span>
+        <span class="line-clamp-3">{{ portfolio.bio }}</span>
+      </div>
     </div>
     <a href="{% url 'home:landing_view' %}#main-content" id="toggleHidden" class="mt-auto flex justify-center items-center animate-bounce">
       <div class="relative flex h-10 w-10">

@@ -52,9 +52,9 @@
   <h2><span class="section__title">{% translate "Skills" %}</span></h2>
   <section class="skill__grid">
     {% for skill in skills %}
-    <article class="skill group">
+    <article class="p-4 h-28 flex flex-col justify-center items-center bg-neutral-200 dark:bg-neutral-800 hover:bg-chartreuse-400 hover:text-neutral-900 rounded-xl hover-scale transform hover:scale-105 group space-y-2">
       {{ skill.icon|safe }}
-      <span class="skill__name">{{ skill.name }}</span>
+      <span class="text-xs font-bold">{{ skill.name }}</span>
     </article>
     {% endfor %}
   </section>
