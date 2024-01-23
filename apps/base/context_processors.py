@@ -1,6 +1,7 @@
 """Context Processors for Base App."""
 
 from apps.base.models import Portfolio
+from apps.bookmarks.models import Tag
 from apps.base.forms import ThemePreferenceForm
 
 
@@ -15,3 +16,9 @@ def user_preferences(request):
     theme_preference = request.session.get('theme_preference', 'dark')
     theme_form = ThemePreferenceForm(initial={'theme_preference': theme_preference})
     return {'theme_preference': theme_preference, 'theme_form': theme_form}
+
+def tag_filter_context(request):
+    """Context processor to return a list of tags for bookmarks."""
+    tags = Tag.objects.all()
+    selected_tags = request.GET.getlist('tags', [])
+    return {'tags': tags, 'selected_tags': selected_tags}

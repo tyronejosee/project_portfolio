@@ -27,6 +27,6 @@ class ThemePreferenceForm(forms.Form):
     ]
     theme_preference = forms.ChoiceField(
         choices=THEME_CHOICES,
-        widget=forms.Select(attrs={"class": "btn btn--secondary rounded-e-none"}),
+        widget=forms.Select(attrs={"class": "btn btn--secondary block w-full", "onchange": "submit()"}),
         label=False
     )

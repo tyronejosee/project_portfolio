@@ -5,7 +5,7 @@ from django.views.generic.detail import DetailView
 from django.shortcuts import render
 from django.core.paginator import Paginator
 from django.db.models import Q
-from apps.bookmarks.models import Bookmark, Tag
+from apps.bookmarks.models import Bookmark
 
 
 class BookmarksListView(ListView):
@@ -24,16 +24,15 @@ class BookmarksListView(ListView):
 
         return queryset
 
-    def get_context_data(self, **kwargs):
-        context = super().get_context_data(**kwargs)
-        context['tags'] = Tag.objects.all()
-        context['selected_tags'] = self.request.GET.getlist('tags')
-
-        return context
+    # def get_context_data(self, **kwargs):
+    #     context = super().get_context_data(**kwargs)
+    #     context['tags'] = Tag.objects.all()
+    #     context['selected_tags'] = self.request.GET.getlist('tags')
+    #     return context
 
 
 class BookmarkDetailView(DetailView):
-    """pending."""
+    """View to display the details of a bookmark."""
     model = Bookmark
     template_name = "bookmarks/bookmark_detail.html"
     context_object_name = "bookmark"

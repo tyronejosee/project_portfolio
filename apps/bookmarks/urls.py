@@ -6,7 +6,7 @@ from apps.bookmarks.views import BookmarksListView, BookmarkDetailView, bookmark
 app_name = "bookmarks"
 
 urlpatterns = [
-    path("", bookmark_search, name='search'),
     path("", BookmarksListView.as_view(), name="bookmark_list"),
+    path("search/", bookmark_search, name='search'),
     path("<int:pk>/", BookmarkDetailView.as_view(), name="bookmark_detail"),
 ]

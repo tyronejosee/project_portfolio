@@ -53,6 +53,7 @@ TEMPLATES = [
                 "django.contrib.messages.context_processors.messages",
                 "apps.base.context_processors.portfolio_context",
                 "apps.base.context_processors.user_preferences",
+                "apps.base.context_processors.tag_filter_context",
             ],
         },
     },
