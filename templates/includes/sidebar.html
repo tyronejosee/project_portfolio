@@ -84,18 +84,11 @@
       </li>
     </ul>
   </nav>
-  <div class="mt-auto">
+  <div class="mt-auto space-y-4">
     <!-- Bookmark Button -->
     <a href="{% url 'bookmarks:bookmark_list' %}" class="btn btn--primary">
       <span>{% translate "Bookmarks" %}</span>
     </a>
-    <!-- Theme Form -->
-    <div class="flex space-x-4">
-      <form method="post" action="{% url 'home:landing_view' %}" class="flex">{% csrf_token %}
-        {{ theme_form }}
-        <button type="submit" class="btn btn--primary rounded-s-none">OK</button>
-      </form>
-    </div>
     {% endif %}
   </div>
   {% if '/bookmarks/' in request.path %}

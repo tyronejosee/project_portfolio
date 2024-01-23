@@ -1,17 +1,22 @@
 {% load static i18n %}
 <nav class="navbar">
   <section class="navbar__content">
+    <!-- Logo Urls -->
     <div class="flex items-center space-x-2">
       <img src="{% static 'img/icon.svg' %}" alt="Logo" class="w-6 h-6">
       <a href="{% url 'home:landing_view' %}" class="text__bold">José Reyes</a>
     </div>
-    
-
     <div class="flex space-x-4">
+      <!-- Theme Form -->
+      <div class="flex space-x-4">
+        <form method="post" action="{% url 'home:landing_view' %}">{% csrf_token %}
+          {{ theme_form }}
+        </form>
+      </div>
       <!-- Language Form -->
       <form action="{% url 'set_language' %}" method="POST" class="flex">{% csrf_token %}
         <input name="next" type="hidden" value="{{ redirect_to }}" class="hidden">
-        <select name="language" class="btn btn--secondary rounded-e-none">
+        <select name="language" class="btn btn--secondary" onchange="submit()">
           {% get_current_language as LANGUAGE_CODE %}
           {% get_available_languages as LANGUAGES %}
           {% get_language_info_list for LANGUAGES as languages %}
@@ -21,9 +26,7 @@
             </option>
           {% endfor %}
         </select>
-        <input type="submit" value="OK" class="btn btn--primary rounded-s-none">
       </form>
-
       <!-- Resume Button -->
       {% if portfolio.resume_file %}
       <a href="{{ portfolio.resume_file.url }}" role="button" target="_blank" class="btn btn--primary">{% translate "Download CV" %}</a>
