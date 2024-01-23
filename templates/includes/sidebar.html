@@ -95,7 +95,7 @@
   <!-- Filter -->
   <details class="bg-neutral-200 hover:bg-neutral-300 dark:bg-neutral-800 dark:hover:bg-neutral-700 cursor-pointer select-none rounded-xl" open>
     <summary class="text__bold p-4">Filters</summary>
-    <form method="get" action="{% url 'bookmarks:bookmark_list' %}" class="box space-y-2">
+    <form method="get" action="{% url 'bookmarks:bookmark_list' %}" class="p-4 space-y-2">
       {% for tag in tags %}
       <label class="flex">
         <input
@@ -104,7 +104,7 @@
           name="tags"
           value="{{ tag.id }}"
           {% if tag.id|stringformat:"s" in selected_tags %}checked{% endif %} >
-        <span class="ml-2">{{ tag.name }} ({{ tag.id }})</span>
+        <span class="ml-2">{{ tag.name }}</span>
       </label>
       {% endfor %}
       <button type="submit" class="btn btn--primary w-full">Apply</button>

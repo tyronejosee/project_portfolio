@@ -22,16 +22,17 @@
           {% get_language_info_list for LANGUAGES as languages %}
           {% for language in languages %}
             <option value="{{ language.code }}" {% if language.code == LANGUAGE_CODE %} selected {% endif %}>
-              {{ language.code }} - {{ language.name_local }}
+              {{ language.name_local }}
             </option>
           {% endfor %}
+          <!-- Optional: language.code -->
         </select>
       </form>
       <!-- Resume Button -->
-      {% if portfolio.resume_file %}
-      <a href="{{ portfolio.resume_file.url }}" role="button" target="_blank" class="btn btn--primary">{% translate "Download CV" %}</a>
-      {% else %}
-      <a href="#" role="button" class="btn btn--primary">{% translate "No Resume Available" %}</a>
+      {% if portfolio.resume_file and request.path == '/' %}
+      <a href="{{ portfolio.resume_file.url }}" role="button" target="_blank" class="btn btn--primary">
+        {% translate "Download CV" %}
+      </a>
       {% endif %}
     </div>
   </section>
