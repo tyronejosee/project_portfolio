@@ -17,6 +17,7 @@ def user_preferences(request):
     theme_form = ThemePreferenceForm(initial={'theme_preference': theme_preference})
     return {'theme_preference': theme_preference, 'theme_form': theme_form}
 
+
 def tag_filter_context(request):
     """Context processor to return a list of tags for bookmarks."""
     tags = Tag.objects.all()

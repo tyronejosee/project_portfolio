@@ -115,8 +115,12 @@ html {
   }
 
   /* Form */
-  .form__group {
-    @apply space-y-2;
+  .form {
+    @apply space-y-4;
+  }
+
+  .form__label {
+    @apply block w-full space-y-2;
   }
 
   .form__input {

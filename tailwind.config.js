@@ -23,9 +23,6 @@ module.exports = {
       fontFamily: {
         body: ['SpaceGrotesk', 'sans-serif']
       },
-      gridTemplateColumns: {
-        '48': 'repeat(48, minmax(0, 1fr))',
-      },
     },
   },
   darkMode: 'class',

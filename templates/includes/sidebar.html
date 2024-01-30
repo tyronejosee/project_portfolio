@@ -93,8 +93,8 @@
   </div>
   {% if '/bookmarks/' in request.path %}
   <!-- Filter -->
-  <details class="bg-neutral-200 hover:bg-neutral-300 dark:bg-neutral-800 dark:hover:bg-neutral-700 cursor-pointer select-none rounded-xl" open>
-    <summary class="text__bold p-4">Filters</summary>
+  <details class="cursor-pointer select-none rounded-xl" open>
+    <summary class="text__bold">Filters</summary>
     <form method="get" action="{% url 'bookmarks:bookmark_list' %}" class="p-4 space-y-2">
       {% for tag in tags %}
       <label class="flex">

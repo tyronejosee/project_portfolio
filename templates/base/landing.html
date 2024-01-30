@@ -62,20 +62,23 @@
 <!-- Contact -->
 <section class="section" id="contact-section">
   <h2><span class="section__title">{% translate "Contact" %}</span></h2>
-  <form method="POST" action="{% url 'home:landing_view' %}" class="section">{% csrf_token %}
-    <div class="form__group">
-      <label for="user" class="text__bold">{% translate "Your Name:" %}</label>
+  <form method="POST" action="{% url 'home:landing_view' %}" class="form">{% csrf_token %}
+    <label class="form__label">
+      <p class="text__bold">{% translate "Name:" %}</p>
       {{ contact_form.name }}
-    </div>
-    <div class="form__group">
-      <label for="email" class="text__bold">{% translate "Your Email:" %}</label>
+    </label>
+    <label class="form__label">
+      <p class="text__bold">{% translate "Email:" %}</p>
       {{ contact_form.email }}
-    </div>
-    <div class="form__group">
-      <label for="message" class="text__bold">{% translate "Your Message:" %}</label>
+    </label>
+    <label class="form__label">
+      <p class="text__bold">{% translate "Message:" %}</p>
       {{ contact_form.message }}
+    </label>
+    <div class="flex space-x-4">
+      <button type="reset" class="btn btn--secondary w-full">{% translate "Clear Form" %}</button>
+      <button type="submit" class="btn btn--primary w-full">{% translate "Send Message" %}</button>
     </div>
-    <button type="submit" class="btn btn--primary w-full">{% translate "Send Message" %}</button>
   </form>
 
   <!-- Notification -->
