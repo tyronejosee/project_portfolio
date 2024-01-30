@@ -12,12 +12,6 @@
         <img src="{{ bookmark.image.url }}" alt="{{ bookmark.name }}" class="rounded-lg" loading="lazy">
         <div class="px-2 pb-2 space-y-4">
           <p class="text__bold block">{{ bookmark.name }}</p>
-          <span>{{ bookmark.website }}</span>
-          <div>
-            {% for tag in bookmark.tags.all %}
-            <span class="text-xs p-1 bg-chartreuse-400 text-neutral-800 rounded">{{ tag.name }}</span>
-            {% endfor %}
-          </div>
         </div>
       </a>
     </article>

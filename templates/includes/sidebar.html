@@ -89,9 +89,9 @@
     <a href="{% url 'bookmarks:bookmark_list' %}" class="btn btn--primary">
       <span>{% translate "Bookmarks" %}</span>
     </a>
-    {% endif %}
   </div>
-  {% if '/bookmarks/' in request.path %}
+  {% endif %}
+  {% if not request.path == '/' %}
   <!-- Filter -->
   <details class="cursor-pointer select-none rounded-xl" open>
     <summary class="text__bold">Filters</summary>

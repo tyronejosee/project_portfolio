@@ -8,17 +8,17 @@ from apps.base.mixins import TimestampMixin
 
 def validate_image_extension(value):
     """Validates that the uploaded file has a '.webp' extension."""
-    valid_extensions = ['.webp']
+    valid_extensions = ['webp', 'png']
     extension = value.name.split('.')[-1]
-    if not extension.lower() in valid_extensions:
+    if not extension in valid_extensions:
         raise ValidationError(_('Only .webp files are allowed.'))
 
 
 def validate_resume_extension(value):
     """Validates that the uploaded file has a '.pdf' extension."""
-    valid_extensions = ['.pdf']
+    valid_extensions = ['pdf']
     extension = value.name.split('.')[-1]
-    if not extension.lower() in valid_extensions:
+    if not extension in valid_extensions:
         raise ValidationError(_('Only .pdf files are allowed.'))
 
 
