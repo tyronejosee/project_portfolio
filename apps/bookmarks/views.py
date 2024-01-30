@@ -35,8 +35,8 @@ class BookmarkDetailView(DetailView):
 class BookmarkSearchListView(ListView):
     """Search bar, filtering by product title and brand."""
     model = Bookmark
-    template_name = "bookmarks/bookmark_list.html"
-    context_object_name = "bookmarks"
+    template_name ='bookmarks/bookmark_list.html'
+    context_object_name = 'bookmarks'
     paginate_by = 12
     ordering = ['-id']
 

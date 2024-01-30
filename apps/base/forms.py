@@ -22,11 +22,13 @@ class ContactForm(forms.ModelForm):
 class ThemePreferenceForm(forms.Form):
     """Base form for Theme Preference."""
     THEME_CHOICES = [
-        ('dark', _('Dark Theme')),
-        ('light', _('Light Theme')),
+        ('dark', _('Dark')),
+        ('light', _('Light')),
     ]
     theme_preference = forms.ChoiceField(
         choices=THEME_CHOICES,
-        widget=forms.Select(attrs={"class": "btn btn--secondary block w-full", "onchange": "submit()"}),
+        widget=forms.Select(
+            attrs={"class": "btn btn--secondary block w-full", "onchange": "submit()"}
+        ),
         label=False
     )
