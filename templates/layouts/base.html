@@ -17,10 +17,8 @@
   <main class="content__wrapper" id="main-content">
     {% include 'includes/intro.html' %}
     <section class="flex">
-      <div class="hidden md:block">
-        {% include 'includes/sidebar.html' %}
-      </div>
-      <div class="p-4 space-y-4">
+      {% include 'includes/sidebar.html' %}
+      <div class="p-4 space-y-16">
         {% block content %}{% endblock content %}
       </div>
     </section>

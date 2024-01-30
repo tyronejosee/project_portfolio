@@ -57,7 +57,7 @@
           <span>{% translate "Contact" %}</span>
         </a>
       </li>
-      <hr>
+      <hr class="hr">
       <li>
         <a href="{{ portfolio.gmail }}" class="sidebar__link" target="_blank">
           <svg class="icon" fill="currentColor" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -84,7 +84,7 @@
       </li>
     </ul>
   </nav>
-  <div class="mt-auto space-y-4">
+  <div class="hidden sm:block mt-auto space-y-4">
     <!-- Bookmark Button -->
     <a href="{% url 'bookmarks:bookmark_list' %}" class="btn btn--primary">
       <span>{% translate "Bookmarks" %}</span>
