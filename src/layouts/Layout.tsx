@@ -1,6 +1,7 @@
 import { ReactNode } from "react";
 
 import { Navbar } from "../components/Navbar";
+import { Sidebar } from "../components/Sidebar";
 
 interface LayoutProps {
   children: ReactNode;
@@ -13,11 +14,10 @@ export function Layout({ children }: LayoutProps) {
         <Navbar />
         <main className="content__wrapper">
           {/* <Intro /> */}
-          <section className="">
-            {/* <Sidebar /> */}
+          <section className="flex">
+            <Sidebar />
             <div className="p-4 space-y-16">{children}</div>
           </section>
-          {/* <Footer /> */}
         </main>
         {/* <ScrollToTop /> */}
       </div>
