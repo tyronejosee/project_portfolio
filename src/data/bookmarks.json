@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "Proyecto 1",
+    "website": "https://www.ejemplo.com",
+    "image": "https://www.ejemplo.com/imagen1.jpg",
+    "category": "Web",
+    "tags": ["React", "CSS"],
+    "status": true
+  },
+  {
+    "id": 2,
+    "title": "Proyecto 2",
+    "website": "https://www.ejemplo.com",
+    "image": "https://www.ejemplo.com/imagen1.jpg",
+    "category": "Mobile",
+    "tags": ["React Native", "JavaScript"],
+    "status": true
+  }
+]
