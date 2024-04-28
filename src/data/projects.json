@@ -1,0 +1,11 @@
+[
+  {
+    "id": 1,
+    "name": "name",
+    "image": "https://www.image.com/image.jpg",
+    "repository": "https://www.repository.com",
+    "website": "https://www.website.com",
+    "skills": ["React", "CSS"],
+    "status": true
+  }
+]

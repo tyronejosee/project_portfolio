@@ -1,3 +1,5 @@
+import { FULL_NAME, ABOUT_ME } from "../constants";
+
 export function HomePage() {
   return (
     <>
@@ -6,17 +8,8 @@ export function HomePage() {
           <span className="section__title">About</span>
         </h2>
         <article className="box">
-          <h3 className="text__bold">
-            Hi my name is Lorem ipsum dolor sit amet consectetur adipisicing
-            elit. Quibusdam, cumque! Inventore dolorum dicta eos quis omnis
-            temporibus eveniet nulla reprehenderit ducimus, commodi dolore quam
-            nostrum magni blanditiis similique modi tenetur! Eum rerum ipsam
-            excepturi laboriosam distinctio soluta tenetur, optio eos
-            laudantium. Facere voluptatibus ex nostrum vitae iusto numquam
-            corrupti non, possimus perspiciatis laudantium error, vel suscipit
-            ducimus nam commodi assumenda.
-          </h3>
-          <p>about me</p>
+          <h3 className="text__bold">Hi my name is {FULL_NAME}</h3>
+          <p>{ABOUT_ME}</p>
         </article>
       </section>
 

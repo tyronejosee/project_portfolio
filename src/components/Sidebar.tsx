@@ -1,3 +1,5 @@
+import { GMAIL, GITHUB, LINKEDIN } from "../constants";
+
 export function Sidebar() {
   return (
     <aside id="sidebar" className="sidebar">
@@ -90,11 +92,8 @@ export function Sidebar() {
           </li>
           <hr className="hr" />
           <li>
-            <a
-              href="#portfolio_gmail"
-              className="sidebar__link"
-              target="_blank"
-            >
+            <a href="www.gmail.com"></a>
+            <a href={GMAIL} className="sidebar__link" target="_blank">
               <svg
                 className="icon"
                 fill="currentColor"
@@ -108,11 +107,7 @@ export function Sidebar() {
             </a>
           </li>
           <li>
-            <a
-              href="#portfolio_github"
-              className="sidebar__link"
-              target="_blank"
-            >
+            <a href={GITHUB} className="sidebar__link" target="_blank">
               <svg
                 className="icon"
                 fill="currentColor"
@@ -126,11 +121,7 @@ export function Sidebar() {
             </a>
           </li>
           <li>
-            <a
-              href="#portfolio_linkedin"
-              className="sidebar__link"
-              target="_blank"
-            >
+            <a href={LINKEDIN} className="sidebar__link" target="_blank">
               <svg
                 className="icon"
                 fill="currentColor"
