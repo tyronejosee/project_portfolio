@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Python",
+    "icon": "https://www.svgrepo.com/show/376344/python.svg",
+    "status": true
+  },
+  {
+    "id": 2,
+    "name": "Django",
+    "icon": "https://www.svgrepo.com/show/376344/python.svg",
+    "status": true
+  },
+  {
+    "id": 3,
+    "name": "JavaScript",
+    "icon": "https://www.svgrepo.com/show/376344/python.svg",
+    "status": true
+  },
+  {
+    "id": 4,
+    "name": "React",
+    "icon": "https://www.svgrepo.com/show/376344/python.svg",
+    "status": true
+  },
+  {
+    "id": 5,
+    "name": "Node.js",
+    "icon": "https://www.svgrepo.com/show/376344/python.svg",
+    "status": true
+  }
+]
