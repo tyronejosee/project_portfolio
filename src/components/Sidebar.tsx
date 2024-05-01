@@ -1,8 +1,9 @@
+import { Link } from "react-router-dom";
 import { GMAIL, GITHUB, LINKEDIN } from "../constants";
 
 export function Sidebar() {
   return (
-    <aside id="sidebar" className="sidebar">
+    <aside className="hidden lg:block fixed z-20 inset-0 top-[80px] left-[max(0px,calc(63%-45rem))] right-auto w-60 overflow-y-auto space-y-8 pr-4">
       <nav className="sidebar__nav">
         <ul className="space-y-2">
           <li>
@@ -137,12 +138,12 @@ export function Sidebar() {
         </ul>
       </nav>
       <div className="hidden sm:block mt-auto space-y-4">
-        <a href="#bookmarks_bookmark_list" className="btn btn--primary">
-          <span>Bookmarks</span>
-        </a>
+        <button className="btn btn--primary w-full">
+          <Link to="/bookmarks">Bookmark</Link>
+        </button>
       </div>
 
-      <details className="cursor-pointer select-none rounded-xl" open>
+      {/* <details className="cursor-pointer select-none rounded-xl" open>
         <summary className="text__bold">Filters</summary>
         <form
           method="get"
@@ -162,7 +163,7 @@ export function Sidebar() {
             Apply
           </button>
         </form>
-      </details>
+      </details> */}
     </aside>
   );
 }

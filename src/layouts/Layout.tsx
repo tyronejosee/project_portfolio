@@ -10,17 +10,16 @@ interface LayoutProps {
 export function Layout({ children }: LayoutProps) {
   return (
     <>
-      <div className="styles">
-        <Navbar />
-        <main className="content__wrapper">
-          {/* <Intro /> */}
-          <section className="flex">
-            <Sidebar />
-            <div className="p-4 space-y-16">{children}</div>
-          </section>
+      <Navbar />
+      <section className="content__wrapper">
+        {/* <Intro /> */}
+        <Sidebar />
+        <main className="pl-0 lg:pl-60 flex flex-col min-h-[650px]">
+          {children}
+          {/* <Footer /> */}
         </main>
-        {/* <ScrollToTop /> */}
-      </div>
+      </section>
+      {/* <ScrollToTop /> */}
     </>
   );
 }

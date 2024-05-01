@@ -1,17 +1,17 @@
+import { Link } from "react-router-dom";
+
 export function Navbar() {
   return (
     <nav className="navbar">
       <section className="navbar__content">
-        <div className="w-1/3">
-          <div className="flex items-center space-x-2">
-            <figure className="bg-neutral-800 h-10 w-10 rounded-md flex items-center justify-center">
-              <img src="#logo" alt="Logo" className="w-6 h-6" />
-            </figure>
-            <a href="#landing_view" className="text__bold">
-              José Reyes
-            </a>
-          </div>
-        </div>
+        <Link
+          to="/"
+          className="flex items-center space-x-3 rtl:space-x-reverse"
+        >
+          <span className="self-center text-xl font-bold whitespace-nowrap dark:text-white">
+            José Reyes
+          </span>
+        </Link>
         <div className="w-1/3 relative">
           <form method="GET" action="#">
             <input
