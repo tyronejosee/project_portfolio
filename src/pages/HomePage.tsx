@@ -26,12 +26,12 @@ export function HomePage() {
           <span className="section__title">Projects</span>
         </h2>
         {activeProjects.map((project) => (
-          <article key={project.id} className="project__grid">
+          <article key={project.id} className="group project__grid">
             <figure className="project__img">
               <img
                 src={project.image}
                 alt={project.name}
-                className="object-cover w-full h-full"
+                className="object-cover w-full h-full group-hover:scale-110 transition-all ease-in-out"
               />
             </figure>
             <div className="overflow-x-clip">

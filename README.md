@@ -1,30 +1,30 @@
-# React + TypeScript + Vite
+# Project Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+<p align="center">
+  <a href="https://github.com/tyronejosee/project_porfolio#gh-light-mode-only" target="_blank">
+    <img src="./static/img/logo_light.svg" alt="logo-light" width="80">
+  </a>
+  <a href="https://github.com/tyronejosee/project_porfolio#gh-dark-mode-only" target="_blank">
+    <img src="./static/img/logo_dark.svg" alt="logo-dark" width="80">
+  </a>
+</p>
+<p align="center">
+Personal portfolio created with React, Vite, TypeScript, and Tailwind CSS.
+<p>
+<p align="center">
+  <a href="#"><strong>Pending Deploy ➡️</strong></a>
+</p>
+<p align="center">
+  <a href="https://www.typescriptlang.org/">
+    <img src="https://img.shields.io/badge/typescript-5.2.2-007ACC" alt="typescript-version">
+  </a>
+  <a href="https://react.dev/">
+    <img src="https://img.shields.io/badge/react-18.2.0-61DAFB" alt="react-version">
+  </a>
+  <a href="https://tailwindcss.com/">
+    <img src="https://img.shields.io/badge/tailwindcss-3.4.3-38B2AC" alt="tailwindcss-version">
+  </a>
+  <a href="https://vitejs.dev/">
+    <img src="https://img.shields.io/badge/vitejs-5.2.0-8A2BE2" alt="vitejs-version">
+  </a>
+</p>

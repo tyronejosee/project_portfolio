@@ -125,7 +125,7 @@
   }
 
   .project__img {
-    @apply rounded-xl overflow-hidden h-60;
+    @apply rounded-xl overflow-hidden h-60 border dark:border-neutral-500;
   }
 
   /* Experience */
@@ -144,7 +144,7 @@
 
   /* Sidebar */
   .sidebar {
-    @apply sticky top-14 flex flex-col z-0 w-0 sm:w-64 h-[640px] transition-transform duration-300 -translate-x-full sm:translate-x-0 bg-neutral-100 dark:bg-neutral-900 sm:p-4;
+    @apply sticky top-14 flex flex-col z-0 w-0 sm:w-72 h-[640px] transition-transform duration-300 -translate-x-full sm:translate-x-0 bg-neutral-100 dark:bg-neutral-900 sm:p-4;
   }
 
   .sidebar__avatar {
