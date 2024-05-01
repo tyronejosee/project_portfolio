@@ -1,15 +1,22 @@
-{% extends 'layouts/base.html' %}{% load i18n %}
-{% block title %}{% translate "Bookmarks" %}{% endblock %}
-{% block content %}
+{% extends 'layouts/base.html' %}{% load i18n %} {% block title %}{% translate
+"Bookmarks" %}{% endblock %} {% block content %}
 
 <section class="section">
   <!-- Bookmarks -->
   <h2 class="section__title">{% translate "Bookmarks" %}</h2>
   <section class="bookmark">
     {% for bookmark in bookmarks %}
-    <article class="bookmark__wrapper">
-      <a href="{% url 'bookmarks:bookmark_detail' pk=bookmark.pk %}" class="section">
-        <img src="{{ bookmark.image.url }}" alt="{{ bookmark.name }}" class="rounded-lg" loading="lazy">
+    <article class="box p-2 rounded-xl w-full h-full">
+      <a
+        href="{% url 'bookmarks:bookmark_detail' pk=bookmark.pk %}"
+        class="section"
+      >
+        <img
+          src="{{ bookmark.image.url }}"
+          alt="{{ bookmark.name }}"
+          class="rounded-lg"
+          loading="lazy"
+        />
         <div class="px-2 pb-2 space-y-4">
           <p class="text__bold block">{{ bookmark.name }}</p>
         </div>

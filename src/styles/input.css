@@ -133,15 +133,6 @@
     @apply box rounded-xl p-4 grid grid-cols-3 gap-4;
   }
 
-  /* Bookmark */
-  .bookmark {
-    @apply grid grid-cols-3 gap-2;
-  }
-
-  .bookmark__wrapper {
-    @apply box p-2 rounded-xl w-full h-full;
-  }
-
   /* Sidebar */
   .sidebar {
     @apply sticky top-14 flex flex-col z-0 w-0 sm:w-72 h-[640px] transition-transform duration-300 -translate-x-full sm:translate-x-0 bg-neutral-100 dark:bg-neutral-900 sm:p-4;

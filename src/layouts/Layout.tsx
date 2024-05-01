@@ -11,14 +11,14 @@ export function Layout({ children }: LayoutProps) {
   return (
     <>
       <Navbar />
-      <section className="content__wrapper">
+      <div className="content__wrapper">
         {/* <Intro /> */}
         <Sidebar />
         <main className="pl-0 lg:pl-60 flex flex-col min-h-[650px]">
           {children}
           {/* <Footer /> */}
         </main>
-      </section>
+      </div>
       {/* <ScrollToTop /> */}
     </>
   );

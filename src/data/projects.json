@@ -3,11 +3,11 @@
     "id": 1,
     "name": "New Store",
     "description": "New Store",
-    "image": "https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg",
+    "image": "https://i.imgur.com/M4v5xgf.png",
     "repository": "https://www.repository.com",
     "website": "https://www.website.com",
     "skills": ["Django", "Posgres"],
-    "status": false
+    "status": true
   },
   {
     "id": 2,
