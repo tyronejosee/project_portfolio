@@ -48,7 +48,7 @@
   }
 
   .styles {
-    @apply text text__base bg-neutral-100 dark:bg-neutral-900 selection:bg-neutral-500 selection:text-chartreuse-400 dark:selection:bg-chartreuse-400 dark:selection:text-neutral-800;
+    @apply text text__base bg-neutral-100 dark:bg-neutral-950 selection:bg-neutral-500 selection:text-chartreuse-400 dark:selection:bg-chartreuse-400 dark:selection:text-neutral-800;
   }
 
   .box {
@@ -119,11 +119,6 @@
     @apply h-[640px] rounded-xl p-4;
   }
 
-  /* Project */
-  .project__grid {
-    @apply box grid grid-cols-1 sm:grid-cols-2 gap-4;
-  }
-
   .project__img {
     @apply rounded-xl overflow-hidden h-60 border dark:border-neutral-500;
   }
@@ -152,11 +147,6 @@
 
   .sidebar__link--active {
     @apply flex items-center space-x-2 rounded-xl px-2 py-1 text-chartreuse-400 font-bold bg-neutral-800;
-  }
-
-  /* Navbar */
-  .navbar {
-    @apply max-w-screen-lg mx-auto bg-neutral-100 dark:bg-neutral-900 sticky top-0 z-50 p-4;
   }
 
   .navbar__content {

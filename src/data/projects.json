@@ -3,7 +3,7 @@
     "id": 1,
     "name": "New Store",
     "description": "New Store",
-    "image": "https://i.imgur.com/M4v5xgf.png",
+    "image": "",
     "repository": "https://www.repository.com",
     "website": "https://www.website.com",
     "skills": ["Django", "Posgres"],

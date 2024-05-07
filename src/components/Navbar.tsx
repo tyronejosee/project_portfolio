@@ -2,8 +2,8 @@ import { Link } from "react-router-dom";
 
 export function Navbar() {
   return (
-    <nav className="navbar">
-      <section className="navbar__content">
+    <nav className="max-w-screen-lg mx-auto sticky top-0 z-50 py-2 px-2 bg-neutral-50/80 dark:bg-neutral-950/80 backdrop-blur-md shadow-b shadow">
+      <div className="navbar__content">
         <Link
           to="/"
           className="flex items-center space-x-3 rtl:space-x-reverse"
@@ -12,13 +12,13 @@ export function Navbar() {
             José Reyes
           </span>
         </Link>
-        <div className="w-1/3 relative">
+        <search className="w-1/3 relative">
           <form method="GET" action="#">
             <input
               type="search"
               id="search-navbar"
-              className="h-10 p-4 bg-neutral-200 dark:bg-neutral-800 hover:bg-neutral-300 dark:hover:bg-neutral-700 focus:bg-neutral-300 dark:focus:bg-neutral-700 placeholder:text-neutral-600 w-full rounded-xl focus:outline-none focus:ring focus:ring-chartreuse-400 text-center focus:text-left focus:pl-12"
-              placeholder="What topic are you interested in?"
+              className="h-10 p-4 border dark:border-neutral-700 dark:hover:border-neutral-500 bg-neutral-200 dark:bg-neutral-900 hover:bg-neutral-300 dark:hover:bg-neutral-800 focus:bg-neutral-300 dark:focus:bg-neutral-700 placeholder:text-neutral-600 w-full rounded-xl focus:outline-none focus:ring focus:ring-chartreuse-400 text-center focus:text-left focus:pl-12 transition-all ease-in"
+              placeholder="Search..."
               name="search"
               // value=""
             />
@@ -39,26 +39,19 @@ export function Navbar() {
               </svg>
             </div>
           </form>
-        </div>
+        </search>
 
         <div className="flex space-x-4">
-          <div>
-            <label className="inline-flex items-center cursor-pointer">
-              <input type="checkbox" value="" className="sr-only peer" />
-              <div className="relative w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-chartreuse-400 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-chartreuse-800"></div>
-              <span className="ms-3 text-sm font-medium">Theme</span>
-            </label>
-          </div>
-          <a
-            href="#cv_link"
-            role="button"
-            target="_blank"
-            className="btn btn--primary"
-          >
-            Download CV
-          </a>
+          {/* <label className="inline-flex items-center cursor-pointer">
+            <input type="checkbox" value="" className="sr-only peer" />
+            <div className="relative w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-chartreuse-400 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-chartreuse-800"></div>
+          </label> */}
+          <button className="btn btn--secondary w-full">
+            <Link to="/bookmarks">Bookmark</Link>
+          </button>
+          <button className="btn btn--primary">Contact</button>
         </div>
-      </section>
+      </div>
     </nav>
   );
 }
