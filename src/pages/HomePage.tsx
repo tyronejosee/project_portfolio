@@ -9,19 +9,21 @@ export function HomePage() {
 
   return (
     <>
-      {/* About Section */}
-      <section className="">
-        <div className="relative max-w-screen-md mx-auto grid grid-cols-2 gap-8 h-[600px] items-center">
-          <figure className="overflow-hidden rounded-3xl">
+      {/* About Section max-w-screen-md */}
+      <section className="max-w-screen-md mx-auto">
+        <div className="grid grid-cols-2 gap-8 h-[600px] items-center">
+          <figure className="overflow-hidden rounded-3xl z-10">
             <img src="/profile.png" alt="Profile" />
           </figure>
-          <div>
-            <h2>
-              <span className="section__title">About</span>
+          <div className="z-10">
+            <h2 className="scroll-m-20 text-4xl font-bold tracking-tight">
+              About
             </h2>
-            <article className="bg-neutral-100 hover:bg-neutral-200 dark:bg-neutral-900 dark:hover:bg-neutral-800 rounded-xl p-4 hover:transition-all duration-300">
-              <h3 className="text__bold">Hi my name is {FULL_NAME}</h3>
-              <p>{ABOUT_ME}</p>
+            <article className="bg-neutral-50 hover:bg-neutral-100 dark:bg-neutral-900 dark:hover:bg-neutral-800 rounded-xl p-4 hover:transition-all duration-300">
+              <h3 className="text-lg font-medium leading-tight">
+                Hi my name is {FULL_NAME}
+              </h3>
+              <p className="text-neutral-500">{ABOUT_ME}</p>
 
               <a href="www.gmail.com"></a>
               <a href={GMAIL} className="sidebar__link" target="_blank">
@@ -64,22 +66,13 @@ export function HomePage() {
               </a>
             </article>
           </div>
-          <div className="h-[300px] overflow-hidden absolute inset-0 opacity-50">
-            <div className="bg-gradient-to-t from-neutral-50 from-10% to-transparent dark:bg-gradient-to-t dark:from-neutral-950 dark:from-10% dark:to-transparent absolute inset-0"></div>
-            <img
-              id="banner"
-              src="https://www.nintenderos.com/wp-content/uploads/2022/11/portada_chainsaw-man-92.jpg"
-              alt="Backgroound"
-              className="object-cover w-full h-full rounded-lg"
-            />
-          </div>
         </div>
       </section>
 
       {/* Project Section */}
       <section className="section">
-        <h2>
-          <span className="section__title">Projects</span>
+        <h2 className="scroll-m-20 text-4xl font-bold tracking-tight">
+          Projects
         </h2>
         {activeProjects.map((project) => (
           <article
@@ -87,8 +80,10 @@ export function HomePage() {
             className="group grid grid-cols-1 sm:grid-cols-2 gap-4 bg-neutral-100 hover:bg-neutral-200 dark:bg-neutral-900 border dark:border-neutral-800 dark:hover:border-neutral-500 rounded-xl p-2 hover:transition-all duration-300"
           >
             <div className="overflow-x-clip p-4">
-              <h3 className="text__bold">{project.name}</h3>
-              <p className="block">{project.description}</p>
+              <h3 className="text-lg font-medium leading-tight">
+                {project.name}
+              </h3>
+              <p className="text-neutral-500">{project.description}</p>
               <a
                 href={project.repository}
                 target="_blank"
@@ -129,8 +124,8 @@ export function HomePage() {
 
       {/* Experiences Section */}
       <section className="section">
-        <h2>
-          <span className="section__title">Experiences</span>
+        <h2 className="scroll-m-20 text-4xl font-bold tracking-tight">
+          Experiences
         </h2>
         <article className="experience__grid">
           <div>
@@ -153,8 +148,8 @@ export function HomePage() {
 
       {/* Skills Section */}
       <section className="section" id="skills-section">
-        <h2>
-          <span className="section__title">Skills</span>
+        <h2 className="scroll-m-20 text-4xl font-bold tracking-tight">
+          Skills
         </h2>
         <section className="skill__grid">
           {activeSkills.map((skill) => (
@@ -168,8 +163,8 @@ export function HomePage() {
 
       {/* Contact Section */}
       <section className="section">
-        <h2>
-          <span className="section__title">Contact</span>
+        <h2 className="scroll-m-20 text-4xl font-bold tracking-tight">
+          Contact
         </h2>
         <form method="POST" action="" className="form">
           <label className="form__label">

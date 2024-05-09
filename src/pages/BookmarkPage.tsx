@@ -5,7 +5,9 @@ export function BookmarkPage() {
 
   return (
     <section className="space-y-4">
-      <h2 className="section__title">Bookmarks</h2>
+      <h2 className="scroll-m-20 text-4xl font-bold tracking-tight">
+        Bookmarks
+      </h2>
       <div className="grid grid-cols-3 gap-4">
         {activeBookmarks.map((bookmark) => (
           <article className="group rounded-xl hover:transition-all duration-300 w-full h-full">
