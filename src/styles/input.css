@@ -81,31 +81,6 @@
     @apply w-4 h-4;
   }
 
-  /* Form */
-  .form {
-    @apply space-y-4;
-  }
-
-  .form__label {
-    @apply block w-full space-y-2;
-  }
-
-  .form__input {
-    @apply bg-neutral-200 dark:bg-neutral-800 hover:bg-neutral-300 dark:hover:bg-neutral-700 focus:bg-neutral-300 dark:focus:bg-neutral-700 placeholder:text-neutral-600 w-full rounded-xl focus:outline-none focus:ring focus:ring-chartreuse-400;
-  }
-
-  .form__input--text {
-    @apply h-10 p-4;
-  }
-
-  .form__input--textarea {
-    @apply h-40 p-4;
-  }
-
-  .form__input-file {
-    @apply block w-full file:mr-4 file:h-10 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-neutral-100 file:text-chartreuse-400 hover:file:bg-neutral-200;
-  }
-
   /* Section */
   .section {
     @apply space-y-4;
@@ -115,38 +90,8 @@
     @apply text-3xl font-bold text-neutral-800 dark:text-chartreuse-400;
   }
 
-  .intro {
-    @apply h-[640px] rounded-xl p-4;
-  }
-
   .project__img {
     @apply rounded-xl overflow-hidden h-60 border dark:border-neutral-500;
-  }
-
-  /* Experience */
-  .experience__grid {
-    @apply box rounded-xl p-4 grid grid-cols-3 gap-4;
-  }
-
-  /* Sidebar */
-  .sidebar {
-    @apply sticky top-14 flex flex-col z-0 w-0 sm:w-72 h-[640px] transition-transform duration-300 -translate-x-full sm:translate-x-0 bg-neutral-100 dark:bg-neutral-900 sm:p-4;
-  }
-
-  .sidebar__avatar {
-    @apply w-full h-full rounded-full;
-  }
-
-  .sidebar__nav {
-    @apply overflow-y-auto overflow-x-hidden;
-  }
-
-  .sidebar__link {
-    @apply flex px-4 py-2 font-medium hover:font-bold hover:bg-neutral-200 dark:hover:bg-neutral-800 dark:hover:text-chartreuse-400 items-center space-x-4 rounded-xl;
-  }
-
-  .sidebar__link--active {
-    @apply flex items-center space-x-2 rounded-xl px-2 py-1 text-chartreuse-400 font-bold bg-neutral-800;
   }
 
   .navbar__content {
