@@ -8,6 +8,9 @@ export function BookmarkPage() {
       <h2 className="scroll-m-20 text-4xl font-bold tracking-tight">
         Bookmarks
       </h2>
+      <nav className="bg-neutral-800 h-10">
+        <div className=""></div>
+      </nav>
       <div className="grid grid-cols-3 gap-4">
         {activeBookmarks.map((bookmark) => (
           <article className="group rounded-xl hover:transition-all duration-300 w-full h-full">

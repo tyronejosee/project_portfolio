@@ -1,5 +1,5 @@
 import { FULL_NAME, ABOUT_ME, GMAIL, GITHUB, LINKEDIN } from "../constants";
-
+import { Button } from "../components/Button";
 import projectsData from "../data/projects.json";
 import skillsData from "../data/skills.json";
 
@@ -82,6 +82,20 @@ export function HomePage() {
         <div className="text-center animate-pulse">⚡</div>
       </section>
 
+      {/* Skills Section */}
+      <section className="space-y-4">
+        <h2 className="scroll-m-20 text-4xl font-bold tracking-tight">
+          Skills
+        </h2>
+        <div className="grid grid-cols-4 sm:grid-cols-6 md:grid-cols-5 lg:grid-cols-12 gap-2">
+          {activeSkills.map((skill) => (
+            <article className="p-1 bg-neutral-100 dark:bg-neutral-900 dark:hover:bg-chartreuse-400 rounded-full hover-scale transform hover:scale-105 group">
+              <img src={skill.icon} alt={skill.name} width={80} height={80} />
+            </article>
+          ))}
+        </div>
+      </section>
+
       {/* Project Section */}
       <section className="section">
         <h2 className="scroll-m-20 text-4xl font-bold tracking-tight">
@@ -92,27 +106,28 @@ export function HomePage() {
             key={project.id}
             className="group grid grid-cols-1 sm:grid-cols-2 gap-4 bg-neutral-100 hover:bg-neutral-200 dark:bg-neutral-900 border dark:border-neutral-800 dark:hover:border-neutral-500 rounded-xl p-2 hover:transition-all duration-300"
           >
-            <div className="overflow-x-clip p-4">
+            <div className="overflow-x-clip p-4 space-y-4">
               <h3 className="text-lg font-medium leading-tight">
                 {project.name}
               </h3>
-              <p className="text-neutral-500">{project.description}</p>
+              <p className="text-sm text-neutral-500">{project.description}</p>
               <a
                 href={project.repository}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-neutral-500"
+                className="text-neutral-500 hover:underline"
               >
-                {project.repository}
+                Repository
               </a>
               <a
                 href={project.website}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-neutral-500"
+                className="text-neutral-500 hover:underline"
               >
-                {project.website}
+                Website
               </a>
+              <Button variant="primary">Website</Button>
               <div className="flex space-x-2">
                 {project.skills.map((skill, index) => (
                   <span
@@ -158,50 +173,6 @@ export function HomePage() {
           </div>
         </article>
       </section>
-
-      {/* Skills Section */}
-      <section className="space-y-4">
-        <h2 className="scroll-m-20 text-4xl font-bold tracking-tight">
-          Skills
-        </h2>
-        <section className="skill__grid">
-          {activeSkills.map((skill) => (
-            <article className="p-4 h-28 flex flex-col justify-center items-center bg-neutral-200 dark:bg-neutral-800 hover:bg-chartreuse-400 hover:text-neutral-900 rounded-xl hover-scale transform hover:scale-105 group space-y-2">
-              <img src={skill.icon} alt={skill.name} />
-              <span className="text-xs font-bold">{skill.name}</span>
-            </article>
-          ))}
-        </section>
-      </section>
-
-      {/* Contact Section */}
-      {/* <section className="section">
-        <h2 className="scroll-m-20 text-4xl font-bold tracking-tight">
-          Contact
-        </h2>
-        <form method="POST" action="" className="form">
-          <label className="form__label">
-            <p className="text__bold">Name:</p>
-            <input type="text" className="form__input form__input--text" />
-          </label>
-          <label className="form__label">
-            <p className="text__bold">Email:</p>
-            <input type="email" className="form__input form__input--text" />
-          </label>
-          <label className="form__label">
-            <p className="text__bold">Message:</p>
-            <input type="text" className="form__input form__input--textarea" />
-          </label>
-          <div className="flex space-x-4">
-            <button type="reset" className="btn btn--secondary w-full">
-              Clear Form
-            </button>
-            <button type="submit" className="btn btn--primary w-full">
-              Send Message
-            </button>
-          </div>
-        </form>
-      </section> */}
     </>
   );
 }

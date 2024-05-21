@@ -2,11 +2,17 @@
   {
     "id": 1,
     "name": "New Store",
-    "description": "New Store",
-    "image": "",
-    "repository": "https://www.repository.com",
-    "website": "https://www.website.com",
-    "skills": ["Django", "Posgres"],
+    "description": "Is a Django-based ecommerce platform with PostgreSQL and an appealing design using Tailwind CSS. Effortlessly create and manage your online store.",
+    "image": "/projects/fandom.webp",
+    "repository": "https://github.com/tyronejosee/project_new_store",
+    "website": "https://new-store-8vlz.onrender.com/",
+    "skills": [
+      "Python",
+      "Django",
+      "JQuery",
+      "Posgres",
+      "PayPal"
+    ],
     "status": true
   },
   {
@@ -16,7 +22,11 @@
     "image": "https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg",
     "repository": "https://github.com/awesome-app",
     "website": "https://www.awesome-app.com",
-    "skills": ["React Native", "Firebase"],
+    "skills": [
+      "React Native",
+      "Firebase",
+      "PayPal"
+    ],
     "status": false
   },
   {
@@ -26,7 +36,11 @@
     "image": "https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg",
     "repository": "https://github.com/cool-website",
     "website": "https://www.cool-website.com",
-    "skills": ["React", "Node.js", "MongoDB"],
+    "skills": [
+      "React",
+      "Node.js",
+      "MongoDB"
+    ],
     "status": false
   },
   {
@@ -36,7 +50,12 @@
     "image": "https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg",
     "repository": "https://github.com/e-commerce-platform",
     "website": "https://www.e-commerce-platform.com",
-    "skills": ["React", "Redux", "Node.js", "MongoDB"],
+    "skills": [
+      "React",
+      "Redux",
+      "Node.js",
+      "MongoDB"
+    ],
     "status": true
   },
   {
@@ -46,7 +65,11 @@
     "image": "https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg",
     "repository": "https://github.com/blog-website",
     "website": "https://www.blog-website.com",
-    "skills": ["React", "Node.js", "MongoDB"],
+    "skills": [
+      "React",
+      "Node.js",
+      "MongoDB"
+    ],
     "status": false
   },
   {
@@ -56,7 +79,10 @@
     "image": "https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg",
     "repository": "https://github.com/portfolio-website",
     "website": "https://www.portfolio-website.com",
-    "skills": ["React", "TypeScript"],
+    "skills": [
+      "React",
+      "TypeScript"
+    ],
     "status": true
   },
   {
@@ -66,7 +92,10 @@
     "image": "https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg",
     "repository": "https://github.com/mobile-game",
     "website": "",
-    "skills": ["Unity", "C#"],
+    "skills": [
+      "Unity",
+      "C#"
+    ],
     "status": true
   }
 ]
