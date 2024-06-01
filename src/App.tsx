@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 
 import { Layout } from "./layouts/Layout";
 import { HomePage } from "./pages/HomePage";
@@ -15,6 +15,7 @@ export function App() {
             <Route path="/" element={<HomePage />} />
             <Route path="/bookmarks" element={<BookmarkPage />} />
             <Route path="/example" element={<Example />} />
+            <Route path="/project_portfolio/" element={<Navigate to="/" />} />
           </Routes>
         </Layout>
       </BrowserRouter>

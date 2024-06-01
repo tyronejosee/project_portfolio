@@ -3,6 +3,9 @@ import { Button } from "../components/Button";
 import projectsData from "../data/projects.json";
 import skillsData from "../data/skills.json";
 
+import signature from "/svg/signature_example.svg";
+import profile from "/profile.png";
+
 export function HomePage() {
   const activeProjects = projectsData.filter((project) => project.status);
   const activeSkills = skillsData.filter((skill) => skill.status);
@@ -20,11 +23,7 @@ export function HomePage() {
               Hello, Im <span className="text-chartreuse-500">{FULL_NAME}</span>
             </h2>
             <p className="text-neutral-500">{ABOUT_ME}</p>
-            <img
-              src="/svg/signature_example.svg"
-              alt="Signature"
-              className="w-52"
-            />
+            <img src={signature} alt="Signature" className="w-52" />
             <div className="flex">
               <a
                 href={GMAIL}
@@ -76,7 +75,7 @@ export function HomePage() {
             </div>
           </article>
           <figure className="overflow-hidden rounded-3xl border dark:border-neutral-800 dark:hover:border-neutral-500 hover:shadow-2xl dark:hover:shadow-chartreuse-500 transition-all ease-in-out">
-            <img src="/profile.png" alt="Profile" />
+            <img src={profile} alt="Profile" />
           </figure>
         </div>
         <div className="text-center animate-pulse">⚡</div>
