@@ -78,7 +78,7 @@ export function HomePage() {
             <img src={profile} alt="Profile" />
           </figure>
         </div>
-        <div className="text-center animate-pulse">⚡</div>
+        <div className="text-center animate-pulse">📁</div>
       </section>
 
       {/* Skills Section */}
