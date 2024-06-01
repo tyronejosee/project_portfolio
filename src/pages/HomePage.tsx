@@ -138,11 +138,11 @@ export function HomePage() {
                 ))}
               </div>
             </div>
-            <figure className="project__img">
+            <figure className="rounded-xl overflow-hidden border dark:border-neutral-500 aspect-video">
               <img
-                src={project.image}
+                src={`${import.meta.env.BASE_URL}${project.image}`}
                 alt={project.name}
-                className="object-cover w-full h-full group-hover:scale-110 transition-all ease-in-out"
+                className="group-hover:scale-110 transition-all ease-in-out"
               />
             </figure>
           </article>

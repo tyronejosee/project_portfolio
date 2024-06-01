@@ -5,7 +5,9 @@
     "website": "https://openvpn.net/",
     "image": "https://i.imgur.com/zsFrF3T.jpg",
     "category": "Software",
-    "tags": ["VPN"],
+    "tags": [
+      "VPN"
+    ],
     "status": true
   },
   {
@@ -14,7 +16,10 @@
     "website": "https://robomongo.org/",
     "image": "https://i.imgur.com/ZoZAEry.jpg",
     "category": "Softwares",
-    "tags": ["Databases", "MongoDB"],
+    "tags": [
+      "Databases",
+      "MongoDB"
+    ],
     "status": true
   },
   {
@@ -23,7 +28,13 @@
     "website": "https://freesets.vercel.app/",
     "image": "https://i.imgur.com/nwx4xFg.jpg",
     "category": "Resources",
-    "tags": ["Icons", "Illustrations", "Photos", "Fonts", "Videos"],
+    "tags": [
+      "Icons",
+      "Illustrations",
+      "Photos",
+      "Fonts",
+      "Videos"
+    ],
     "status": true
   },
   {
@@ -32,7 +43,138 @@
     "website": "https://dbeaver.io/",
     "image": "https://i.imgur.com/PYNcd1l.jpg",
     "category": "Softwares",
-    "tags": ["Databases", "GUI"],
+    "tags": [
+      "Databases",
+      "GUI"
+    ],
+    "status": true
+  },
+  {
+    "id": "f786801d-0e38-4915-9794-9ec1d0e11fc5",
+    "title": "Dexie.js",
+    "website": "https://dexie.org/",
+    "image": "/bookmarks/dexie.webp",
+    "category": "Database",
+    "tags": [
+      "Web Storage",
+      "JavaScript",
+      "Library"
+    ],
+    "status": true
+  },
+  {
+    "id": "f786801d-0e38-4915-9794-9ec1d0e11fc5",
+    "title": "Webflow",
+    "website": "https://webflow.com/",
+    "image": "/bookmarks/webflow.webp",
+    "category": "Web",
+    "tags": [
+      "Design",
+      "Builder",
+      "No-Code"
+    ],
+    "status": true
+  },
+  {
+    "id": "f786801d-0e38-4915-9794-9ec1d0e11fc5",
+    "title": "The Algorithms",
+    "website": "https://the-algorithms.com/",
+    "image": "/bookmarks/thealgorithms.webp",
+    "category": "Programming",
+    "tags": [
+      "Data Structures",
+      "Algorithms"
+    ],
+    "status": true
+  },
+  {
+    "id": "f786801d-0e38-4915-9794-9ec1d0e11fc5",
+    "title": "Story Book",
+    "website": "https://storybook.js.org/",
+    "image": "/bookmarks/storybook.webp",
+    "category": "UI",
+    "tags": [
+      "Component Library",
+      "Design Systems",
+      "Development"
+    ],
+    "status": true
+  },
+  {
+    "id": "f786801d-0e38-4915-9794-9ec1d0e11fc5",
+    "title": "Warp",
+    "website": "https://www.warp.dev/",
+    "image": "/bookmarks/warp.webp",
+    "category": "Programming",
+    "tags": [
+      "Terminal",
+      "Web Development",
+      "AI"
+    ],
+    "status": true
+  },
+  {
+    "id": "f786801d-0e38-4915-9794-9ec1d0e11fc5",
+    "title": "Trading View",
+    "website": "https://www.tradingview.com/lightweight-charts/",
+    "image": "/bookmarks/tradingview.webp",
+    "category": "Library",
+    "tags": [
+      "Components",
+      "Trading",
+      "UI"
+    ],
+    "status": true
+  },
+  {
+    "id": "f786801d-0e38-4915-9794-9ec1d0e11fc5",
+    "title": "Gitbook",
+    "website": "https://www.gitbook.com/",
+    "image": "/bookmarks/gitbook.webp",
+    "category": "Documentation",
+    "tags": [
+      "Writing",
+      "Collaboration"
+    ],
+    "status": true
+  },
+  {
+    "id": "f786801d-0e38-4915-9794-9ec1d0e11fc5",
+    "title": "Serverless",
+    "website": "https://www.serverless.com/",
+    "image": "/bookmarks/serverless.webp",
+    "category": "Cloud",
+    "tags": [
+      "Serverless",
+      "AWS",
+      "Azure"
+    ],
+    "status": true
+  },
+  {
+    "id": "f786801d-0e38-4915-9794-9ec1d0e11fc5",
+    "title": "CodePen",
+    "website": "https://codepen.io/",
+    "image": "/bookmarks/codepen.webp",
+    "category": "Web",
+    "tags": [
+      "Frontend",
+      "CSS",
+      "JavaScript"
+    ],
+    "status": true
+  },
+  {
+    "id": "f786801d-0e38-4915-9794-9ec1d0e11fc5",
+    "title": "JSON Data AI",
+    "website": "https://www.jsondataai.com/",
+    "image": "/bookmarks/jsondataai.webp",
+    "category": "AI",
+    "tags": [
+      "Frontend",
+      "CSS",
+      "JavaScript"
+    ],
     "status": true
   }
 ]

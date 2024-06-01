@@ -12,10 +12,12 @@ export function App() {
         <Layout>
           <Routes>
             {/* Main paths */}
-            <Route path="/" element={<HomePage />} />
-            <Route path="/bookmarks" element={<BookmarkPage />} />
-            <Route path="/example" element={<Example />} />
-            <Route path="/project_portfolio/" element={<Navigate to="/" />} />
+            <Route path="/project_portfolio/" element={<HomePage />} />
+            <Route
+              path="/project_portfolio/bookmarks"
+              element={<BookmarkPage />}
+            />
+            <Route path="/project_portfolio/example" element={<Example />} />
           </Routes>
         </Layout>
       </BrowserRouter>

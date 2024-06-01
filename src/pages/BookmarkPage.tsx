@@ -17,7 +17,7 @@ export function BookmarkPage() {
             <a href={bookmark.website} target="_blank" className="space-y-2">
               <figure className="aspect-video dark:bg-neutral-700 rounded-lg border dark:border-neutral-700 overflow-hidden">
                 <img
-                  src={bookmark.image}
+                  src={`${import.meta.env.BASE_URL}${bookmark.image}`}
                   alt={bookmark.title}
                   className="group-hover:scale-110 transition-all ease-in"
                   loading="lazy"
@@ -27,9 +27,14 @@ export function BookmarkPage() {
                 <p className="font-medium">{bookmark.title}</p>
                 <p className="text-sm text-neutral-500">{bookmark.category}</p>
                 <div>
-                  <span className="text-xs font-medium me-2 px-2.5 py-0.5 border border-neutral-700 rounded">
-                    Pink
-                  </span>
+                  {bookmark.tags.map((tag) => (
+                    <span
+                      key={tag}
+                      className="text-xs font-medium me-2 px-2.5 py-0.5 border border-neutral-700 rounded"
+                    >
+                      {tag}
+                    </span>
+                  ))}
                 </div>
               </div>
             </a>

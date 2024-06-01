@@ -90,10 +90,6 @@
     @apply text-3xl font-bold text-neutral-800 dark:text-chartreuse-400;
   }
 
-  .project__img {
-    @apply rounded-xl overflow-hidden h-60 border dark:border-neutral-500;
-  }
-
   .navbar__content {
     @apply flex items-center justify-between;
   }
