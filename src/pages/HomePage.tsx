@@ -4,7 +4,8 @@ import projectsData from "../data/projects.json";
 import skillsData from "../data/skills.json";
 
 import signature from "/svg/signature_example.svg";
-import profile from "/profile.png";
+// import profile from "/profile.png";
+// import scrollDown from "/scroll-down.gif";
 
 export function HomePage() {
   const activeProjects = projectsData.filter((project) => project.status);
@@ -13,8 +14,8 @@ export function HomePage() {
   return (
     <>
       {/* About Section */}
-      <section>
-        <div className="grid grid-cols-2 gap-8 h-[600px] items-center">
+      <section className="">
+        <div className="grid grid-cols-2 gap-8 h-screen items-center relative">
           <article className="z-10 space-y-2">
             <span className="text-lg font-medium leading-tight">
               Portfolio / About
@@ -75,11 +76,13 @@ export function HomePage() {
             </div>
           </article>
           <figure className="overflow-hidden rounded-3xl border dark:border-neutral-800 dark:hover:border-neutral-500 hover:shadow-2xl dark:hover:shadow-chartreuse-500 transition-all ease-in-out">
-            <img src={profile} alt="Profile" />
+            <img src="/profile.png" alt="Profile" />
           </figure>
         </div>
-        <div className="text-center animate-pulse">📁</div>
       </section>
+      <div className="absolute mx-auto animate-pulse">
+        <img className="h-12" src="/scroll-arrows.gif" alt="Scroll Down" />
+      </div>
 
       {/* Skills Section */}
       <section className="space-y-4">
