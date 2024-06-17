@@ -9,7 +9,7 @@ interface LayoutProps {
 export function Layout({ children }: LayoutProps) {
   return (
     <>
-      <div className="fixed left-0 h-full border-r border-neutral-800 flex items-center justify-center">
+      <div className="fixed left-0 h-full flex items-center justify-center">
         <div className="transform -rotate-90 text-lg font-medium leading-tight hover:text-white">
           Portfolio
         </div>

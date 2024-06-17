@@ -19,7 +19,7 @@
     "id": 2,
     "name": "Awesome App",
     "description": "An awesome mobile application.",
-    "image": "https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg",
+    "image": "/projects/fandom.webp",
     "repository": "https://github.com/awesome-app",
     "website": "https://www.awesome-app.com",
     "skills": [
@@ -33,7 +33,7 @@
     "id": 3,
     "name": "Cool Website",
     "description": "A cool website for a client.",
-    "image": "https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg",
+    "image": "/projects/fandom.webp",
     "repository": "https://github.com/cool-website",
     "website": "https://www.cool-website.com",
     "skills": [
@@ -47,7 +47,7 @@
     "id": 4,
     "name": "E-commerce Platform",
     "description": "An e-commerce platform for selling products online.",
-    "image": "https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg",
+    "image": "/projects/fandom.webp",
     "repository": "https://github.com/e-commerce-platform",
     "website": "https://www.e-commerce-platform.com",
     "skills": [
@@ -62,7 +62,7 @@
     "id": 5,
     "name": "Blog Website",
     "description": "A blog website for sharing articles and stories.",
-    "image": "https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg",
+    "image": "/projects/fandom.webp",
     "repository": "https://github.com/blog-website",
     "website": "https://www.blog-website.com",
     "skills": [
@@ -76,7 +76,7 @@
     "id": 6,
     "name": "Portfolio Website",
     "description": "A portfolio website showcasing projects and skills.",
-    "image": "https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg",
+    "image": "/projects/fandom.webp",
     "repository": "https://github.com/portfolio-website",
     "website": "https://www.portfolio-website.com",
     "skills": [
@@ -89,7 +89,7 @@
     "id": 7,
     "name": "Mobile Game",
     "description": "A mobile game for Android and iOS platforms.",
-    "image": "https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg",
+    "image": "/projects/fandom.webp",
     "repository": "https://github.com/mobile-game",
     "website": "",
     "skills": [

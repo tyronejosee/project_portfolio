@@ -42,11 +42,6 @@
 }
 
 @layer components {
-  /* Main */
-  .content__wrapper {
-    @apply max-w-screen-lg flex flex-col lg:mx-auto lg:my-auto;
-  }
-
   .styles {
     @apply text text__base bg-neutral-100 dark:bg-neutral-950 selection:bg-neutral-500 selection:text-chartreuse-400 dark:selection:bg-chartreuse-400 dark:selection:text-neutral-800;
   }
@@ -105,23 +100,6 @@
 
   .btn--secondary {
     @apply bg-neutral-200 hover:bg-neutral-300 dark:bg-neutral-800 dark:hover:bg-neutral-700 outline-none;
-  }
-
-  /* Skill */
-  .skill {
-    @apply p-4;
-  }
-
-  .skill__grid {
-    @apply grid grid-cols-4 sm:grid-cols-6 md:grid-cols-5 lg:grid-cols-6 gap-4;
-  }
-
-  .skill__icon {
-    @apply w-12 h-12;
-  }
-
-  .skill__name {
-    @apply p-4;
   }
 
   /* Animations [hover-scale transform hover:scale-105] */
