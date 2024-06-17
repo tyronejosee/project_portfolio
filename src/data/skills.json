@@ -2,61 +2,61 @@
   {
     "id": 1,
     "name": "Ubuntu",
-    "icon": "/skills/ubuntu.svg",
+    "icon": "skills/ubuntu.svg",
     "status": true
   },
   {
     "id": 2,
     "name": "Python",
-    "icon": "/skills/python.svg",
+    "icon": "skills/python.svg",
     "status": true
   },
   {
     "id": 3,
     "name": "Django",
-    "icon": "/skills/django.svg",
+    "icon": "skills/django.svg",
     "status": true
   },
   {
     "id": 4,
     "name": "JavaScript",
-    "icon": "/skills/javascript.svg",
+    "icon": "skills/javascript.svg",
     "status": true
   },
   {
     "id": 5,
     "name": "React",
-    "icon": "/skills/react.svg",
+    "icon": "skills/react.svg",
     "status": true
   },
   {
     "id": 5,
     "name": "Next.js",
-    "icon": "/skills/nextjs.svg",
+    "icon": "skills/nextjs.svg",
     "status": true
   },
   {
     "id": 6,
     "name": "Postman",
-    "icon": "/skills/postman.svg",
+    "icon": "skills/postman.svg",
     "status": true
   },
   {
     "id": 7,
     "name": "Prometheus",
-    "icon": "/skills/prometheus.svg",
+    "icon": "skills/prometheus.svg",
     "status": true
   },
   {
     "id": 8,
     "name": "Grafana",
-    "icon": "/skills/grafana.svg",
+    "icon": "skills/grafana.svg",
     "status": true
   },
   {
     "id": 9,
     "name": "Terraform",
-    "icon": "/skills/terraform.svg",
+    "icon": "skills/terraform.svg",
     "status": true
   }
 ]

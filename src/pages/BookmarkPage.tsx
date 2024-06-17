@@ -2,19 +2,19 @@ import { useState } from "react";
 import bookmarksData from "../data/bookmarks.json";
 
 export function BookmarkPage() {
-  const [selectedTag, setSelectedTag] = useState(null);
-  const [searchTerm, setSearchTerm] = useState("");
+  const [selectedTag, setSelectedTag] = useState<string | null>(null);
+  const [searchTerm, setSearchTerm] = useState<string>("");
 
   const activeBookmarks = bookmarksData.filter((bookmark) => bookmark.status);
-  const tags = [
+  const tags: string[] = [
     ...new Set(activeBookmarks.flatMap((bookmark) => bookmark.tags)),
   ];
 
-  const handleTagClick = (tag) => {
+  const handleTagClick = (tag: string | null) => {
     setSelectedTag(tag);
   };
 
-  const handleSearchChange = (event) => {
+  const handleSearchChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setSearchTerm(event.target.value);
   };
 

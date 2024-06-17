@@ -3,7 +3,7 @@
     "id": 1,
     "name": "New Store sssssssss",
     "description": "Is a Django-based ecommerce platform with PostgreSQL and an appealing design using Tailwind CSS. Effortlessly create and manage your online store.",
-    "image": "/projects/fandom.webp",
+    "image": "projects/fandom.webp",
     "repository": "https://github.com/tyronejosee/project_new_store",
     "website": "https://new-store-8vlz.onrender.com/",
     "skills": [
@@ -19,7 +19,7 @@
     "id": 2,
     "name": "Awesome App",
     "description": "An awesome mobile application.",
-    "image": "/projects/fandom.webp",
+    "image": "projects/fandom.webp",
     "repository": "https://github.com/awesome-app",
     "website": "https://www.awesome-app.com",
     "skills": [
@@ -33,7 +33,7 @@
     "id": 3,
     "name": "Cool Website",
     "description": "A cool website for a client.",
-    "image": "/projects/fandom.webp",
+    "image": "projects/fandom.webp",
     "repository": "https://github.com/cool-website",
     "website": "https://www.cool-website.com",
     "skills": [
@@ -47,7 +47,7 @@
     "id": 4,
     "name": "E-commerce Platform",
     "description": "An e-commerce platform for selling products online.",
-    "image": "/projects/fandom.webp",
+    "image": "projects/fandom.webp",
     "repository": "https://github.com/e-commerce-platform",
     "website": "https://www.e-commerce-platform.com",
     "skills": [
@@ -62,7 +62,7 @@
     "id": 5,
     "name": "Blog Website",
     "description": "A blog website for sharing articles and stories.",
-    "image": "/projects/fandom.webp",
+    "image": "projects/fandom.webp",
     "repository": "https://github.com/blog-website",
     "website": "https://www.blog-website.com",
     "skills": [
@@ -76,7 +76,7 @@
     "id": 6,
     "name": "Portfolio Website",
     "description": "A portfolio website showcasing projects and skills.",
-    "image": "/projects/fandom.webp",
+    "image": "projects/fandom.webp",
     "repository": "https://github.com/portfolio-website",
     "website": "https://www.portfolio-website.com",
     "skills": [
@@ -89,7 +89,7 @@
     "id": 7,
     "name": "Mobile Game",
     "description": "A mobile game for Android and iOS platforms.",
-    "image": "/projects/fandom.webp",
+    "image": "projects/fandom.webp",
     "repository": "https://github.com/mobile-game",
     "website": "",
     "skills": [

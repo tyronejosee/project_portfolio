@@ -53,7 +53,7 @@
     "id": "f786801d-0e38-4915-9794-9ec1d0e11fc5",
     "title": "Dexie.js",
     "website": "https://dexie.org/",
-    "image": "/bookmarks/dexie.webp",
+    "image": "bookmarks/dexie.webp",
     "category": "Database",
     "tags": [
       "Web Storage",
@@ -66,7 +66,7 @@
     "id": "f786801d-0e38-4915-9794-9ec1d0e11fc5",
     "title": "Webflow",
     "website": "https://webflow.com/",
-    "image": "/bookmarks/webflow.webp",
+    "image": "bookmarks/webflow.webp",
     "category": "Web",
     "tags": [
       "Design",
@@ -79,7 +79,7 @@
     "id": "f786801d-0e38-4915-9794-9ec1d0e11fc5",
     "title": "The Algorithms",
     "website": "https://the-algorithms.com/",
-    "image": "/bookmarks/thealgorithms.webp",
+    "image": "bookmarks/thealgorithms.webp",
     "category": "Programming",
     "tags": [
       "Data Structures",
@@ -91,7 +91,7 @@
     "id": "f786801d-0e38-4915-9794-9ec1d0e11fc5",
     "title": "Story Book",
     "website": "https://storybook.js.org/",
-    "image": "/bookmarks/storybook.webp",
+    "image": "bookmarks/storybook.webp",
     "category": "UI",
     "tags": [
       "Component Library",
@@ -104,7 +104,7 @@
     "id": "f786801d-0e38-4915-9794-9ec1d0e11fc5",
     "title": "Warp",
     "website": "https://www.warp.dev/",
-    "image": "/bookmarks/warp.webp",
+    "image": "bookmarks/warp.webp",
     "category": "Programming",
     "tags": [
       "Terminal",
@@ -117,7 +117,7 @@
     "id": "f786801d-0e38-4915-9794-9ec1d0e11fc5",
     "title": "Trading View",
     "website": "https://www.tradingview.com/lightweight-charts/",
-    "image": "/bookmarks/tradingview.webp",
+    "image": "bookmarks/tradingview.webp",
     "category": "Library",
     "tags": [
       "Components",
@@ -130,7 +130,7 @@
     "id": "f786801d-0e38-4915-9794-9ec1d0e11fc5",
     "title": "Gitbook",
     "website": "https://www.gitbook.com/",
-    "image": "/bookmarks/gitbook.webp",
+    "image": "bookmarks/gitbook.webp",
     "category": "Documentation",
     "tags": [
       "Writing",
@@ -142,7 +142,7 @@
     "id": "f786801d-0e38-4915-9794-9ec1d0e11fc5",
     "title": "Serverless",
     "website": "https://www.serverless.com/",
-    "image": "/bookmarks/serverless.webp",
+    "image": "bookmarks/serverless.webp",
     "category": "Cloud",
     "tags": [
       "Serverless",
@@ -155,7 +155,7 @@
     "id": "f786801d-0e38-4915-9794-9ec1d0e11fc5",
     "title": "CodePen",
     "website": "https://codepen.io/",
-    "image": "/bookmarks/codepen.webp",
+    "image": "bookmarks/codepen.webp",
     "category": "Web",
     "tags": [
       "Frontend",
@@ -168,7 +168,7 @@
     "id": "f786801d-0e38-4915-9794-9ec1d0e11fc5",
     "title": "JSON Data AI",
     "website": "https://www.jsondataai.com/",
-    "image": "/bookmarks/jsondataai.webp",
+    "image": "bookmarks/jsondataai.webp",
     "category": "AI",
     "tags": [
       "Frontend",

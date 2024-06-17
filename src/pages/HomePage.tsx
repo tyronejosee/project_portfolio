@@ -73,8 +73,8 @@ export function HomePage() {
               </a>
             </div>
           </article>
-          <figure className="overflow-hidden rounded-3xl border dark:border-neutral-800 dark:hover:border-neutral-500 hover:shadow-2xl dark:hover:shadow-chartreuse-500 transition-all ease-in-out">
-            <img src="/profile.png" alt="Profile" />
+          <figure className="overflow-hidden rounded-full border dark:border-neutral-800 dark:hover:border-neutral-500 hover:shadow-2xl dark:hover:shadow-chartreuse-500 transition-all ease-in-out">
+            <img src="/images/profile.webp" alt="Profile" />
           </figure>
         </div>
         <div className="flex justify-center animate-pulse opacity-80">
