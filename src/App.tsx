@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Layout } from "./layouts/Layout";
 import { HomePage } from "./pages/HomePage";
 import { BookmarkPage } from "./pages/BookmarkPage";
+import { ButtonScrollTop } from "./components/ButtonScrollTop";
 import { Example } from "./components/Example";
 
 export function App() {
@@ -16,6 +17,7 @@ export function App() {
             <Route path="/bookmarks" element={<BookmarkPage />} />
             <Route path="/example" element={<Example />} />
           </Routes>
+          <ButtonScrollTop />
         </Layout>
       </BrowserRouter>
     </>

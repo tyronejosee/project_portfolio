@@ -8,11 +8,12 @@ pnpm-debug.log*
 lerna-debug.log*
 
 node_modules
+desktop.ini
 dist
 dist-ssr
 *.local
 
-# Styles
+# TailwindCSS
 src/styles/output.css
 
 # Editor directories and files
