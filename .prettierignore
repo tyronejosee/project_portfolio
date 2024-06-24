@@ -1,7 +1,7 @@
-build/
 node_modules/
+package-lock.json
+package.json
+yarn.lock
+build/
 internals/generators/
 internals/scripts/
-package-lock.json
-yarn.lock
-package.json

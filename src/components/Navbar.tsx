@@ -18,10 +18,16 @@ export function Navbar() {
         </Link>
         <div className="flex items-center space-x-4">
           <Link
-            className="inline-flex items-baseline hover:underline font-medium bg-transparent"
+            className="inline-flex items-baseline transition-colors hover:text-neutral-100/80 text-neutral-100/60 bg-transparent"
             to="/bookmarks"
           >
             Bookmark
+          </Link>
+          <Link
+            className="inline-flex items-baseline transition-colors hover:text-neutral-100/80 text-neutral-100/60 bg-transparent"
+            to="/repositories"
+          >
+            Repositories
           </Link>
           <Bars2Icon className="w-6 h-6" />
         </div>

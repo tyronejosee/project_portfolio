@@ -13,9 +13,6 @@ dist
 dist-ssr
 *.local
 
-# TailwindCSS
-src/styles/output.css
-
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

@@ -1,5 +1,6 @@
-import { ReactNode, useEffect } from "react";
+import { ReactNode, useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
+import { ChevronUpIcon } from "@heroicons/react/24/solid";
 
 import { Navbar } from "../components/Navbar";
 
@@ -18,11 +19,18 @@ function ScrollToTop() {
 }
 
 export function Layout({ children }: LayoutProps) {
+  const { pathname } = useLocation();
+  const [currentPath, setCurrentPath] = useState(pathname);
+
+  useEffect(() => {
+    setCurrentPath(pathname);
+  }, [pathname]);
+
   return (
     <>
-      <div className="hidden xl:flex fixed left-0 h-full items-center justify-center">
+      <div className="hidden xl:flex fixed left-0 h-full flex-col items-center justify-center">
         <div className="transform -rotate-90 text-lg font-medium leading-tight hover:text-white">
-          Portfolio
+          {currentPath === "/" ? "" : currentPath}
         </div>
       </div>
       <Navbar />

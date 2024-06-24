@@ -1,5 +1,3 @@
-# Project Portfolio
-
 <p align="center">
   <a href="https://github.com/tyronejosee/project_porfolio#gh-light-mode-only" target="_blank">
     <img src="./public/svg/logo_light.svg" alt="logo-light" width="80">
@@ -12,7 +10,7 @@
 Personal portfolio created with React, Vite, TypeScript, and Tailwind CSS.
 <p>
 <p align="center">
-  <a href="#"><strong>Pending Deploy ➡️</strong></a>
+  <a href="https://project-portfolio-amy.pages.dev/"><strong>Deploy on Cloudflare ➡️</strong></a>
 </p>
 <p align="center">
   <a href="https://www.typescriptlang.org/">
@@ -28,6 +26,8 @@ Personal portfolio created with React, Vite, TypeScript, and Tailwind CSS.
     <img src="https://img.shields.io/badge/vitejs-5.2.0-8A2BE2" alt="vitejs-version">
   </a>
 </p>
+
+# Project Portfolio
 
 ## Github Pages Config
 
