@@ -59,28 +59,32 @@ export function BookmarkPage() {
           </div>
         </form>
       </search>
-      <nav className="space-x-2 space-y-2">
-        <button
-          onClick={() => handleTagClick(null)}
-          className={`ml-2 bg-neutral-800 text-xs font-medium px-2.5 py-0.5 border border-neutral-700 rounded ${
-            !selectedTag ? "bg-chartreuse-500 text-neutral-800" : ""
-          }`}
-        >
-          All
-        </button>
-        {tags.map((tag) => (
+      <nav>
+        <details className="bg-neutral-900 p-2 space-x-2 space-y-2 rounded-lg">
+          <summary className="font-medium">Tags</summary>
+          <hr className="border-neutral-700 pb-2" />
           <button
-            key={tag}
-            onClick={() => handleTagClick(tag)}
-            className={`text-xs font-medium px-2.5 py-0.5 border border-neutral-700 rounded ${
-              selectedTag === tag ? "bg-chartreuse-500 text-neutral-800" : ""
+            onClick={() => handleTagClick(null)}
+            className={`ml-2 bg-white text-xs font-medium px-2.5 py-0.5 border border-neutral-700 rounded ${
+              !selectedTag ? "bg-chartreuse-500 text-neutral-800" : ""
             }`}
           >
-            {tag}
+            All
           </button>
-        ))}
+          {tags.map((tag) => (
+            <button
+              key={tag}
+              onClick={() => handleTagClick(tag)}
+              className={`text-xs font-medium px-2.5 py-0.5 border border-neutral-700 rounded ${
+                selectedTag === tag ? "bg-chartreuse-500 text-neutral-800" : ""
+              }`}
+            >
+              {tag}
+            </button>
+          ))}
+        </details>
       </nav>
-      <div className="grid grid-cols-3 gap-4">
+      <section className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
         {filteredBookmarks.map((bookmark) => (
           <article
             key={bookmark.id}
@@ -112,7 +116,7 @@ export function BookmarkPage() {
             </a>
           </article>
         ))}
-      </div>
+      </section>
     </section>
   );
 }

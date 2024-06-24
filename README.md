@@ -2,10 +2,10 @@
 
 <p align="center">
   <a href="https://github.com/tyronejosee/project_porfolio#gh-light-mode-only" target="_blank">
-    <img src="./static/img/logo_light.svg" alt="logo-light" width="80">
+    <img src="./public/svg/logo_light.svg" alt="logo-light" width="80">
   </a>
   <a href="https://github.com/tyronejosee/project_porfolio#gh-dark-mode-only" target="_blank">
-    <img src="./static/img/logo_dark.svg" alt="logo-dark" width="80">
+    <img src="./public/svg/logo_dark.svg" alt="logo-dark" width="80">
   </a>
 </p>
 <p align="center">

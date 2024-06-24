@@ -1,6 +1,6 @@
 [
   {
-    "id": "f786801d-0e38-4915-9794-9ec1d0e11fc5",
+    "id": "e56aabdb-0a36-44d2-a9e9-dd3aa6a70a47",
     "title": "OPENVPN",
     "website": "https://openvpn.net/",
     "image": "https://i.imgur.com/zsFrF3T.jpg",
@@ -11,7 +11,7 @@
     "status": true
   },
   {
-    "id": "f786801d-0e38-4915-9794-9ec1d0e11fc5",
+    "id": "69d145e2-d25c-443a-8aa5-750e46ee0a51",
     "title": "Robo 3T",
     "website": "https://robomongo.org/",
     "image": "https://i.imgur.com/ZoZAEry.jpg",
@@ -23,7 +23,7 @@
     "status": true
   },
   {
-    "id": "f786801d-0e38-4915-9794-9ec1d0e11fc5",
+    "id": "2380eeeb-92c1-4921-80a7-9dec5aa9ab15",
     "title": "Freesets",
     "website": "https://freesets.vercel.app/",
     "image": "https://i.imgur.com/nwx4xFg.jpg",
@@ -38,7 +38,7 @@
     "status": true
   },
   {
-    "id": "f786801d-0e38-4915-9794-9ec1d0e11fc5",
+    "id": "aa45a7ae-1503-4ce0-a1ba-666b7fb1d072",
     "title": "DBeaver Community",
     "website": "https://dbeaver.io/",
     "image": "https://i.imgur.com/PYNcd1l.jpg",
@@ -50,7 +50,7 @@
     "status": true
   },
   {
-    "id": "f786801d-0e38-4915-9794-9ec1d0e11fc5",
+    "id": "03d175d5-8bef-4f46-a537-c7244a83f344",
     "title": "Dexie.js",
     "website": "https://dexie.org/",
     "image": "bookmarks/dexie.webp",
@@ -63,7 +63,7 @@
     "status": true
   },
   {
-    "id": "f786801d-0e38-4915-9794-9ec1d0e11fc5",
+    "id": "454e6401-79d5-46ee-a28c-33119b2395e9",
     "title": "Webflow",
     "website": "https://webflow.com/",
     "image": "bookmarks/webflow.webp",
@@ -76,7 +76,7 @@
     "status": true
   },
   {
-    "id": "f786801d-0e38-4915-9794-9ec1d0e11fc5",
+    "id": "2e56607f-e0ae-4f1d-ac3f-63368ae5f967",
     "title": "The Algorithms",
     "website": "https://the-algorithms.com/",
     "image": "bookmarks/thealgorithms.webp",
@@ -88,7 +88,7 @@
     "status": true
   },
   {
-    "id": "f786801d-0e38-4915-9794-9ec1d0e11fc5",
+    "id": "6bddc01b-bd33-4aef-9266-900788ada1ba",
     "title": "Story Book",
     "website": "https://storybook.js.org/",
     "image": "bookmarks/storybook.webp",
@@ -101,7 +101,7 @@
     "status": true
   },
   {
-    "id": "f786801d-0e38-4915-9794-9ec1d0e11fc5",
+    "id": "f97aa121-2189-4bed-a86b-0e876fda9c44",
     "title": "Warp",
     "website": "https://www.warp.dev/",
     "image": "bookmarks/warp.webp",
@@ -114,7 +114,7 @@
     "status": true
   },
   {
-    "id": "f786801d-0e38-4915-9794-9ec1d0e11fc5",
+    "id": "d5e0a965-bda6-4f79-a2c0-24337f7ad19a",
     "title": "Trading View",
     "website": "https://www.tradingview.com/lightweight-charts/",
     "image": "bookmarks/tradingview.webp",
@@ -127,7 +127,7 @@
     "status": true
   },
   {
-    "id": "f786801d-0e38-4915-9794-9ec1d0e11fc5",
+    "id": "6b62dc00-ad7c-455b-b578-3815e3c76e3f",
     "title": "Gitbook",
     "website": "https://www.gitbook.com/",
     "image": "bookmarks/gitbook.webp",
@@ -139,7 +139,7 @@
     "status": true
   },
   {
-    "id": "f786801d-0e38-4915-9794-9ec1d0e11fc5",
+    "id": "1c1dd615-d71b-40df-b479-443b52e6c42b",
     "title": "Serverless",
     "website": "https://www.serverless.com/",
     "image": "bookmarks/serverless.webp",
@@ -152,7 +152,7 @@
     "status": true
   },
   {
-    "id": "f786801d-0e38-4915-9794-9ec1d0e11fc5",
+    "id": "7c798b4e-8a7e-4767-ba49-27fbca9d0ace",
     "title": "CodePen",
     "website": "https://codepen.io/",
     "image": "bookmarks/codepen.webp",
@@ -165,7 +165,7 @@
     "status": true
   },
   {
-    "id": "f786801d-0e38-4915-9794-9ec1d0e11fc5",
+    "id": "b0666cab-16d8-4026-aac4-e42167552045",
     "title": "JSON Data AI",
     "website": "https://www.jsondataai.com/",
     "image": "bookmarks/jsondataai.webp",
@@ -178,7 +178,7 @@
     "status": true
   },
   {
-    "id": "1",
+    "id": "76c6533d-32bd-4d50-bbd1-3fd33c84342f",
     "title": "GeeksforGeeks",
     "website": "https://www.geeksforgeeks.org/",
     "image": "bookmarks/geeksforgeeks.webp",
@@ -191,7 +191,7 @@
     "status": true
   },
   {
-    "id": "2",
+    "id": "541e1c77-5093-41c1-955e-af64f490b28f",
     "title": "Google Maps Style Wizard",
     "website": "https://mapstyle.withgoogle.com/",
     "image": "bookmarks/stylingwizard.webp",
@@ -204,7 +204,7 @@
     "status": true
   },
   {
-    "id": "3",
+    "id": "530a14d3-0a4f-4a6d-af58-e1c886fc451c",
     "title": "Component Party",
     "website": "https://component-party.dev/",
     "image": "bookmarks/componentparty.webp",
@@ -217,7 +217,7 @@
     "status": true
   },
   {
-    "id": "4",
+    "id": "bff56c8a-3204-41b3-80df-1901868899d0",
     "title": "Deta",
     "website": "https://deta.space/",
     "image": "bookmarks/deta.webp",
@@ -230,7 +230,7 @@
     "status": true
   },
   {
-    "id": "5",
+    "id": "37fd10fc-1ba6-4dfa-9b13-1ba4c1c349e7",
     "title": "draw.io",
     "website": "https://www.drawio.com/",
     "image": "bookmarks/drawio.webp",
@@ -243,7 +243,7 @@
     "status": true
   },
   {
-    "id": "6",
+    "id": "fc64d879-a5ee-4a9d-a92f-fed730210495",
     "title": "Patterns.dev",
     "website": "https://www.patterns.dev/",
     "image": "bookmarks/pattersdev.webp",
@@ -256,7 +256,7 @@
     "status": true
   },
   {
-    "id": "7",
+    "id": "a73d488e-117a-47b5-b0ef-7badadaffe34",
     "title": "Fullstack Cafe",
     "website": "https://www.fullstack.cafe/",
     "image": "bookmarks/fullstackcafe.webp",
@@ -269,7 +269,7 @@
     "status": true
   },
   {
-    "id": "8",
+    "id": "5fc221a8-ed16-48a3-bdbd-aaba0a497753",
     "title": "Lucidchart",
     "website": "https://www.drawio.com/",
     "image": "bookmarks/lucid.webp",
@@ -282,7 +282,7 @@
     "status": true
   },
   {
-    "id": "9",
+    "id": "6c8fd5f3-64fc-4473-af80-f8144a289d15",
     "title": "Tana Inc.",
     "website": "https://tana.inc/",
     "image": "bookmarks/tana.webp",
@@ -295,7 +295,7 @@
     "status": true
   },
   {
-    "id": "10",
+    "id": "52fde9de-9287-4967-bfd0-9a1548d60d02",
     "title": "FullPage.js",
     "website": "https://alvarotrigo.com/fullPage/",
     "image": "bookmarks/fullpagejs.webp",
@@ -308,7 +308,7 @@
     "status": true
   },
   {
-    "id": "11",
+    "id": "d309f20f-242d-4bbe-a935-8eb806cc7172",
     "title": "Goalkicker",
     "website": "https://books.goalkicker.com/",
     "image": "bookmarks/goalkicker.webp",
@@ -321,7 +321,7 @@
     "status": true
   },
   {
-    "id": "12",
+    "id": "4db5e4e6-7123-4f09-8e69-f461e2144b67",
     "title": "React Keepdesign",
     "website": "https://react.keepdesign.io/",
     "image": "bookmarks/keepreact.webp",
@@ -334,7 +334,7 @@
     "status": true
   },
   {
-    "id": "13",
+    "id": "21336d46-46f8-4a42-85c4-5ba97a84c45b",
     "title": "Tailwind UI",
     "website": "https://tailwindui.com/",
     "image": "bookmarks/tailwindui.webp",
@@ -347,7 +347,7 @@
     "status": true
   },
   {
-    "id": "14",
+    "id": "c0e61984-10fd-4d46-8bfe-dd7bd3bfcafb",
     "title": "Adobe Color Wheel",
     "website": "https://color.adobe.com/",
     "image": "bookmarks/adobecolor.webp",
@@ -360,7 +360,7 @@
     "status": true
   },
   {
-    "id": "15",
+    "id": "5450023f-c716-4d67-bee3-88a86b21ba06",
     "title": "Refactoring Guru",
     "website": "https://refactoring.guru/",
     "image": "bookmarks/refactoringguru.webp",
@@ -373,7 +373,7 @@
     "status": true
   },
   {
-    "id": "16",
+    "id": "f7d266ae-e365-46aa-b08d-9edb1c87a36d",
     "title": "Daily.dev",
     "website": "https://daily.dev/",
     "image": "bookmarks/dailydev.webp",
@@ -386,7 +386,7 @@
     "status": true
   },
   {
-    "id": "17",
+    "id": "94ab741d-dcd2-4af8-88d9-f9ddce90335f",
     "title": "UUID Generator",
     "website": "https://www.uuidgenerator.net/",
     "image": "bookmarks/uuidgenerator.webp",
@@ -399,7 +399,7 @@
     "status": true
   },
   {
-    "id": "18",
+    "id": "3ce1d12a-674d-45e7-b78a-60d8bf2f520b",
     "title": "Flow",
     "website": "https://www.flow.cl/",
     "image": "bookmarks/flow.webp",
@@ -412,7 +412,7 @@
     "status": true
   },
   {
-    "id": "19",
+    "id": "ed3e8dab-ef77-4d03-b1cc-e06dd41ce22c",
     "title": "Curator",
     "website": "https://curator.io/",
     "image": "bookmarks/curatorio.webp",
@@ -425,7 +425,7 @@
     "status": true
   },
   {
-    "id": "20",
+    "id": "345f2387-002b-4094-b40d-986dbd4c6065",
     "title": "DigitalOcean",
     "website": "https://www.digitalocean.com/",
     "image": "bookmarks/digitalocean.webp",
@@ -438,7 +438,7 @@
     "status": true
   },
   {
-    "id": "21",
+    "id": "a451e27a-cf2d-4773-ae91-37b876ea6f53",
     "title": "Ibelick Background Generator",
     "website": "https://bg.ibelick.com/",
     "image": "bookmarks/backgroundsnippets.webp",
@@ -451,7 +451,7 @@
     "status": true
   },
   {
-    "id": "22",
+    "id": "4c397089-742e-401e-b58d-038090cc318c",
     "title": "ReadMe Templates",
     "website": "https://www.readme-templates.com/",
     "image": "bookmarks/readmetemplates.webp",
@@ -464,7 +464,7 @@
     "status": true
   },
   {
-    "id": "23",
+    "id": "c5ca8162-0699-441c-972e-5d8b9f767804",
     "title": "GNU Emacs Download",
     "website": "https://www.gnu.org/software/emacs/download.html",
     "image": "bookmarks/gnuemacs.webp",
@@ -477,7 +477,7 @@
     "status": true
   },
   {
-    "id": "24",
+    "id": "10d0c7e5-f466-4edb-9fc4-8da5df4cd266",
     "title": "Popper.js Documentation",
     "website": "https://popper.js.org/docs/v2/",
     "image": "bookmarks/popperjs.webp",
@@ -490,7 +490,7 @@
     "status": true
   },
   {
-    "id": "25",
+    "id": "bcd29402-2623-43f6-a73f-6a47f8008eb5",
     "title": "Logobook",
     "website": "http://www.logobook.com/",
     "image": "bookmarks/logobook.webp",
@@ -503,7 +503,7 @@
     "status": true
   },
   {
-    "id": "26",
+    "id": "9ece3094-e641-4440-9534-78d4c000582a",
     "title": "Mantine",
     "website": "https://mantine.dev/",
     "image": "bookmarks/mantine.webp",
@@ -516,7 +516,7 @@
     "status": true
   },
   {
-    "id": "27",
+    "id": "0142cad6-b78d-4b5d-b452-30ae1c7f3b5b",
     "title": "Resend",
     "website": "https://resend.com/",
     "image": "bookmarks/resend.webp",
@@ -529,7 +529,7 @@
     "status": true
   },
   {
-    "id": "28",
+    "id": "7fef776e-b39a-46d2-b0e8-71cb9371be57",
     "title": "Ansible",
     "website": "https://www.ansible.com/",
     "image": "bookmarks/ansible.webp",
@@ -542,7 +542,7 @@
     "status": true
   },
   {
-    "id": "29",
+    "id": "9d87224e-8f87-4fd8-af1c-0a9d03a412f5",
     "title": "PostgreSQL Documentation",
     "website": "https://www.postgresql.org/docs/devel/index.html",
     "image": "bookmarks/postgresql.webp",
@@ -555,7 +555,7 @@
     "status": true
   },
   {
-    "id": "30",
+    "id": "241fe915-6ea9-4ce8-824d-61f46f8b665d",
     "title": "DaisyUI",
     "website": "https://daisyui.com/",
     "image": "bookmarks/daisyui.webp",
@@ -568,7 +568,7 @@
     "status": true
   },
   {
-    "id": "31",
+    "id": "86e38757-b695-4c09-a8a3-8e38fbcfc9d9",
     "title": "Terraform",
     "website": "https://www.terraform.io/",
     "image": "bookmarks/terraform.webp",
@@ -581,7 +581,7 @@
     "status": true
   },
   {
-    "id": "32",
+    "id": "1f161ca7-24b2-4473-8a39-07b3049415be",
     "title": "Fl0",
     "website": "https://www.fl0.com/",
     "image": "bookmarks/fl0.webp",
@@ -594,7 +594,7 @@
     "status": true
   },
   {
-    "id": "33",
+    "id": "76ebf736-302b-4244-958a-b3c3446c006e",
     "title": "Envato Elements",
     "website": "https://elements.envato.com/es/",
     "image": "bookmarks/envatoelements.webp",
@@ -607,7 +607,7 @@
     "status": true
   },
   {
-    "id": "34",
+    "id": "4ebe7b67-be12-4776-b823-227d23444b13",
     "title": "Park UI",
     "website": "https://park-ui.com/",
     "image": "bookmarks/parkui.webp",
@@ -620,7 +620,7 @@
     "status": true
   },
   {
-    "id": "35",
+    "id": "2db8278d-329f-4fe5-97e7-5a7bb59d5984",
     "title": "Imgur",
     "website": "https://imgur.com/",
     "image": "bookmarks/imgur.webp",
@@ -633,7 +633,7 @@
     "status": true
   },
   {
-    "id": "36",
+    "id": "7cc65f98-257b-4866-894d-41b5c340fc73",
     "title": "NextUI",
     "website": "https://nextui.org/",
     "image": "bookmarks/nextui.webp",
@@ -646,7 +646,7 @@
     "status": true
   },
   {
-    "id": "37",
+    "id": "f25dcbd4-3517-4c1c-a35f-c83d7e67fb1e",
     "title": "Material Tailwind",
     "website": "https://www.material-tailwind.com/",
     "image": "bookmarks/materialtailwind.webp",
@@ -659,9 +659,9 @@
     "status": true
   },
   {
-    "id": "38",
+    "id": "194e14de-08e9-480f-9c26-c6442c7819c9",
     "title": "Miro",
-    "website": "https://miro.com/app/board/uXjVMSqO8O0=/",
+    "website": "https://miro.com/",
     "image": "bookmarks/miro.webp",
     "category": "Collaboration",
     "tags": [
@@ -672,9 +672,9 @@
     "status": true
   },
   {
-    "id": "39",
+    "id": "5c0399c9-f6d2-479e-ba26-04aa4602c22c",
     "title": "Google Trends",
-    "website": "https://trends.google.es/trends?geo=CL&hl=es",
+    "website": "https://trends.google.com/",
     "image": "bookmarks/googletrends.webp",
     "category": "Analytics",
     "tags": [
@@ -685,15 +685,517 @@
     "status": true
   },
   {
-    "id": "40",
+    "id": "5ddd6872-b0b3-44f2-a34d-17c9daa3f2b0",
     "title": "Hostinger",
-    "website": "https://www.hostinger.es/",
+    "website": "https://www.hostinger.com/",
     "image": "bookmarks/hostinger.webp",
     "category": "Hosting",
     "tags": [
       "Web Hosting",
       "Domains",
       "Cloud"
+    ],
+    "status": true
+  },
+  {
+    "id": "1a2b3c4d-5e6f-7g8h-9i0j-1k2l3m4n5o6p",
+    "title": "PlanetScale",
+    "website": "https://planetscale.com/",
+    "image": "bookmarks/planetscale.webp",
+    "category": "Database",
+    "tags": [
+      "Database",
+      "MySQL",
+      "Cloud"
+    ],
+    "status": true
+  },
+  {
+    "id": "2b3c4d5e-6f7g-8h9i-0j1k-2l3m4n5o6p7q",
+    "title": "VuePress",
+    "website": "https://vuepress.vuejs.org/",
+    "image": "bookmarks/vuepress.webp",
+    "category": "Documentation",
+    "tags": [
+      "Vue",
+      "Static Site",
+      "Generator"
+    ],
+    "status": true
+  },
+  {
+    "id": "3c4d5e6f-7g8h-9i0j-1k2l-3m4n5o6p7q8r",
+    "title": "Land Book",
+    "website": "https://land-book.com/",
+    "image": "bookmarks/landbook.webp",
+    "category": "Design",
+    "tags": [
+      "Inspiration",
+      "Web Design",
+      "Landing Pages"
+    ],
+    "status": true
+  },
+  {
+    "id": "4d5e6f7g-8h9i-0j1k-2l3m-4n5o6p7q8r9s",
+    "title": "Landing Love",
+    "website": "https://www.landing.love/",
+    "image": "bookmarks/landinglove.webp",
+    "category": "Design",
+    "tags": [
+      "Inspiration",
+      "Web Design",
+      "Landing Pages"
+    ],
+    "status": true
+  },
+  {
+    "id": "5e6f7g8h-9i0j-1k2l-3m4n-5o6p7q8r9s0t",
+    "title": "Ecomm Design",
+    "website": "https://ecomm.design/",
+    "image": "bookmarks/ecommdesign.webp",
+    "category": "Design",
+    "tags": [
+      "Inspiration",
+      "E-commerce",
+      "Web Design"
+    ],
+    "status": true
+  },
+  {
+    "id": "6f7g8h9i-0j1k-2l3m-4n5o-6p7q8r9s0t1u",
+    "title": "Lapa Ninja",
+    "website": "https://www.lapa.ninja/",
+    "image": "bookmarks/lapa.webp",
+    "category": "Design",
+    "tags": [
+      "Inspiration",
+      "Web Design",
+      "Landing Pages"
+    ],
+    "status": true
+  },
+  {
+    "id": "7g8h9i0j-1k2l-3m4n-5o6p-7q8r9s0t1u2v",
+    "title": "One Page Love",
+    "website": "https://onepagelove.com/",
+    "image": "bookmarks/onepagelove.webp",
+    "category": "Design",
+    "tags": [
+      "Inspiration",
+      "Web Design",
+      "One Page"
+    ],
+    "status": true
+  },
+  {
+    "id": "8h9i0j1k-2l3m-4n5o-6p7q-8r9s0t1u2v3w",
+    "title": "VSCode Themes",
+    "website": "https://vscodethemes.com/",
+    "image": "bookmarks/vscodethemes.webp",
+    "category": "Development",
+    "tags": [
+      "VSCode",
+      "Themes",
+      "Extensions"
+    ],
+    "status": true
+  },
+  {
+    "id": "9i0j1k2l-3m4n-5o6p-7q8r-9s0t1u2v3w4x",
+    "title": "Apache Solr",
+    "website": "https://solr.apache.org/",
+    "image": "bookmarks/solr.webp",
+    "category": "Search",
+    "tags": [
+      "Search",
+      "Indexing",
+      "Open Source"
+    ],
+    "status": true
+  },
+  {
+    "id": "0j1k2l3m-4n5o-6p7q-8r9s-0t1u2v3w4x5y",
+    "title": "Docusaurus",
+    "website": "https://docusaurus.io/",
+    "image": "bookmarks/docusaurus.webp",
+    "category": "Documentation",
+    "tags": [
+      "Documentation",
+      "Static Site",
+      "Generator"
+    ],
+    "status": true
+  },
+  {
+    "id": "c4a8a1a1-9130-4c84-8b67-fd7d5e636a5c",
+    "title": "Hugo",
+    "website": "https://gohugo.io/",
+    "image": "bookmarks/hugo.webp",
+    "category": "Static Site Generator",
+    "tags": [
+      "Static Site Generator",
+      "Web Development"
+    ],
+    "status": true
+  },
+  {
+    "id": "ae3b9c15-5b70-4e22-a349-546f2069b0df",
+    "title": "MkDocs",
+    "website": "https://www.mkdocs.org/",
+    "image": "bookmarks/mkdocs.webp",
+    "category": "Documentation",
+    "tags": [
+      "Static Site Generator",
+      "Documentation"
+    ],
+    "status": true
+  },
+  {
+    "id": "1d7685ff-330f-4703-b8c1-7c79a08f7647",
+    "title": "UmiJS",
+    "website": "https://v3.umijs.org/docs",
+    "image": "bookmarks/umijs.webp",
+    "category": "JavaScript Framework",
+    "tags": [
+      "JavaScript",
+      "Framework",
+      "React"
+    ],
+    "status": true
+  },
+  {
+    "id": "2c8a8b42-df5f-43a4-9c12-8d8bb6489e0d",
+    "title": "Material Icons for GitHub",
+    "website": "https://chromewebstore.google.com/detail/material-icons-for-github/bggfcpfjbdkhfhfmkjpbhnkhnpjjeomc",
+    "image": "bookmarks/materialiconsfg.webp",
+    "category": "Browser Extension",
+    "tags": [
+      "Browser Extension",
+      "GitHub",
+      "Icons"
+    ],
+    "status": true
+  },
+  {
+    "id": "5c86e94f-7c0e-40e8-bb97-cc6c03c9a8f4",
+    "title": "FlutterFlow",
+    "website": "https://flutterflow.io/",
+    "image": "bookmarks/flutterflow.webp",
+    "category": "App Development",
+    "tags": [
+      "Flutter",
+      "App Development",
+      "No Code"
+    ],
+    "status": true
+  },
+  {
+    "id": "4f9b8e5a-7d09-4c7c-845e-0fb7b12a4e6d",
+    "title": "Happy Hues",
+    "website": "https://www.happyhues.co/",
+    "image": "bookmarks/happyhues.webp",
+    "category": "Design",
+    "tags": [
+      "Color Palettes",
+      "Design"
+    ],
+    "status": true
+  },
+  {
+    "id": "8ae5d55e-1c9f-4f14-b5c4-f739b7874b58",
+    "title": "Coolors",
+    "website": "https://coolors.co/",
+    "image": "bookmarks/coolors.webp",
+    "category": "Design",
+    "tags": [
+      "Color Palettes",
+      "Design"
+    ],
+    "status": true
+  },
+  {
+    "id": "9d0d8e15-71e0-4e29-9f9f-01f4aebc2d2b",
+    "title": "Color Hunt",
+    "website": "https://colorhunt.co/",
+    "image": "bookmarks/colorhunt.webp",
+    "category": "Design",
+    "tags": [
+      "Color Palettes",
+      "Design"
+    ],
+    "status": true
+  },
+  {
+    "id": "0d5a29a5-4c4d-4d9f-b06e-86bfc5c6a47b",
+    "title": "Pigment",
+    "website": "https://pigment.shapefactory.co/",
+    "image": "bookmarks/pigment.webp",
+    "category": "Design",
+    "tags": [
+      "Color Palettes",
+      "Design"
+    ],
+    "status": true
+  },
+  {
+    "id": "72b7d7e5-4b3f-41b7-9dbd-7c1b5587f2c6",
+    "title": "Hypercolor",
+    "website": "https://hypercolor.dev/",
+    "image": "bookmarks/hypercolor.webp",
+    "category": "Design",
+    "tags": [
+      "Color Palettes",
+      "CSS",
+      "Tailwind"
+    ],
+    "status": true
+  },
+  {
+    "id": "029350b8-3dc8-40a5-8567-48d3c9a2380d",
+    "title": "Tailwind Shades",
+    "website": "https://www.tailwindshades.com/",
+    "image": "bookmarks/tailwindshades.webp",
+    "category": "Design Tools",
+    "tags": [
+      "Colors",
+      "Tailwind CSS"
+    ],
+    "status": true
+  },
+  {
+    "id": "4fd7dd9e-09d9-423b-9a1a-1595302822d2",
+    "title": "Color Name",
+    "website": "https://www.color-name.com/",
+    "image": "bookmarks/colorname.webp",
+    "category": "Design Tools",
+    "tags": [
+      "Colors",
+      "Naming"
+    ],
+    "status": true
+  },
+  {
+    "id": "912fa20e-a973-4539-8e95-324e80ac44f3",
+    "title": "Iconscout",
+    "website": "https://iconscout.com/",
+    "image": "bookmarks/iconscout.webp",
+    "category": "Icons",
+    "tags": [
+      "Icons",
+      "Illustrations"
+    ],
+    "status": true
+  },
+  {
+    "id": "7060f39e-4005-4a8c-823b-81e030b53847",
+    "title": "Simple Icons",
+    "website": "https://simpleicons.org/",
+    "image": "bookmarks/simpleicons.webp",
+    "category": "Icons",
+    "tags": [
+      "Icons",
+      "Brand Icons"
+    ],
+    "status": true
+  },
+  {
+    "id": "a38411ac-df1b-42dd-96fa-78e705236037",
+    "title": "Heroicons",
+    "website": "https://heroicons.com/",
+    "image": "bookmarks/heroicons.webp",
+    "category": "Icons",
+    "tags": [
+      "Icons",
+      "Tailwind CSS"
+    ],
+    "status": true
+  },
+  {
+    "id": "ec66bc40-de5f-43d0-b47b-7cda249b6564",
+    "title": "Boxicons",
+    "website": "https://boxicons.com/",
+    "image": "bookmarks/boxicons.webp",
+    "category": "Icons",
+    "tags": [
+      "Icons",
+      "Web Icons"
+    ],
+    "status": true
+  },
+  {
+    "id": "8ac8e355-0891-4bfd-8d56-0350abd45627",
+    "title": "UX Tools",
+    "website": "https://uxtools.co/",
+    "image": "bookmarks/uxtools.webp",
+    "category": "UX Design",
+    "tags": [
+      "UX",
+      "Design Tools"
+    ],
+    "status": true
+  },
+  {
+    "id": "a6671e06-dba5-434d-bd7a-4df37cf5a64d",
+    "title": "Free Faces Gallery",
+    "website": "https://www.freefaces.gallery/",
+    "image": "bookmarks/freefaces.webp",
+    "category": "Typography",
+    "tags": [
+      "Fonts",
+      "Free Fonts"
+    ],
+    "status": true
+  },
+  {
+    "id": "4a2c722e-ff20-4887-a75e-ddb4a77cc9be",
+    "title": "Nerd Fonts",
+    "website": "https://www.nerdfonts.com/",
+    "image": "bookmarks/nerdfonts.webp",
+    "category": "Typography",
+    "tags": [
+      "Fonts",
+      "Developer Fonts"
+    ],
+    "status": true
+  },
+  {
+    "id": "4466e8df-387f-4cfe-9b8a-4533e8af2c05",
+    "title": "Product Hunt",
+    "website": "https://www.producthunt.com/",
+    "image": "bookmarks/producthunt.webp",
+    "category": "Productivity",
+    "tags": [
+      "Products",
+      "Startups"
+    ],
+    "status": true
+  },
+  {
+    "id": "1a8df1f4-1b4a-47f1-9bc6-7d4b6e364bd4",
+    "title": "Dribbble",
+    "website": "https://dribbble.com/",
+    "image": "bookmarks/dribbble.webp",
+    "category": "Design Inspiration",
+    "tags": [
+      "Design",
+      "Inspiration",
+      "Graphics"
+    ],
+    "status": true
+  },
+  {
+    "id": "5b9a8c9e-1a6b-4e1f-9f92-bc8e3d0dc22e",
+    "title": "Abduzeedo",
+    "website": "https://abduzeedo.com/",
+    "image": "bookmarks/abduzeedo.webp",
+    "category": "Design Inspiration",
+    "tags": [
+      "Design",
+      "Inspiration",
+      "Art"
+    ],
+    "status": true
+  },
+  {
+    "id": "2fcd23c6-92a9-45fa-82e6-5c8b57c6a9b5",
+    "title": "Designspiration",
+    "website": "https://www.designspiration.com/",
+    "image": "bookmarks/designspiration.webp",
+    "category": "Design Inspiration",
+    "tags": [
+      "Design",
+      "Inspiration",
+      "Art"
+    ],
+    "status": true
+  },
+  {
+    "id": "7f8b5a8e-0a59-4c5b-8e10-fd5e5a8a2b3a",
+    "title": "Adobe Firefly",
+    "website": "https://firefly.adobe.com/",
+    "image": "bookmarks/adobefirefly.webp",
+    "category": "Design Tools",
+    "tags": [
+      "Design",
+      "Tools",
+      "Graphics"
+    ],
+    "status": true
+  },
+  {
+    "id": "9a0e1b6a-5c6d-4b4b-8d45-f9e7e5b8e9f8",
+    "title": "Blue Vertigo",
+    "website": "https://bluevertigo.com.ar/",
+    "image": "bookmarks/bluevertigo.webp",
+    "category": "Design Resources",
+    "tags": [
+      "Resources",
+      "Design",
+      "Graphics"
+    ],
+    "status": true
+  },
+  {
+    "id": "3a5f1e4e-9b8a-4c5b-8e0a-6c8b57c6a9e7",
+    "title": "Mockuuups Studio",
+    "website": "https://mockuuups.studio/",
+    "image": "bookmarks/mockuuupsstudio.webp",
+    "category": "Mockup Tools",
+    "tags": [
+      "Mockups",
+      "Design",
+      "Tools"
+    ],
+    "status": true
+  },
+  {
+    "id": "4c7e2a3d-1f4a-45f1-9c4e-6e8e4f8b7d8e",
+    "title": "Tailwind CSS Animated",
+    "website": "https://www.tailwindcss-animated.com/",
+    "image": "bookmarks/tailwindanimated.webp",
+    "category": "CSS Tools",
+    "tags": [
+      "CSS",
+      "Animation",
+      "Tools"
+    ],
+    "status": true
+  },
+  {
+    "id": "5d9e6a4f-3b5a-45f1-9d8e-7f8b57d6a9d6",
+    "title": "Reflex",
+    "website": "https://reflex.dev/",
+    "image": "bookmarks/reflex.webp",
+    "category": "Python Framework",
+    "tags": [
+      "Web",
+      "Python"
+    ],
+    "status": true
+  },
+  {
+    "id": "6b8f4c9e-2a5d-4e1f-8c4d-8f9e4f6b7e9a",
+    "title": "MUI",
+    "website": "https://mui.com/",
+    "image": "bookmarks/materialui.webp",
+    "category": "UI Framework",
+    "tags": [
+      "UI",
+      "React",
+      "Components"
+    ],
+    "status": true
+  },
+  {
+    "id": "7a9d4e2f-5b6a-4f1f-9c8e-9e7d5f6b7d7b",
+    "title": "DistroSea",
+    "website": "https://distrosea.com/",
+    "image": "bookmarks/distrosea.webp",
+    "category": "Tools",
+    "tags": [
+      "Linux",
+      "Distros"
     ],
     "status": true
   }

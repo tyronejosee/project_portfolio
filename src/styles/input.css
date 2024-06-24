@@ -85,10 +85,6 @@
     @apply text-3xl font-bold text-neutral-800 dark:text-chartreuse-400;
   }
 
-  .navbar__content {
-    @apply flex items-center justify-between;
-  }
-
   /* Btn */
   .btn {
     @apply text__bold flex items-center justify-center px-4 h-10 rounded-xl;

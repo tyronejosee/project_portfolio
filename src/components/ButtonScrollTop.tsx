@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { ChevronUpIcon } from "@heroicons/react/24/solid";
 
-export function ButtonScrollTop() {
+export function ButtonScrollTop(): JSX.Element {
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {

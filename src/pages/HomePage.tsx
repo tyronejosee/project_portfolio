@@ -30,6 +30,7 @@ export function HomePage() {
               className="hidden md:block w-52"
             />
             <div className="flex justify-center items-center md:justify-start">
+              <button className="btn btn--primary">Contact</button>
               <a
                 href={GMAIL}
                 className="p-4 hover:bg-neutral-200 dark:hover:bg-neutral-800 dark:hover:text-chartreuse-400 items-center rounded-xl"
