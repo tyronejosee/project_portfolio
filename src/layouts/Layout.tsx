@@ -20,7 +20,7 @@ function ScrollToTop() {
 export function Layout({ children }: LayoutProps) {
   return (
     <>
-      <div className="fixed left-0 h-full flex items-center justify-center">
+      <div className="hidden xl:flex fixed left-0 h-full items-center justify-center">
         <div className="transform -rotate-90 text-lg font-medium leading-tight hover:text-white">
           Portfolio
         </div>

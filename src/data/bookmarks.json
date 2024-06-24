@@ -176,5 +176,525 @@
       "JavaScript"
     ],
     "status": true
+  },
+  {
+    "id": "1",
+    "title": "GeeksforGeeks",
+    "website": "https://www.geeksforgeeks.org/",
+    "image": "bookmarks/geeksforgeeks.webp",
+    "category": "Python",
+    "tags": [
+      "Modules",
+      "Python",
+      "Programming"
+    ],
+    "status": true
+  },
+  {
+    "id": "2",
+    "title": "Google Maps Style Wizard",
+    "website": "https://mapstyle.withgoogle.com/",
+    "image": "bookmarks/stylingwizard.webp",
+    "category": "Maps",
+    "tags": [
+      "Google Maps",
+      "Design",
+      "Map Styling"
+    ],
+    "status": true
+  },
+  {
+    "id": "3",
+    "title": "Component Party",
+    "website": "https://component-party.dev/",
+    "image": "bookmarks/componentparty.webp",
+    "category": "Web Development",
+    "tags": [
+      "Components",
+      "Web",
+      "Development"
+    ],
+    "status": true
+  },
+  {
+    "id": "4",
+    "title": "Deta",
+    "website": "https://deta.space/",
+    "image": "bookmarks/deta.webp",
+    "category": "Cloud",
+    "tags": [
+      "Serverless",
+      "Database",
+      "Cloud Services"
+    ],
+    "status": true
+  },
+  {
+    "id": "5",
+    "title": "draw.io",
+    "website": "https://www.drawio.com/",
+    "image": "bookmarks/drawio.webp",
+    "category": "Productivity",
+    "tags": [
+      "Diagram",
+      "Flowchart",
+      "Productivity"
+    ],
+    "status": true
+  },
+  {
+    "id": "6",
+    "title": "Patterns.dev",
+    "website": "https://www.patterns.dev/",
+    "image": "bookmarks/pattersdev.webp",
+    "category": "Design",
+    "tags": [
+      "Patterns",
+      "Design",
+      "Development"
+    ],
+    "status": true
+  },
+  {
+    "id": "7",
+    "title": "Fullstack Cafe",
+    "website": "https://www.fullstack.cafe/",
+    "image": "bookmarks/fullstackcafe.webp",
+    "category": "Web Development",
+    "tags": [
+      "Interviews",
+      "Questions",
+      "Web"
+    ],
+    "status": true
+  },
+  {
+    "id": "8",
+    "title": "Lucidchart",
+    "website": "https://www.drawio.com/",
+    "image": "bookmarks/lucid.webp",
+    "category": "Productivity",
+    "tags": [
+      "Diagram",
+      "Flowchart",
+      "Collaboration"
+    ],
+    "status": true
+  },
+  {
+    "id": "9",
+    "title": "Tana Inc.",
+    "website": "https://tana.inc/",
+    "image": "bookmarks/tana.webp",
+    "category": "Company",
+    "tags": [
+      "Business",
+      "Consulting",
+      "Services"
+    ],
+    "status": true
+  },
+  {
+    "id": "10",
+    "title": "FullPage.js",
+    "website": "https://alvarotrigo.com/fullPage/",
+    "image": "bookmarks/fullpagejs.webp",
+    "category": "Web Development",
+    "tags": [
+      "JavaScript",
+      "Plugin",
+      "Web"
+    ],
+    "status": true
+  },
+  {
+    "id": "11",
+    "title": "Goalkicker",
+    "website": "https://books.goalkicker.com/",
+    "image": "bookmarks/goalkicker.webp",
+    "category": "Books",
+    "tags": [
+      "Programming",
+      "Development",
+      "Learning"
+    ],
+    "status": true
+  },
+  {
+    "id": "12",
+    "title": "React Keepdesign",
+    "website": "https://react.keepdesign.io/",
+    "image": "bookmarks/keepreact.webp",
+    "category": "React",
+    "tags": [
+      "Components",
+      "UI",
+      "Design"
+    ],
+    "status": true
+  },
+  {
+    "id": "13",
+    "title": "Tailwind UI",
+    "website": "https://tailwindui.com/",
+    "image": "bookmarks/tailwindui.webp",
+    "category": "UI Design",
+    "tags": [
+      "Tailwind CSS",
+      "UI",
+      "Design"
+    ],
+    "status": true
+  },
+  {
+    "id": "14",
+    "title": "Adobe Color Wheel",
+    "website": "https://color.adobe.com/",
+    "image": "bookmarks/adobecolor.webp",
+    "category": "Design",
+    "tags": [
+      "Colors",
+      "Design",
+      "Palette"
+    ],
+    "status": true
+  },
+  {
+    "id": "15",
+    "title": "Refactoring Guru",
+    "website": "https://refactoring.guru/",
+    "image": "bookmarks/refactoringguru.webp",
+    "category": "Programming",
+    "tags": [
+      "Refactoring",
+      "Design Patterns",
+      "Programming"
+    ],
+    "status": true
+  },
+  {
+    "id": "16",
+    "title": "Daily.dev",
+    "website": "https://daily.dev/",
+    "image": "bookmarks/dailydev.webp",
+    "category": "Development",
+    "tags": [
+      "News",
+      "Articles",
+      "Development"
+    ],
+    "status": true
+  },
+  {
+    "id": "17",
+    "title": "UUID Generator",
+    "website": "https://www.uuidgenerator.net/",
+    "image": "bookmarks/uuidgenerator.webp",
+    "category": "Development",
+    "tags": [
+      "UUID",
+      "Generator",
+      "Development"
+    ],
+    "status": true
+  },
+  {
+    "id": "18",
+    "title": "Flow",
+    "website": "https://www.flow.cl/",
+    "image": "bookmarks/flow.webp",
+    "category": "Finance",
+    "tags": [
+      "Payments",
+      "Finance",
+      "Business"
+    ],
+    "status": true
+  },
+  {
+    "id": "19",
+    "title": "Curator",
+    "website": "https://curator.io/",
+    "image": "bookmarks/curatorio.webp",
+    "category": "Social Media",
+    "tags": [
+      "Social Media",
+      "Marketing",
+      "Curator"
+    ],
+    "status": true
+  },
+  {
+    "id": "20",
+    "title": "DigitalOcean",
+    "website": "https://www.digitalocean.com/",
+    "image": "bookmarks/digitalocean.webp",
+    "category": "Cloud",
+    "tags": [
+      "Cloud Services",
+      "Hosting",
+      "Infrastructure"
+    ],
+    "status": true
+  },
+  {
+    "id": "21",
+    "title": "Ibelick Background Generator",
+    "website": "https://bg.ibelick.com/",
+    "image": "bookmarks/backgroundsnippets.webp",
+    "category": "Design",
+    "tags": [
+      "Backgrounds",
+      "Design",
+      "Generator"
+    ],
+    "status": true
+  },
+  {
+    "id": "22",
+    "title": "ReadMe Templates",
+    "website": "https://www.readme-templates.com/",
+    "image": "bookmarks/readmetemplates.webp",
+    "category": "Documentation",
+    "tags": [
+      "ReadMe",
+      "Templates",
+      "Documentation"
+    ],
+    "status": true
+  },
+  {
+    "id": "23",
+    "title": "GNU Emacs Download",
+    "website": "https://www.gnu.org/software/emacs/download.html",
+    "image": "bookmarks/gnuemacs.webp",
+    "category": "Software",
+    "tags": [
+      "GNU",
+      "Emacs",
+      "Download"
+    ],
+    "status": true
+  },
+  {
+    "id": "24",
+    "title": "Popper.js Documentation",
+    "website": "https://popper.js.org/docs/v2/",
+    "image": "bookmarks/popperjs.webp",
+    "category": "Web Development",
+    "tags": [
+      "JavaScript",
+      "Popper.js",
+      "Library"
+    ],
+    "status": true
+  },
+  {
+    "id": "25",
+    "title": "Logobook",
+    "website": "http://www.logobook.com/",
+    "image": "bookmarks/logobook.webp",
+    "category": "Design",
+    "tags": [
+      "Logos",
+      "Design",
+      "Inspiration"
+    ],
+    "status": true
+  },
+  {
+    "id": "26",
+    "title": "Mantine",
+    "website": "https://mantine.dev/",
+    "image": "bookmarks/mantine.webp",
+    "category": "UI Library",
+    "tags": [
+      "React",
+      "Components",
+      "UI"
+    ],
+    "status": true
+  },
+  {
+    "id": "27",
+    "title": "Resend",
+    "website": "https://resend.com/",
+    "image": "bookmarks/resend.webp",
+    "category": "Email",
+    "tags": [
+      "Email",
+      "API",
+      "Service"
+    ],
+    "status": true
+  },
+  {
+    "id": "28",
+    "title": "Ansible",
+    "website": "https://www.ansible.com/",
+    "image": "bookmarks/ansible.webp",
+    "category": "DevOps",
+    "tags": [
+      "Automation",
+      "DevOps",
+      "Ansible"
+    ],
+    "status": true
+  },
+  {
+    "id": "29",
+    "title": "PostgreSQL Documentation",
+    "website": "https://www.postgresql.org/docs/devel/index.html",
+    "image": "bookmarks/postgresql.webp",
+    "category": "Database",
+    "tags": [
+      "PostgreSQL",
+      "Database",
+      "Documentation"
+    ],
+    "status": true
+  },
+  {
+    "id": "30",
+    "title": "DaisyUI",
+    "website": "https://daisyui.com/",
+    "image": "bookmarks/daisyui.webp",
+    "category": "UI Components",
+    "tags": [
+      "Tailwind CSS",
+      "UI",
+      "Components"
+    ],
+    "status": true
+  },
+  {
+    "id": "31",
+    "title": "Terraform",
+    "website": "https://www.terraform.io/",
+    "image": "bookmarks/terraform.webp",
+    "category": "Infrastructure",
+    "tags": [
+      "Infrastructure as Code",
+      "DevOps",
+      "Cloud"
+    ],
+    "status": true
+  },
+  {
+    "id": "32",
+    "title": "Fl0",
+    "website": "https://www.fl0.com/",
+    "image": "bookmarks/fl0.webp",
+    "category": "Development",
+    "tags": [
+      "Web Development",
+      "Tools",
+      "Platform"
+    ],
+    "status": true
+  },
+  {
+    "id": "33",
+    "title": "Envato Elements",
+    "website": "https://elements.envato.com/es/",
+    "image": "bookmarks/envatoelements.webp",
+    "category": "Design",
+    "tags": [
+      "Assets",
+      "Templates",
+      "Graphics"
+    ],
+    "status": true
+  },
+  {
+    "id": "34",
+    "title": "Park UI",
+    "website": "https://park-ui.com/",
+    "image": "bookmarks/parkui.webp",
+    "category": "UI Components",
+    "tags": [
+      "UI",
+      "Components",
+      "Design"
+    ],
+    "status": true
+  },
+  {
+    "id": "35",
+    "title": "Imgur",
+    "website": "https://imgur.com/",
+    "image": "bookmarks/imgur.webp",
+    "category": "Images",
+    "tags": [
+      "Hosting",
+      "Images",
+      "Community"
+    ],
+    "status": true
+  },
+  {
+    "id": "36",
+    "title": "NextUI",
+    "website": "https://nextui.org/",
+    "image": "bookmarks/nextui.webp",
+    "category": "UI Library",
+    "tags": [
+      "UI",
+      "Components",
+      "React"
+    ],
+    "status": true
+  },
+  {
+    "id": "37",
+    "title": "Material Tailwind",
+    "website": "https://www.material-tailwind.com/",
+    "image": "bookmarks/materialtailwind.webp",
+    "category": "CSS Framework",
+    "tags": [
+      "Tailwind",
+      "CSS",
+      "UI Components"
+    ],
+    "status": true
+  },
+  {
+    "id": "38",
+    "title": "Miro",
+    "website": "https://miro.com/app/board/uXjVMSqO8O0=/",
+    "image": "bookmarks/miro.webp",
+    "category": "Collaboration",
+    "tags": [
+      "Board",
+      "Collaboration",
+      "Productivity"
+    ],
+    "status": true
+  },
+  {
+    "id": "39",
+    "title": "Google Trends",
+    "website": "https://trends.google.es/trends?geo=CL&hl=es",
+    "image": "bookmarks/googletrends.webp",
+    "category": "Analytics",
+    "tags": [
+      "Trends",
+      "Data",
+      "Google"
+    ],
+    "status": true
+  },
+  {
+    "id": "40",
+    "title": "Hostinger",
+    "website": "https://www.hostinger.es/",
+    "image": "bookmarks/hostinger.webp",
+    "category": "Hosting",
+    "tags": [
+      "Web Hosting",
+      "Domains",
+      "Cloud"
+    ],
+    "status": true
   }
 ]

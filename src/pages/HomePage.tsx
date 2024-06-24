@@ -14,9 +14,9 @@ export function HomePage() {
   return (
     <>
       {/* About Section */}
-      <section className="">
-        <div className="grid grid-cols-2 gap-8 h-[560px] items-center relative">
-          <article className="z-10 space-y-2">
+      <section>
+        <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-8 h-[560px] items-center">
+          <article className="order-2 md:order-1 space-y-2">
             <span className="text-lg font-medium leading-tight">
               Portfolio / About
             </span>
@@ -24,8 +24,12 @@ export function HomePage() {
               Hello, Im <span className="text-chartreuse-500">{FULL_NAME}</span>
             </h2>
             <p className="text-neutral-500">{ABOUT_ME}</p>
-            <img src={signature} alt="Signature" className="w-52" />
-            <div className="flex">
+            <img
+              src={signature}
+              alt="Signature"
+              className="hidden md:block w-52"
+            />
+            <div className="flex justify-center items-center md:justify-start">
               <a
                 href={GMAIL}
                 className="p-4 hover:bg-neutral-200 dark:hover:bg-neutral-800 dark:hover:text-chartreuse-400 items-center rounded-xl"
@@ -73,12 +77,16 @@ export function HomePage() {
               </a>
             </div>
           </article>
-          <figure className="overflow-hidden rounded-full border dark:border-neutral-800 dark:hover:border-neutral-500 hover:shadow-2xl dark:hover:shadow-chartreuse-500 transition-all ease-in-out">
+          <figure className="h-60 sm:h-full order-1 md:order-2 overflow-hidden aspect-square rounded-full border dark:border-neutral-800 dark:hover:border-neutral-500 hover:shadow-2xl dark:hover:shadow-chartreuse-500 transition-all ease-in-out">
             <img src="/images/profile.webp" alt="Profile" />
           </figure>
         </div>
         <div className="flex justify-center animate-pulse opacity-80">
-          <img className="h-20" src="/scroll-arrows.gif" alt="Scroll Down" />
+          <img
+            className="h-12 md:h-20"
+            src="/scroll-arrows.gif"
+            alt="Scroll Down"
+          />
         </div>
       </section>
 
