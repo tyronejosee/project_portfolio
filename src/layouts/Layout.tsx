@@ -1,6 +1,5 @@
 import { ReactNode, useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
-import { ChevronUpIcon } from "@heroicons/react/24/solid";
 
 import { Navbar } from "../components/Navbar";
 

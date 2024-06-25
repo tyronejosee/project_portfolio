@@ -1,5 +1,109 @@
 [
   {
+    "id": "8a4cdc34-4f21-4efb-87c0-d0b264cc0687",
+    "title": "Roadmap.sh",
+    "website": "https://roadmap.sh/roadmaps",
+    "image": "bookmarks/roadmapsh.webp",
+    "category": "Learning",
+    "tags": [
+      "Roadmaps",
+      "Guides",
+      "Development"
+    ],
+    "status": true
+  },
+  {
+    "id": "06ec739e-fb55-43cb-9adb-fb2c99fc1b66",
+    "title": "Leonardo AI",
+    "website": "https://app.leonardo.ai/",
+    "image": "bookmarks/leonardoai.webp",
+    "category": "AI Tools",
+    "tags": [
+      "AI",
+      "Art",
+      "Creative"
+    ],
+    "status": true
+  },
+  {
+    "id": "1955fda7-ea34-45c9-a28b-89af6f7e743d",
+    "title": "LinkedIn",
+    "website": "https://www.linkedin.com/",
+    "image": "bookmarks/linkedin.webp",
+    "category": "Social Media",
+    "tags": [
+      "Networking",
+      "Jobs",
+      "Professional"
+    ],
+    "status": true
+  },
+  {
+    "id": "b8e95164-b2b3-46df-8cdb-9ffc54f8990f",
+    "title": "Notion",
+    "website": "https://www.notion.so/",
+    "image": "bookmarks/notion.webp",
+    "category": "Productivity",
+    "tags": [
+      "Notes",
+      "Organization",
+      "Collaboration"
+    ],
+    "status": true
+  },
+  {
+    "id": "45ce8d79-b1a2-4a60-9618-0a44479f9bb8",
+    "title": "Shields.io",
+    "website": "https://shields.io/",
+    "image": "bookmarks/shieldsio.webp",
+    "category": "Development",
+    "tags": [
+      "Badges",
+      "API",
+      "Open Source"
+    ],
+    "status": true
+  },
+  {
+    "id": "96c5e7a5-24b4-4818-9aea-f23d7fcdba3b",
+    "title": "Figma",
+    "website": "https://www.figma.com/",
+    "image": "bookmarks/figma.webp",
+    "category": "Design",
+    "tags": [
+      "UI/UX",
+      "Design",
+      "Collaboration"
+    ],
+    "status": true
+  },
+  {
+    "id": "036ea659-03d2-4fb2-8232-8ecef8e1cdcc",
+    "title": "Flowbite",
+    "website": "https://flowbite.com/",
+    "image": "bookmarks/flowbite.webp",
+    "category": "Development",
+    "tags": [
+      "Components",
+      "Tailwind",
+      "UI"
+    ],
+    "status": true
+  },
+  {
+    "id": "e54a4f14-d5a8-4fe1-860a-d6578504841e",
+    "title": "Excalidraw",
+    "website": "https://excalidraw.com/",
+    "image": "bookmarks/excalidraw.webp",
+    "category": "Design",
+    "tags": [
+      "Sketching",
+      "Collaboration",
+      "Whiteboard"
+    ],
+    "status": true
+  },
+  {
     "id": "e56aabdb-0a36-44d2-a9e9-dd3aa6a70a47",
     "title": "OPENVPN",
     "website": "https://openvpn.net/",
@@ -763,7 +867,7 @@
     "status": true
   },
   {
-    "id": "6f7g8h9i-0j1k-2l3m-4n5o-6p7q8r9s0t1u",
+    "id": "3db29914-6dcc-4ced-be29-87a943f70057",
     "title": "Lapa Ninja",
     "website": "https://www.lapa.ninja/",
     "image": "bookmarks/lapa.webp",
@@ -789,7 +893,7 @@
     "status": true
   },
   {
-    "id": "8h9i0j1k-2l3m-4n5o-6p7q-8r9s0t1u2v3w",
+    "id": "7bf7fb73-b9b4-445e-8cb8-699bc288aabb",
     "title": "VSCode Themes",
     "website": "https://vscodethemes.com/",
     "image": "bookmarks/vscodethemes.webp",
@@ -815,7 +919,7 @@
     "status": true
   },
   {
-    "id": "0j1k2l3m-4n5o-6p7q-8r9s-0t1u2v3w4x5y",
+    "id": "6d92063b-bcc8-4145-b7fb-6ee8ba883c5c",
     "title": "Docusaurus",
     "website": "https://docusaurus.io/",
     "image": "bookmarks/docusaurus.webp",
@@ -1196,6 +1300,134 @@
     "tags": [
       "Linux",
       "Distros"
+    ],
+    "status": true
+  },
+  {
+    "id": "71d7a308-058c-48eb-9e38-14a8e46c597c",
+    "title": "isort",
+    "website": "https://pycqa.github.io/isort/",
+    "image": "bookmarks/isort.webp",
+    "category": "Development Tools",
+    "tags": [
+      "Python",
+      "Code Formatting",
+      "Linting"
+    ],
+    "status": true
+  },
+  {
+    "id": "64d25da1-187d-4a41-978c-2b3f4cc8bf36",
+    "title": "Buy Me a Coffee - Setup Payout",
+    "website": "https://buymeacoffee.com/setup-payout",
+    "image": "bookmarks/buymeacoffee.webp",
+    "category": "Funding",
+    "tags": [
+      "Donations",
+      "Monetization",
+      "Support"
+    ],
+    "status": true
+  },
+  {
+    "id": "1403f3f2-7517-4edf-ad06-a2f0d16a9701",
+    "title": "Meraki UI",
+    "website": "https://merakiui.com/",
+    "image": "bookmarks/merakiui.webp",
+    "category": "UI Components",
+    "tags": [
+      "Tailwind CSS",
+      "UI",
+      "Components"
+    ],
+    "status": true
+  },
+  {
+    "id": "f227e75e-a3a5-4b7f-b437-ae9c5dd79c8b",
+    "title": "Tailblocks",
+    "website": "https://tailblocks.cc/",
+    "image": "bookmarks/tailblocks.webp",
+    "category": "UI Components",
+    "tags": [
+      "Tailwind CSS",
+      "Blocks",
+      "Templates"
+    ],
+    "status": true
+  },
+  {
+    "id": "2fdd1f3a-07c7-4346-b141-1501aceaeed4",
+    "title": "Algolia",
+    "website": "https://www.algolia.com/es/",
+    "image": "bookmarks/algolia.webp",
+    "category": "Search",
+    "tags": [
+      "Search Engine",
+      "API",
+      "Instant Search"
+    ],
+    "status": true
+  },
+  {
+    "id": "6f7g8h9i-0j1k-2l3m-4n5o-6p7q8r9s0t1u",
+    "title": "Google Mesop",
+    "website": "https://google.github.io/mesop/getting_started/installing/",
+    "image": "bookmarks/mesop.webp",
+    "category": "Python Framework",
+    "tags": [
+      "Python",
+      "Web"
+    ],
+    "status": true
+  },
+  {
+    "id": "80d211b2-31ae-44c4-820f-fdaa9b533b37",
+    "title": "Nextra",
+    "website": "https://nextra.site/",
+    "image": "bookmarks/nextra.webp",
+    "category": "Documentation",
+    "tags": [
+      "Next.js",
+      "Docs",
+      "Site Generator"
+    ],
+    "status": true
+  },
+  {
+    "id": "8h9i0j1k-2l3m-4n5o-6p7q-8r9s0t1u2v3w",
+    "title": "Redmine",
+    "website": "https://www.redmine.org/",
+    "image": "bookmarks/redmine.webp",
+    "category": "Management",
+    "tags": [
+      "Issue Tracking",
+      "Open Source"
+    ],
+    "status": true
+  },
+  {
+    "id": "3324d67e-786c-40f6-abb8-aec435f6febe",
+    "title": "Sphinx",
+    "website": "https://www.sphinx-doc.org/en/master/",
+    "image": "bookmarks/sphinx.webp",
+    "category": "Documentation",
+    "tags": [
+      "Python",
+      "Docs",
+      "Generator"
+    ],
+    "status": true
+  },
+  {
+    "id": "0j1k2l3m-4n5o-6p7q-8r9s-0t1u2v3w4x5y",
+    "title": "Hugging Face Spaces",
+    "website": "https://huggingface.co/spaces",
+    "image": "bookmarks/huggingface.webp",
+    "category": "Machine Learning",
+    "tags": [
+      "AI",
+      "Models",
+      "Community"
     ],
     "status": true
   }

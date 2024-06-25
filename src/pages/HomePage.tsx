@@ -98,7 +98,10 @@ export function HomePage() {
         </h2>
         <div className="grid grid-cols-4 sm:grid-cols-6 md:grid-cols-5 lg:grid-cols-12 gap-2">
           {activeSkills.map((skill) => (
-            <article className="flex justify-center items-center bg-neutral-100 dark:bg-neutral-900 dark:hover:bg-chartreuse-400 rounded-full hover-scale transform hover:scale-105 group h-16">
+            <article
+              key={skill.id}
+              className="flex justify-center items-center bg-neutral-100 dark:bg-neutral-900 dark:hover:bg-chartreuse-400 rounded-full hover-scale transform hover:scale-105 group h-16"
+            >
               <img src={skill.icon} alt={skill.name} width={30} height={30} />
             </article>
           ))}
