@@ -4,7 +4,6 @@ import { Layout } from "./layouts/Layout";
 import { HomePage } from "./pages/HomePage";
 import { BookmarkPage } from "./pages/BookmarkPage";
 import { ButtonScrollTop } from "./components/ButtonScrollTop";
-import { Example } from "./components/Example";
 
 export function App() {
   return (
@@ -15,7 +14,7 @@ export function App() {
             {/* Main paths */}
             <Route path="/" element={<HomePage />} />
             <Route path="/bookmarks" element={<BookmarkPage />} />
-            <Route path="/example" element={<Example />} />
+            <Route path="/repositories" element={<BookmarkPage />} />
           </Routes>
           <ButtonScrollTop />
         </Layout>

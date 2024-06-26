@@ -27,7 +27,7 @@ export function BookmarkPage() {
   });
 
   return (
-    <section className="space-y-4">
+    <section className="space-y-4 overflow-hidden">
       <h2 className="scroll-m-20 text-4xl font-bold tracking-tight">
         Bookmarks
       </h2>
@@ -88,7 +88,7 @@ export function BookmarkPage() {
         {filteredBookmarks.map((bookmark) => (
           <article
             key={bookmark.id}
-            className="group rounded-xl hover:transition-all duration-300 w-full h-full"
+            className="group rounded-xl hover:transition-all duration-300 w-full h-full overflow-hidden"
           >
             <a href={bookmark.website} target="_blank" className="space-y-2">
               <figure className="aspect-video dark:bg-neutral-700 rounded-lg border dark:border-neutral-700 overflow-hidden">

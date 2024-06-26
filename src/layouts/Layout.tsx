@@ -2,6 +2,7 @@ import { ReactNode, useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
 
 import { Navbar } from "../components/Navbar";
+import { Footer } from "../components/Footer";
 
 interface LayoutProps {
   children: ReactNode;
@@ -36,6 +37,7 @@ export function Layout({ children }: LayoutProps) {
       <main className="max-w-screen-lg mx-auto space-y-16 flex flex-col min-h-[650px] p-4">
         {children}
       </main>
+      <Footer authorName="Tyrone José" year={new Date().getFullYear()} />
       <ScrollToTop />
     </>
   );

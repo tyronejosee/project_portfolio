@@ -24,7 +24,7 @@ export function Button({
       break;
     case "secondary":
       buttonClass +=
-        " bg-neutral-50 dark:bg-neutral-950 hover:bg-neutral-200 dark:hover:bg-neutral-800 text-neutral-800 dark:text-neutral-200 border border-neutral-200 dark:border-neutral-800";
+        " hover:bg-neutral-200 dark:hover:bg-neutral-800 text-neutral-800 dark:text-neutral-200 border border-neutral-200 dark:border-neutral-800";
       break;
     default:
       break;

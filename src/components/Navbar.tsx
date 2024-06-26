@@ -13,7 +13,7 @@ export function Navbar() {
             TY
           </span>
           <span className="hidden sm:block scroll-m-20 text-3xl font-bold tracking-tight dark:border-neutral-800">
-            TYRONE
+            TYRONE.
           </span>
         </Link>
         <div className="flex items-center space-x-4">
