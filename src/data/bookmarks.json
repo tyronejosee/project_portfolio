@@ -1430,5 +1430,302 @@
       "Community"
     ],
     "status": true
+  },
+  {
+    "id": "6086cbb3-fda8-4ddd-8e27-576433e1dbcc",
+    "title": "Runebook",
+    "website": "https://runebook.dev/",
+    "image": "bookmarks/runebook.webp",
+    "category": "Documentation",
+    "tags": [
+      "Django",
+      "Python",
+      "Tutorials"
+    ],
+    "status": true
+  },
+  {
+    "id": "64ab6b3d-3ec2-4474-b029-cc1e2b00955e",
+    "title": "CDRF",
+    "website": "https://www.cdrf.co/",
+    "image": "bookmarks/cdrf.webp",
+    "category": "API",
+    "tags": [
+      "Django",
+      "REST",
+      "Framework"
+    ],
+    "status": true
+  },
+  {
+    "id": "5debc621-313e-4327-8126-a0b52b3c95bb",
+    "title": "CCBV",
+    "website": "https://ccbv.co.uk/",
+    "image": "bookmarks/ccbv.webp",
+    "category": "Documentation",
+    "tags": [
+      "Django",
+      "Class-Based Views",
+      "Tutorials"
+    ],
+    "status": true
+  },
+  {
+    "id": "81640a3b-163f-4c90-a163-f675787ca060",
+    "title": "Django REST Framework",
+    "website": "https://www.django-rest-framework.org/",
+    "image": "bookmarks/djangorestframework.webp",
+    "category": "Framework",
+    "tags": [
+      "Django",
+      "REST",
+      "API"
+    ],
+    "status": true
+  },
+  {
+    "id": "bbf481ce-6944-4154-bfdd-65e47c3cc8b0",
+    "title": "VitePress",
+    "website": "https://vitepress.dev/",
+    "image": "bookmarks/vitepress.webp",
+    "category": "Documentation",
+    "tags": [
+      "Vite",
+      "SSG"
+    ],
+    "status": true
+  },
+  {
+    "id": "4101d641-ce89-4e4e-9d16-36d398b0f6a1",
+    "title": "Shadcn UI",
+    "website": "https://ui.shadcn.com/",
+    "image": "bookmarks/shadcn.webp",
+    "category": "UI",
+    "tags": [
+      "Components",
+      "Design",
+      "React"
+    ],
+    "status": true
+  },
+  {
+    "id": "1e0759ff-70d6-44e6-8c29-0acb7d376629",
+    "title": "Django Documentation",
+    "website": "https://docs.djangoproject.com/",
+    "image": "bookmarks/django.webp",
+    "category": "Documentation",
+    "tags": [
+      "Django",
+      "Tutorials",
+      "Reference"
+    ],
+    "status": true
+  },
+  {
+    "id": "450329da-9875-4df2-9620-91a9e2f02977",
+    "title": "FastAPI",
+    "website": "https://fastapi.tiangolo.com/",
+    "image": "bookmarks/fastapi.webp",
+    "category": "Framework",
+    "tags": [
+      "Python",
+      "API"
+    ],
+    "status": true
+  },
+  {
+    "id": "cff8a353-ba6d-4656-af6b-5f7ff106f346",
+    "title": "React Documentation",
+    "website": "https://es.react.dev/",
+    "image": "bookmarks/react.webp",
+    "category": "Documentation",
+    "tags": [
+      "React",
+      "Tutorials",
+      "Framework"
+    ],
+    "status": true
+  },
+  {
+    "id": "f22e8f75-70cf-44c0-8a4c-4395f291a48b",
+    "title": "Next.js",
+    "website": "https://nextjs.org/",
+    "image": "bookmarks/nextjs.webp",
+    "category": "Framework",
+    "tags": [
+      "React",
+      "Server-Side Rendering",
+      "Static Site Generation"
+    ],
+    "status": true
+  },
+  {
+    "id": "a1a45abc-24f0-4fec-b429-517f8a936d3b",
+    "title": "Tailwind CSS",
+    "website": "https://tailwindcss.com/",
+    "image": "bookmarks/tailwindcss.webp",
+    "category": "Framework",
+    "tags": [
+      "CSS",
+      "Design",
+      "Utility-First"
+    ],
+    "status": true
+  },
+  {
+    "id": "2fc7b6e7-ddff-4f62-a633-2efa22ef8ca1",
+    "title": "Prometheus",
+    "website": "https://prometheus.io/",
+    "image": "bookmarks/prometheus.webp",
+    "category": "Monitoring",
+    "tags": [
+      "Metrics",
+      "Monitoring",
+      "Open Source"
+    ],
+    "status": true
+  },
+  {
+    "id": "10a1f059-41bb-40df-85eb-b80931a5a210",
+    "title": "JWT",
+    "website": "https://jwt.io/",
+    "image": "bookmarks/jwt.webp",
+    "category": "Authentication",
+    "tags": [
+      "Security",
+      "JWT",
+      "Tokens"
+    ],
+    "status": true
+  },
+  {
+    "id": "2375f491-6c5b-44a4-b202-64a4343a36ee",
+    "title": "Redis",
+    "website": "https://redis.io/",
+    "image": "bookmarks/redis.webp",
+    "category": "Database",
+    "tags": [
+      "Cache",
+      "In-Memory",
+      "Database"
+    ],
+    "status": true
+  },
+  {
+    "id": "b416736d-bd07-46a8-a527-c5e9f09c0e6f",
+    "title": "Railway",
+    "website": "https://railway.app/",
+    "image": "bookmarks/railway.webp",
+    "category": "Platform",
+    "tags": [
+      "Deployment",
+      "Hosting",
+      "Infrastructure"
+    ],
+    "status": true
+  },
+  {
+    "id": "92a504c8-6a4d-4fbd-be7f-45e1c644257f",
+    "title": "Render",
+    "website": "https://render.com/",
+    "image": "bookmarks/render.webp",
+    "category": "Platform",
+    "tags": [
+      "Hosting",
+      "Deployment",
+      "Infrastructure"
+    ],
+    "status": true
+  },
+  {
+    "id": "ada6209b-45b3-4ac6-8604-40d49225a9a9",
+    "title": "Netlify",
+    "website": "https://www.netlify.com/",
+    "image": "bookmarks/netlify.webp",
+    "category": "Platform",
+    "tags": [
+      "Deployment",
+      "Hosting",
+      "Continuous Deployment"
+    ],
+    "status": true
+  },
+  {
+    "id": "ef7d94ed-ca49-4ef5-b4da-b00f83a15e3f",
+    "title": "SVG Lab",
+    "website": "https://svgl.app/",
+    "image": "bookmarks/svglab.webp",
+    "category": "Tools",
+    "tags": [
+      "SVG",
+      "Design",
+      "Editor"
+    ],
+    "status": true
+  },
+  {
+    "id": "a84aa195-c7f5-45e7-9630-b561ee30bed9",
+    "title": "UI Colors",
+    "website": "https://uicolors.app/create",
+    "image": "bookmarks/uicolors.webp",
+    "category": "Design",
+    "tags": [
+      "Color Palettes",
+      "Design Tools",
+      "UI"
+    ],
+    "status": true
+  },
+  {
+    "id": "6a937f0d-f4e7-4888-9f44-ab7f0d820a2f",
+    "title": "Aiohttp Docs",
+    "website": "https://docs.aiohttp.org/",
+    "image": "bookmarks/aiohttp.webp",
+    "category": "Documentation",
+    "tags": [
+      "Framework",
+      "Python",
+      "Asynchronous"
+    ],
+    "status": true
+  },
+  {
+    "id": "1d17f955-7978-4454-ab2b-75216c121610",
+    "title": "Cloudflare Dashboard",
+    "website": "https://dash.cloudflare.com/",
+    "image": "bookmarks/cloudflare.webp",
+    "category": "Infrastructure",
+    "tags": [
+      "Cloudflare",
+      "Dashboard",
+      "DNS"
+    ],
+    "status": true
+  },
+  {
+    "id": "ff4275bf-86e4-4c67-ae6d-2d9f492bb0d2",
+    "title": "Ruff Docs",
+    "website": "https://docs.astral.sh/ruff/",
+    "image": "bookmarks/ruff.webp",
+    "category": "Documentation",
+    "tags": [
+      "Python",
+      "Ruff",
+      "Static Analysis"
+    ],
+    "status": true
+  },
+  {
+    "id": "8a5fbce4-ce7b-4f33-9a56-101437616e0d",
+    "title": "Koyeb",
+    "website": "https://www.koyeb.com/",
+    "image": "bookmarks/koyeb.webp",
+    "category": "Cloud Services",
+    "tags": [
+      "Cloud",
+      "Hosting",
+      "Deployment"
+    ],
+    "status": true
   }
 ]

@@ -97,5 +97,57 @@
       "C#"
     ],
     "status": true
+  },
+  {
+    "id": "ad3a1ce9-1645-4a9e-a497-396a048150d0",
+    "title": "Scrapetable",
+    "website": "https://www.scrapetable.com/",
+    "image": "bookmarks/scrapetable.webp",
+    "category": "Scraping",
+    "tags": [
+      "Web Scraping",
+      "Data Extraction",
+      "Automation"
+    ],
+    "status": true
+  },
+  {
+    "id": "5ff2ab3c-131b-45bc-b0f8-0828d38be5c3",
+    "title": "ZAP Proxy",
+    "website": "https://www.zaproxy.org/",
+    "image": "bookmarks/zaproxy.webp",
+    "category": "Security",
+    "tags": [
+      "Web Security",
+      "Penetration Testing",
+      "Proxy"
+    ],
+    "status": true
+  },
+  {
+    "id": "4ec42d21-4b05-4fbb-9363-68acdc8ed73b",
+    "title": "Nuxt",
+    "website": "https://nuxt.com/",
+    "image": "bookmarks/nuxt.webp",
+    "category": "Framework",
+    "tags": [
+      "Vue.js",
+      "Static Site Generator",
+      "Server-Side Rendering"
+    ],
+    "status": true
+  },
+  {
+    "id": "2bb920e8-18ba-40e1-a9a3-6cbd6073eca5",
+    "title": "OWASP Web Security Testing Guide",
+    "website": "https://owasp.org/www-project-web-security-testing-guide/",
+    "image": "bookmarks/owasp-wstg.webp",
+    "category": "Security",
+    "tags": [
+      "Web Security",
+      "Testing",
+      "Guide"
+    ],
+    "status": true
   }
 ]

@@ -1,6 +1,6 @@
-import React, { ReactNode, ButtonHTMLAttributes } from "react";
+import React, { ReactNode } from "react";
 
-interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
+interface Props {
   variant?: "primary" | "secondary";
   onClick?: () => void;
   children: ReactNode;
@@ -13,14 +13,14 @@ export function Button({
   children,
   icon,
   ...props
-}: ButtonProps) {
+}: Props) {
   let buttonClass =
-    "h-9 px-4 py-2 inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50";
+    "px-4 py-2 inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50";
 
   switch (variant) {
     case "primary":
       buttonClass +=
-        " dark:bg-white dark:hover:bg-neutral-100 text-neutral-500";
+        " dark:bg-white dark:hover:bg-neutral-100 text-neutral-800";
       break;
     case "secondary":
       buttonClass +=
