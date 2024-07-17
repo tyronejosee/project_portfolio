@@ -1,12 +1,7 @@
 import { ReactNode, useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
 
-import { Navbar } from "../components/Navbar";
-import { Footer } from "../components/Footer";
-
-interface LayoutProps {
-  children: ReactNode;
-}
+import { Navbar, Footer } from "../components";
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -18,7 +13,11 @@ function ScrollToTop() {
   return null;
 }
 
-export function Layout({ children }: LayoutProps) {
+interface Props {
+  children: ReactNode;
+}
+
+export function Layout({ children }: Props) {
   const { pathname } = useLocation();
   const [currentPath, setCurrentPath] = useState(pathname);
 

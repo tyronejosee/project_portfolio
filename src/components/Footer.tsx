@@ -1,9 +1,9 @@
-interface FooterProps {
+interface Props {
   authorName: string;
   year: number;
 }
 
-export function Footer({ authorName, year }: FooterProps) {
+export const Footer = ({ authorName, year }: Props) => {
   return (
     <footer className="max-w-screen-2xl mx-auto border-t border-neutral-800">
       <div className="max-w-screen-lg mx-auto py-4 w-full z-50">

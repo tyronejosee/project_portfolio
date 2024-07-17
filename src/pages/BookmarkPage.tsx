@@ -65,9 +65,8 @@ export function BookmarkPage() {
           <hr className="border-neutral-700 pb-2" />
           <button
             onClick={() => handleTagClick(null)}
-            className={`ml-2 bg-white text-xs font-medium px-2.5 py-0.5 border border-neutral-700 rounded ${
-              !selectedTag ? "bg-chartreuse-500 text-neutral-800" : ""
-            }`}
+            className={`ml-2 bg-white text-xs font-medium px-2.5 py-0.5 border border-neutral-700 rounded ${!selectedTag ? "bg-chartreuse-500 text-neutral-800" : ""
+              }`}
           >
             All
           </button>
@@ -75,9 +74,8 @@ export function BookmarkPage() {
             <button
               key={tag}
               onClick={() => handleTagClick(tag)}
-              className={`text-xs font-medium px-2.5 py-0.5 border border-neutral-700 rounded ${
-                selectedTag === tag ? "bg-chartreuse-500 text-neutral-800" : ""
-              }`}
+              className={`text-xs font-medium px-2.5 py-0.5 border border-neutral-700 rounded ${selectedTag === tag ? "bg-chartreuse-500 text-neutral-800" : ""
+                }`}
             >
               {tag}
             </button>

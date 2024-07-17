@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { Bars2Icon } from "@heroicons/react/24/solid";
 
-export function Navbar() {
+export const Navbar = () => {
   return (
     <nav className="max-w-screen-2xl px-4 py-2 w-full sticky top-0 z-50 bg-neutral-50/80 dark:bg-neutral-950/80 backdrop-blur-md border-b border-neutral-800 shadow-b shadow">
       <div className="flex items-center justify-between">
