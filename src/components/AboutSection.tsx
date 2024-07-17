@@ -13,16 +13,13 @@ export const AboutSection = () => {
   };
 
   return (
-    <section>
-      <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-8 h-[500px]">
+    <section className="w-full h-[600px] flex items-center justify-center">
+      <div className="container mx-auto grid sm:grid-cols-1 md:grid-cols-2 gap-8 h-full items-center">
         <article className="order-2 md:order-1 flex flex-col justify-center">
           <div className="max-w-sm mx-auto space-y-2">
-            <span className="text-lg font-medium leading-tight">
-              Portfolio / About
-            </span>
+            <span className="text-lg font-medium leading-tight">Portfolio / About</span>
             <h2 className="scroll-m-20 text-4xl font-bold tracking-tight border-b dark:border-neutral-800 pb-6">
-              Hello, Im{" "}
-              <span className="text-chartreuse-500">{FULL_NAME}</span>
+              Hello, I'm <span className="text-chartreuse-500">{FULL_NAME}</span>
             </h2>
             <p className="text-neutral-500">{ABOUT_ME}</p>
             <img
@@ -35,11 +32,12 @@ export const AboutSection = () => {
                 <Button variant="primary">Contact</Button>
                 <Button variant="secondary" onClick={handleDownload}>Download CV</Button>
               </div>
-              <div className="flex">
+              <div className="flex space-x-2 mt-4">
                 <a
                   href={GMAIL}
                   className="p-4 hover:bg-neutral-200 dark:hover:bg-neutral-800 dark:hover:text-chartreuse-400 items-center rounded-xl"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <svg
                     className="w-6 h-6"
@@ -55,6 +53,7 @@ export const AboutSection = () => {
                   href={LINKEDIN}
                   className="p-4 hover:bg-neutral-200 dark:hover:bg-neutral-800 dark:hover:text-chartreuse-400 items-center rounded-xl"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <svg
                     className="w-6 h-6"
@@ -70,6 +69,7 @@ export const AboutSection = () => {
                   href={GITHUB}
                   className="p-4 hover:bg-neutral-200 dark:hover:bg-neutral-800 dark:hover:text-chartreuse-400 items-center rounded-xl"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <svg
                     className="w-6 h-6"
@@ -88,7 +88,7 @@ export const AboutSection = () => {
         <figure className="order-1 md:order-2 flex justify-center">
           <div className="flex flex-col justify-center">
             <img
-              className="h-80 overflow-hidden aspect-square rounded-full border dark:border-neutral-800 dark:hover:border-neutral-500 hover:shadow-2xl dark:hover:shadow-chartreuse-500 transition-all ease-in-out"
+              className="overflow-hidden aspect-square rounded-full border dark:border-neutral-800 dark:hover:border-neutral-500 hover:shadow-2xl dark:hover:shadow-chartreuse-500 transition-all ease-in-out"
               src="/images/profile.webp"
               alt="Profile"
             />
@@ -96,5 +96,5 @@ export const AboutSection = () => {
         </figure>
       </div>
     </section>
-  )
-}
+  );
+};
