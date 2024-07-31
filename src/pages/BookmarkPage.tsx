@@ -1,4 +1,5 @@
-import { useState } from "react";
+import { motion } from "framer-motion";
+import { Component, useState } from "react";
 import bookmarksData from "../data/bookmarks.json";
 
 export function BookmarkPage() {
@@ -84,9 +85,14 @@ export function BookmarkPage() {
       </nav>
       <section className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
         {filteredBookmarks.map((bookmark) => (
-          <article
+          <motion.article
             key={bookmark.id}
             className="group rounded-xl hover:transition-all duration-300 w-full h-full overflow-hidden"
+            layout
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: .3 }}
+          // TODO: Add component
           >
             <a href={bookmark.website} target="_blank" className="space-y-2">
               <figure className="aspect-video dark:bg-neutral-700 rounded-lg border dark:border-neutral-700 overflow-hidden">
@@ -112,7 +118,7 @@ export function BookmarkPage() {
                 </div>
               </div>
             </a>
-          </article>
+          </motion.article>
         ))}
       </section>
     </section>
