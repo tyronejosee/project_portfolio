@@ -86,9 +86,9 @@ export const AboutSection = () => {
           </div>
         </article>
         <figure className="order-1 md:order-2 flex justify-center">
-          <div className="flex flex-col justify-center">
+          <div className="flex flex-col justify-center aspect-square">
             <img
-              className="overflow-hidden aspect-square rounded-full border dark:border-neutral-800 dark:hover:border-neutral-500 hover:shadow-2xl dark:hover:shadow-chartreuse-500 transition-all ease-in-out"
+              className="overflow-hidden rounded-full border dark:border-neutral-800 dark:hover:border-neutral-500 hover:shadow-2xl dark:hover:shadow-chartreuse-500 transition-all ease-in-out"
               src="/images/profile.webp"
               alt="Profile"
             />
