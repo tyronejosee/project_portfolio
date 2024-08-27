@@ -1,4 +1,6 @@
-import { AboutSection, SkillSection, ProjectSection, ExperienceSection, FadeInSection } from "../components";;
+import { motion } from 'framer-motion';
+
+import { AboutSection, SkillSection, ProjectSection, ExperienceSection, FadeInSection, RotateScaleUp } from "../components";;
 import projectsData from "../data/projects.json";
 import skillsData from "../data/skills.json";
 
@@ -10,13 +12,13 @@ export function HomePage() {
     <>
       <FadeInSection>
         <AboutSection />
-        <div className="flex justify-center animate-pulse opacity-80">
+        <RotateScaleUp className='flex justify-center animate-pulse opacity-80'>
           <img
             className="h-10 md:h-20"
             src="/scroll-arrows.gif"
             alt="Scroll Down"
           />
-        </div>
+        </RotateScaleUp>
       </FadeInSection>
 
       <FadeInSection>

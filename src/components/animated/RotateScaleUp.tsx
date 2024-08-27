@@ -1,4 +1,4 @@
-import { ReactNode } from "react";
+import { ReactNode, useState, useEffect } from "react";
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 
@@ -7,20 +7,22 @@ interface Props {
   className?: string;
 }
 
-export const FadeInSection = ({ children, className }: Props) => {
+export const RotateScaleUp = ({ children, className }: Props) => {
   const { ref, inView } = useInView({
     threshold: 0.1,
+    triggerOnce: true,
   });
 
   return (
     <motion.div
       className={className}
       ref={ref}
-      initial={{ opacity: 0, y: 50 }}
-      animate={{ opacity: inView ? 1 : 0, y: inView ? 0 : 50 }}
+      initial={{ rotate: 180, scale: 0 }}
+      animate={{ opacity: inView ? 1 : 0, rotate: 0, scale: 1 }}
       transition={{
-        ease: "easeOut",
-        duration: 0.6,
+        type: "spring",
+        stiffness: 260,
+        damping: 40
       }}
     >
       {children}
