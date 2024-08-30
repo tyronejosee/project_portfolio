@@ -1,8 +1,11 @@
-import { motion } from 'framer-motion';
+import { useState, useEffect } from 'react';
 
-import { AboutSection, SkillSection, ProjectSection, ExperienceSection, FadeInSection, RotateScaleUp } from "../components";;
+import { AboutSection, SkillSection, ProjectSection, ExperienceSection, FadeInSection, RotateScaleUp, Loader } from "../components";;
 import projectsData from "../data/projects.json";
 import skillsData from "../data/skills.json";
+
+
+
 
 export function HomePage() {
   const activeProjects = projectsData.filter((project) => project.status) || [];

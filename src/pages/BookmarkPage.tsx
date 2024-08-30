@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Component, useState } from "react";
+import { useState } from "react";
 import bookmarksData from "../data/bookmarks.json";
 
 export function BookmarkPage() {

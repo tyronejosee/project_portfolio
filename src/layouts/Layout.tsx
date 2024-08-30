@@ -1,7 +1,15 @@
 import { ReactNode, useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
 
-import { Navbar, Footer } from "../components";
+import { Navbar, Footer, Loader } from "../components";
+
+interface Props {
+  children: ReactNode;
+}
+
+interface Data {
+  message: string;
+}
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -9,35 +17,45 @@ function ScrollToTop() {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [pathname]);
-
   return null;
 }
 
-interface Props {
-  children: ReactNode;
-}
-
 export function Layout({ children }: Props) {
-  const { pathname } = useLocation();
-  const [currentPath, setCurrentPath] = useState(pathname);
+  const [isLoading, setIsLoading] = useState<boolean>(true);
+  const [data, setData] = useState<Data | null>(null);
 
   useEffect(() => {
-    setCurrentPath(pathname);
-  }, [pathname]);
+    const fetchData = async () => {
+      try {
+        // Simulación de llamada a API
+        const response = await new Promise<Data>((resolve) =>
+          setTimeout(() => resolve({ message: 'Loader example' }), 1500)
+        );
+        setData(response);
+        setIsLoading(false);
+      } catch (error) {
+        console.error('Error al cargar los datos:', error);
+        setIsLoading(false);
+      }
+    };
+
+    fetchData();
+  }, []);
 
   return (
     <>
-      <div className="hidden xl:flex fixed left-0 h-full flex-col items-center justify-center">
-        <div className="transform -rotate-90 text-lg font-medium leading-tight hover:text-white">
-          {currentPath === "/" ? "" : currentPath}
+      {isLoading ? (
+        <Loader />
+      ) : (
+        <div>
+          <Navbar />
+          <main className="max-w-screen-lg mx-auto space-y-16 flex flex-col min-h-[650px] p-4">
+            {children}
+          </main>
+          <Footer authorName="Tyrone José" year={new Date().getFullYear()} />
+          <ScrollToTop />
         </div>
-      </div>
-      <Navbar />
-      <main className="max-w-screen-lg mx-auto space-y-16 flex flex-col min-h-[650px] p-4">
-        {children}
-      </main>
-      <Footer authorName="Tyrone José" year={new Date().getFullYear()} />
-      <ScrollToTop />
+      )}
     </>
   );
 }

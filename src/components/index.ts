@@ -10,3 +10,4 @@ export { Navbar } from "./Navbar";
 export { Footer } from "./Footer";
 export { Button } from "./Button";
 export { ButtonScrollTop } from "./ButtonScrollTop";
+export { Loader } from "./Loader";
