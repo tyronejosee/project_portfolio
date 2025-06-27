@@ -1,0 +1,51 @@
+{
+  "name": "project_portfolio_v3",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@heroui/react": "2.7.9",
+    "@heroui/use-theme": "2.1.6",
+    "@hookform/resolvers": "3.9.0",
+    "clsx": "2.1.1",
+    "dayjs": "^1.11.13",
+    "framer-motion": "11.18.2",
+    "i18next": "25.2.1",
+    "i18next-browser-languagedetector": "8.2.0",
+    "lucide-react": "0.516.0",
+    "next": "15.3.4",
+    "next-themes": "^0.4.6",
+    "react": "^18.3.1",
+    "react-aria-components": "^1.10.1",
+    "react-dom": "^18.3.1",
+    "react-hook-form": "7.53.0",
+    "react-i18next": "^15.5.3",
+    "source-map-js": "^1.2.1",
+    "tailwind-merge": "^3.3.0",
+    "tailwindcss-animate": "^1.0.7",
+    "zod": "3.23.8"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.25.1",
+    "@next/eslint-plugin-next": "^15.3.1",
+    "@types/i18next": "^13.0.0",
+    "@types/i18next-browser-languagedetector": "^3.0.0",
+    "@types/node": "20",
+    "@types/react": "^18.3.23",
+    "@types/react-dom": "18",
+    "eslint": "^8.56.0",
+    "eslint-config-next": "14.2.13",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "globals": "^16.0.0",
+    "postcss": "8",
+    "tailwindcss": "3.4.17",
+    "typescript": "5.7.3",
+    "typescript-eslint": "^8.31.1"
+  }
+}
