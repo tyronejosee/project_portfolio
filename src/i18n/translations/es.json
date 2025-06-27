@@ -1,0 +1,346 @@
+{
+  "buttons": {
+    "see_my_projects": "Ver projectos",
+    "contact_me": "Contáctame",
+    "resume": "Descargar CV",
+    "view_code": "Ver Código",
+    "preview": "Preview",
+    "send_me_a_message": "Enviar un Mensaje",
+    "sending": "Enviando..."
+  },
+  "profile": {
+    "sloganShort": "Desarrollador Full Stack",
+    "sloganLong": "Full Stack Developer especializado en React, TypeScript, y tecnologías web modernas. Construyendo aplicaciones web hermosas, accesibles y de alto rendimiento.",
+    "bio": "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas Letraset, las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.",
+    "status": "Disponible para freelance",
+    "quote": "“Codigo es el diseño en movimiento.”",
+    "funFact": "Yo soy un desarrollador full-stack con pasión por crear aplicaciones web hermosas, accesibles y de alto rendimiento.",
+    "core_values": {
+      "1": {
+        "title": "Aprendizaje continuo",
+        "description": "Me esfuerzo por mantenerme al día con las últimas tecnologías y mejores prácticas."
+      },
+      "2": {
+        "title": "Empatía en el código",
+        "description": "Escribo código que sea mantenible y considerado con otros desarrolladores."
+      },
+      "3": {
+        "title": "Espíritu de código abierto",
+        "description": "Creo en el poder de compartir y contribuir a la comunidad."
+      },
+      "4": {
+        "title": "Diseño centrado en el usuario",
+        "description": "Prioritizo la accesibilidad y experiencias intuitivas."
+      }
+    },
+    "education": {
+      "1": {
+        "title": "Licenciatura en Ciencias de la Computación",
+        "company": "Universidad de Tecnología",
+        "description": "Enfocada en desarrollo web, algoritmos e interacción humano-computador. Graduado con honores.",
+        "year": "2014"
+      },
+      "2": {
+        "title": "Certificación de Frontend Masters",
+        "company": "Frontend Masters",
+        "description": "Completó cursos avanzados en React, rendimiento de JavaScript y gestión de estado.",
+        "year": "2019"
+      },
+      "3": {
+        "title": "Desarrollador Certificado por AWS",
+        "company": "Amazon Web Services",
+        "description": "Especializado en arquitectura serverless y aplicaciones nativas en la nube.",
+        "year": "2021"
+      }
+    },
+    "interested_in": {
+      "1": "Senderismo",
+      "2": "Ciencia ficción",
+      "3": "Cocinar",
+      "4": "Fotografía",
+      "5": "Código abierto",
+      "6": "Viajar",
+      "7": "Música",
+      "8": "Juegos de mesa"
+    }
+  },
+  "home": {
+    "about": {
+      "about_me": "Sobre Mí",
+      "core_values": "Valores y Principios",
+      "education": "Educación",
+      "interests": "Intereses",
+      "availableForHire": "Disponible",
+      "yearsExperience": "años de experiencia",
+      "remote": "Remoto"
+    }
+  },
+  "projects": {
+    "title": "Projectos",
+    "subtitle": "Proyectos realizados, contribuciones y soluciones implementadas",
+    "search_placeholder": "Buscar proyectos...",
+    "problem": "Problema",
+    "solution": "Solución",
+    "tabs": {
+      "all": "Todos los Proyectos",
+      "featured": "Destacados"
+    },
+    "1": {
+      "description": "Una plataforma de comercio electrónico moderna construida con React, Node.js y MongoDB. Incluye búsqueda de productos, filtrado, gestión del carrito y pago seguro.",
+      "problem": "Las plataformas de comercio electrónico tradicionales suelen ofrecer una mala experiencia de usuario, tiempos de carga lentos y procesos de compra complejos que provocan el abandono del carrito.",
+      "solution": "Construí una plataforma de comercio electrónico moderna y responsiva enfocada en el rendimiento, la usabilidad y la optimización de conversiones. La aplicación utiliza React para el frontend con renderizado del lado del servidor para mejorar el SEO, y un backend en Node.js/Express con MongoDB para el almacenamiento de datos.",
+      "target_audience": "Todas las edades, desde niños hasta adultos, con un enfoque en experiencias de compra tanto en línea como fuera de línea."
+    },
+    "2": {
+      "title": "Aplicación de Gestión de Tareas",
+      "description": "Una aplicación colaborativa para gestión de tareas con actualizaciones en tiempo real, funcionalidad de arrastrar y soltar, y herramientas para trabajo en equipo.",
+      "problem": "Los equipos tienen dificultades para coordinar tareas entre múltiples proyectos, lo que genera retrasos y fallas en la comunicación.",
+      "solution": "Creé una aplicación de gestión de tareas colaborativa en tiempo real que permite a los equipos organizar visualmente el trabajo, hacer seguimiento del progreso y comunicarse eficazmente. La app incluye tableros kanban con arrastrar y soltar, actualizaciones en tiempo real e integraciones con herramientas populares.",
+      "target_audience": "Todas las edades, desde niños hasta adultos, con un enfoque en experiencias de compra tanto en línea como fuera de línea."
+    },
+    "3": {
+      "title": "Rastreador de Actividad Física",
+      "description": "Una aplicación integral de seguimiento físico que ayuda a los usuarios a monitorear entrenamientos, nutrición y progreso con visualización de datos.",
+      "problem": "Las apps de fitness existentes suelen enfocarse en el entrenamiento o en la nutrición, pero rara vez integran ambos aspectos con visualizaciones de datos significativas.",
+      "solution": "Desarrollé una aplicación integral que combina seguimiento de entrenamientos, registro de nutrición y visualización del progreso en una experiencia coherente. La app utiliza React Native para compatibilidad multiplataforma y GraphQL para una obtención eficiente de datos.",
+      "target_audience": "Todas las edades, desde niños hasta adultos, con un enfoque en experiencias de compra tanto en línea como fuera de línea."
+    },
+    "4": {
+      "title": "Panel del Clima",
+      "description": "Un panel de clima atractivo con pronósticos basados en ubicación, datos históricos y mapas interactivos.",
+      "problem": "La mayoría de las aplicaciones del clima brindan información básica sin contexto ni visualización que ayude a los usuarios a entender patrones y tomar decisiones.",
+      "solution": "Construí un panel del clima completo que combina condiciones actuales, pronósticos, datos históricos y mapas interactivos para ofrecer a los usuarios una visión completa de los patrones climáticos.",
+      "target_audience": "Todas las edades, desde niños hasta adultos, con un enfoque en experiencias de compra tanto en línea como fuera de línea."
+    },
+    "5": {
+      "title": "Plataforma para Compartir Recetas",
+      "description": "Una plataforma social para entusiastas de la cocina, donde pueden descubrir, compartir y guardar recetas con búsqueda avanzada y filtros.",
+      "problem": "La búsqueda de recetas está fragmentada entre múltiples plataformas, y los usuarios tienen dificultades para encontrar recetas que se ajusten a sus preferencias dietéticas e ingredientes disponibles.",
+      "solution": "Creé una plataforma social de recetas que permite a los usuarios descubrir, compartir y guardar recetas con funcionalidades de búsqueda avanzada. Incluye búsqueda por ingredientes, filtros dietéticos y recomendaciones personalizadas.",
+      "target_audience": "Todas las edades, desde niños hasta adultos, con un enfoque en experiencias de compra tanto en línea como fuera de línea."
+    },
+    "6": {
+      "title": "Plataforma de Eventos Virtuales",
+      "description": "Una plataforma para realizar eventos virtuales con transmisiones en vivo, sesiones interactivas y oportunidades de networking.",
+      "problem": "Las plataformas tradicionales para eventos virtuales suelen carecer de funciones de participación y presentan dificultades para escalar a grandes audiencias.",
+      "solution": "Desarrollé una plataforma integral para eventos virtuales que admite transmisiones en vivo, sesiones interactivas, salas de networking y stands de expositores. Utiliza WebRTC para comunicación en tiempo real y una arquitectura de microservicios para escalabilidad.",
+      "target_audience": "Todas las edades, desde niños hasta adultos, con un enfoque en experiencias de compra tanto en línea como fuera de línea."
+    }
+  },
+  "experiences": {
+    "title": "Experiencia",
+    "subtitle": "Experiencia técnica y trayectoria profesional.",
+    "tabs": {
+      "experiences": "Experienzas",
+      "certifications": "Certificaciones"
+    },
+    "key_achievements": "Logros Clave",
+    "technologies_used": "Tecnologías Utilizadas",
+    "1": {
+      "description": "Liderando el desarrollo de frontend...",
+      "achievements": [
+        "Reduje el tamaño del paquete de la aplicación en un 40% mediante división de código y carga diferida.",
+        "Implementé una biblioteca de componentes integral utilizada por 5 equipos de producto.",
+        "Lideré la migración de Angular a React, mejorando la productividad del equipo en un 30%.",
+        "Mentoricé a desarrolladores junior y establecí buenas prácticas de desarrollo frontend."
+      ]
+    },
+    "2": {
+      "description": "Trabajé en una variedad de aplicaciones web para clientes en sectores financieros, de salud y comercio electrónico.",
+      "achievements": [
+        "Desarrollé y lancé 7 proyectos para clientes desde la fase de concepto hasta su despliegue.",
+        "Implementé pipelines de CI/CD, reduciendo el tiempo de despliegue en un 70%.",
+        "Creé una arquitectura de microservicios para una plataforma de comercio electrónico de alto tráfico.",
+        "Optimizé consultas a base de datos, logrando una mejora del 50% en los tiempos de carga de las páginas."
+      ]
+    },
+    "3": {
+      "description": "Creación de aplicaciones web y sitios responsivos para diversos clientes, con énfasis en UI/UX y rendimiento.",
+      "achievements": [
+        "Desarrollé más de 12 sitios web para clientes con diseños responsivos y UI modernas",
+        "Implementé sistemas de animación que mejoraron las métricas de interacción en un 25%",
+        "Colaboré con diseñadores para crear sistemas de diseño coherentes",
+        "Reducí los tiempos de carga de las páginas en un 60% mediante técnicas de optimización"
+      ]
+    },
+    "4": {
+      "description": "Trabajo en equipo ágil desarrollando MVPs para startups en etapa temprana.",
+      "achievements": [
+        "Contribuí al lanzamiento exitoso de 5 startups",
+        "Construí interfaces responsivas para aplicaciones web y móviles",
+        "Implementé integraciones de APIs de terceros para pagos y redes sociales",
+        "Participé en pruebas de usuario y mejoras iterativas de diseño"
+      ]
+    }
+  },
+  "skills": {
+    "title": "Habilidades",
+    "subtitle": "Conocimientos técnicos y herramientas dominadas.",
+    "categories": {
+      "default": "Todas las Habilidades",
+      "languages": "Lenguajes",
+      "frameworks": "Frameworks & Librerías",
+      "databases": "Bases de datos",
+      "tools": "Herramientas",
+      "mobile": "Móvil",
+      "design": "Diseño",
+      "devops": "DevOps"
+    },
+    "learning_journey": {
+      "title": "Mi viaje de aprendizaje",
+      "description": "Creo en el aprendizaje continuo y en la actualización constante con las últimas tecnologías y prácticas. Aquí está lo que estoy enfocado en actualmente:",
+      "currently_learning": {
+        "title": "Actualmente Aprendiendo",
+        "description": "Tecnologías Web3, Rust, y técnicas de animación avanzadas con Framer Motion"
+      },
+      "next_goals": {
+        "title": "Siguientes Objetivos",
+        "description": "Aprendiendo WebAssembly y explorando la integración de AI en aplicaciones web"
+      },
+      "passion": {
+        "title": "Pasión Por",
+        "description": "Optimización de rendimiento web, accesibilidad, y creación de experiencias de usuario deliciosas"
+      }
+    }
+  },
+  "contact": {
+    "title": "Contacto",
+    "subtitle": "Información de contacto y disponibilidad.",
+    "sections": {
+      "get_in_touch": "Contáctame",
+      "connect_with_me": "Conecta conmigo",
+      "send_me_a_message": "Enviar un Mensaje",
+      "frequently_asked_questions": "Preguntas Frecuentes"
+    },
+    "form": {
+      "name": {
+        "label": "Nombre",
+        "placeholder": "Tu nombre",
+        "error": "Se requiere nombre"
+      },
+      "email": {
+        "label": "Correo electrónico",
+        "placeholder": "tu.email@ejemplo.com",
+        "error": "Se requiere correo electrónico"
+      },
+      "subject": {
+        "label": "Asunto",
+        "placeholder": "¿De qué se trata?",
+        "error": "Se requiere asunto"
+      },
+      "message": {
+        "label": "Mensaje",
+        "placeholder": "Tu mensaje aquí...",
+        "error": "Se requiere mensaje"
+      }
+    }
+  },
+  "dashboard": {
+    "title": "Panel de Control",
+    "subtitle": "Una visión general de mis actividades de desarrollo, habilidades y contribuciones."
+  },
+  "faqs": {
+    "1": {
+      "question": "¿Qué servicios ofreces?",
+      "answer": "Specializo en desarrollo frontend y full-stack web, enfocado en React, TypeScript, y tecnologías web modernas. Mis servicios incluyen la construcción de sitios web responsivos, aplicaciones web, soluciones de comercio electrónico y componentes UI personalizados."
+    },
+    "2": {
+      "question": "¿Cuál es tu cronograma de proyectos típico?",
+      "answer": "Los cronogramas de proyectos varían según la complejidad y el alcance. Un sitio web simple podría tardar entre 2 y 4 semanas, mientras que una aplicación web compleja podría tardar entre 2 y 3 meses. Te proporcionaré una estimación de cronograma detallada después de discutir tus requisitos específicos."
+    },
+    "3": {
+      "question": "¿Ofreces servicios de mantenimiento?",
+      "answer": "Sí, ofreco servicios de mantenimiento y soporte continuado para sitios web y aplicaciones que he construido. Esto incluye actualizaciones regulares, correcciones de errores y mejoras de características. Podemos discutir un plan de mantenimiento que se adapte a tus necesidades."
+    },
+    "4": {
+      "question": "¿Cómo manejas la comunicación con los clientes?",
+      "answer": "Creo en la comunicación clara y consistente. Dependiendo de tu preferencia, podemos usar correo electrónico, Slack o herramientas de gestión de proyectos como Trello o Asana. Te proporcionaré actualizaciones regulares y estoy disponible para llamadas de video programadas para discutir el progreso."
+    }
+  },
+  "nav": {
+    "home": "Inicio",
+    "about": "Perfil",
+    "projects": "Projectos",
+    "experience": "Experiencia",
+    "skills": "Habilidades",
+    "dashboard": "Dashboard",
+    "connect": "Conectar",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú",
+    "footer": {
+      "navigation": "Navegación",
+      "contact": "Contáctame",
+      "copyright": "Creado con código, café, y dedicación.",
+      "privacy": "Política de Privacidad",
+      "terms": "Términos de Servicio"
+    }
+  },
+  "privacy": {
+    "title": "Política de Privacidad",
+    "subtitle": "Tu privacidad es importante. Esta política explica cómo se manejan los datos en este portafolio.",
+    "sections": [
+      {
+        "title": "Recopilación de Datos",
+        "description": "Este sitio web recopila la información mínima necesaria para su funcionamiento:",
+        "items": [
+          "Datos básicos de analítica (páginas visitadas, tiempo de permanencia)",
+          "Información de contacto que proporcionas voluntariamente",
+          "Preferencias de tema (claro/oscuro) almacenadas localmente"
+        ]
+      },
+      {
+        "title": "Uso de la Información",
+        "description": "Los datos recopilados se utilizan exclusivamente para:",
+        "items": [
+          "Mejorar la experiencia del usuario en el sitio",
+          "Responder consultas y solicitudes de contacto",
+          "Realizar análisis estadísticos del tráfico del sitio"
+        ]
+      },
+      {
+        "title": "Cookies y Almacenamiento Local",
+        "description": "Este sitio puede usar cookies técnicas y almacenamiento local del navegador para recordar tus preferencias (como el tema seleccionado). No se utilizan cookies de seguimiento de terceros."
+      },
+      {
+        "title": "Tus Derechos",
+        "description": "Tienes derecho a acceder, rectificar o eliminar cualquier información personal que hayamos recopilado. Para ejercer estos derechos, por favor contáctanos a través de los canales disponibles."
+      }
+    ]
+  },
+  "terms": {
+    "title": "Términos de Servicio",
+    "subtitle": "Estos son los términos de servicio de este sitio web. Al utilizar este sitio, aceptas estos términos.",
+    "sections": [
+      {
+        "title": "1. Uso del Sitio Web",
+        "description": "Este sitio web es un portafolio profesional que muestra mis habilidades, proyectos y experiencia como desarrollador. El contenido está destinado únicamente a fines informativos y de evaluación profesional.",
+        "items": [
+          "No se permite copiar, distribuir o modificar el contenido sin permiso",
+          "El uso comercial del contenido requiere permiso explícito",
+          "Está prohibida cualquier actividad que pueda dañar o interferir con el funcionamiento del sitio"
+        ]
+      },
+      {
+        "title": "2. Propiedad Intelectual",
+        "description": "Todo el contenido de este portafolio, incluyendo pero no limitado a:",
+        "items": [
+          "Código fuente y ejemplos de proyectos",
+          "Diseños, gráficos e imágenes",
+          "Textos y descripciones",
+          "Documentación técnica"
+        ],
+        "note": "Está protegido por derechos de autor y es propiedad del desarrollador, salvo que se indique lo contrario."
+      },
+      {
+        "title": "3. Limitación de Responsabilidad",
+        "description": "La información presentada en este portafolio se proporciona \"tal cual\". No se garantiza la exactitud, integridad o actualidad de la información. El uso de cualquier información o código es bajo tu propio riesgo."
+      }
+    ]
+  },
+
+  "notFound": {
+    "title": "404",
+    "subtitle": "Oops! La página que buscas no existe.",
+    "cta": "Volver al inicio"
+  }
+}

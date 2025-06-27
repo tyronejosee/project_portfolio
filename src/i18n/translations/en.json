@@ -1,0 +1,347 @@
+{
+  "buttons": {
+    "see_my_projects": "See Projects",
+    "contact_me": "Contact Me",
+    "resume": "Download Resume",
+    "view_code": "View Code",
+    "preview": "Preview",
+    "send_me_a_message": "Send Message",
+    "sending": "Sending..."
+  },
+  "profile": {
+    "sloganShort": "Full Stack Developer",
+    "sloganLong": "Full Stack Developer specializing in React, TypeScript, and modern web technologies. Building beautiful, accessible, and performant web applications.",
+    "bio": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "status": "Available for freelance",
+    "quote": "“Code is design in motion.”",
+    "funFact": "I'm a full-stack developer with a passion for creating beautiful, accessible, and performant web applications.",
+    "core_values": {
+      "1": {
+        "title": "Continuous Learning",
+        "description": "I strive to stay current with the latest technologies and best practices."
+      },
+      "2": {
+        "title": "Empathy in Code",
+        "description": "I write code that’s maintainable and considerate of other developers."
+      },
+      "3": {
+        "title": "Open Source Spirit",
+        "description": "I believe in the power of sharing and contributing to the community."
+      },
+      "4": {
+        "title": "User-Centered Design",
+        "description": "I prioritize accessibility and intuitive experiences."
+      }
+    },
+    "education": {
+      "1": {
+        "title": "B.S. in Computer Science",
+        "company": "University of Technology",
+        "description": "Focused on web development, algorithms, and human-computer interaction. Graduated with honors.",
+        "year": "2014"
+      },
+      "2": {
+        "title": "Frontend Masters Certification",
+        "company": "Frontend Masters",
+        "description": "Completed advanced courses in React, JavaScript performance, and state management.",
+        "year": "2019"
+      },
+      "3": {
+        "title": "AWS Certified Developer",
+        "company": "Amazon Web Services",
+        "description": "Specialized in serverless architecture and cloud-native applications.",
+        "year": "2021"
+      }
+    },
+    "interested_in": {
+      "1": "Hiking",
+      "2": "Science Fiction",
+      "3": "Cooking",
+      "4": "Photography",
+      "5": "Open Source",
+      "6": "Travel",
+      "7": "Music",
+      "8": "Board Games"
+    }
+  },
+  "home": {
+    "about": {
+      "about_me": "About Me",
+      "core_values": "Core Values",
+      "education": "Education",
+      "interests": "Interests",
+      "availableForHire": "Available for hire",
+      "yearsExperience": "years experience",
+      "remote": "Remote"
+    }
+  },
+  "projects": {
+    "title": "Projects",
+    "subtitle": "Completed projects, contributions, and implemented solutions",
+    "search_placeholder": "Search projects...",
+    "problem": "Problem",
+    "solution": "Solution",
+    "tabs": {
+      "all": "All Projects",
+      "featured": "Featured"
+    },
+    "1": {
+      "description": "A modern e-commerce platform built with React, Node.js, and MongoDB. Features include product search, filtering, cart management, and secure checkout.",
+      "problem": "Traditional e-commerce platforms often suffer from poor user experience, slow loading times, and complex checkout processes that lead to cart abandonment.",
+      "solution": "I built a modern, responsive e-commerce platform with a focus on performance, usability, and conversion optimization. The application uses React for the frontend with server-side rendering for SEO benefits, and a Node.js/Express backend with MongoDB for data storage.",
+      "target_audience": "All ages, from kids to adults, with a focus on both online and offline shopping experiences."
+    },
+    "2": {
+      "title": "Task Management App",
+      "description": "A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
+      "problem": "Teams struggle with task coordination across multiple projects, leading to missed deadlines and communication gaps.",
+      "solution": "I created a real-time collaborative task management application that allows teams to organize work visually, track progress, and communicate effectively. The app features drag-and-drop kanban boards, real-time updates, and integrations with popular tools.",
+      "target_audience": "All ages, from kids to adults, with a focus on both online and offline shopping experiences."
+    },
+    "3": {
+      "title": "Fitness Tracker",
+      "description": "A comprehensive fitness tracking application that helps users monitor workouts, nutrition, and progress over time with data visualization.",
+      "problem": "Existing fitness apps often focus on either workout tracking or nutrition, but rarely integrate both effectively with meaningful data visualization.",
+      "solution": "I developed a comprehensive fitness application that combines workout tracking, nutrition logging, and progress visualization in one cohesive experience. The app uses React Native for cross-platform compatibility and GraphQL for efficient data fetching.",
+      "target_audience": "All ages, from kids to adults, with a focus on both online and offline shopping experiences."
+    },
+    "4": {
+      "title": "Weather Dashboard",
+      "description": "A beautiful weather dashboard with location-based forecasts, historical data, and interactive maps.",
+      "problem": "Most weather apps provide basic information without context or visualization that helps users understand patterns and make decisions.",
+      "solution": "I built a comprehensive weather dashboard that combines current conditions, forecasts, historical data, and interactive maps to give users a complete picture of weather patterns.",
+      "target_audience": "All ages, from kids to adults, with a focus on both online and offline shopping experiences."
+    },
+    "5": {
+      "title": "Recipe Sharing Platform",
+      "description": "A social platform for food enthusiasts to discover, share, and save recipes with advanced search and filtering capabilities.",
+      "problem": "Recipe discovery is often fragmented across multiple platforms, and users struggle to find recipes that match their dietary preferences and available ingredients.",
+      "solution": "I created a social recipe platform that allows users to discover, share, and save recipes with advanced search capabilities. The platform includes features like ingredient-based search, dietary filters, and personalized recommendations.",
+      "target_audience": "All ages, from kids to adults, with a focus on both online and offline shopping experiences."
+    },
+    "6": {
+      "title": "Virtual Event Platform",
+      "description": "A platform for hosting virtual events with live streaming, interactive sessions, and networking opportunities.",
+      "problem": "Traditional virtual event platforms often lack engagement features and struggle with scaling for large audiences.",
+      "solution": "I developed a comprehensive virtual event platform that supports live streaming, interactive sessions, networking lounges, and exhibitor booths. The platform uses WebRTC for real-time communication and a microservices architecture for scalability.",
+      "target_audience": "All ages, from kids to adults, with a focus on both online and offline shopping experiences."
+    }
+  },
+  "experiences": {
+    "title": "Experience",
+    "subtitle": "Technical experience and professional background.",
+    "tabs": {
+      "experiences": "Experiences",
+      "certifications": "Certifications"
+    },
+    "key_achievements": "Key Achievements",
+    "technologies_used": "Technologies Used",
+    "1": {
+      "description": "Leading frontend development...",
+      "achievements": [
+        "Reduced application bundle size by 40%...",
+        "Implemented a comprehensive component library...",
+        "Led migration from Angular to React...",
+        "Mentored junior developers..."
+      ]
+    },
+    "2": {
+      "description": "Worked on a variety of web applications...",
+      "achievements": [
+        "Developed and launched 7 client projects...",
+        "Implemented CI/CD pipelines...",
+        "Created a microservices architecture...",
+        "Optimized database queries..."
+      ]
+    },
+    "3": {
+      "description": "Created responsive web applications and websites for various clients, with a focus on UI/UX and performance.",
+      "achievements": [
+        "Developed 12+ client websites with responsive designs and modern UI",
+        "Implemented animation systems that improved user engagement metrics by 25%",
+        "Collaborated with designers to create cohesive design systems",
+        "Reduced page load times by 60% through optimization techniques"
+      ]
+    },
+    "4": {
+      "description": "Worked in an agile team developing MVPs for early-stage startups.",
+      "achievements": [
+        "Contributed to 5 successful startup launches",
+        "Built responsive interfaces for web and mobile applications",
+        "Implemented third-party API integrations for payment processing and social media",
+        "Participated in user testing and iterative design improvements"
+      ]
+    }
+  },
+  "skills": {
+    "title": "Skills",
+    "subtitle": "Technical knowledge and mastered tools.",
+    "categories": {
+      "default": "All Skills",
+      "languages": "Languages",
+      "frameworks": "Frameworks & Libraries",
+      "databases": "Databases",
+      "tools": "Tools",
+      "mobile": "Mobile",
+      "design": "Design",
+      "devops": "DevOps",
+      "ia": "IA"
+    },
+    "learning_journey": {
+      "title": "My Learning Journey",
+      "description": "I believe in continuous learning and staying up-to-date with the latest technologies and best practices. Here's what I'm currently focusing on:",
+      "currently_learning": {
+        "title": "Currently Learning",
+        "description": "Web3 technologies, Rust, and advanced animation techniques with Framer Motion"
+      },
+      "next_goals": {
+        "title": "Next Goals",
+        "description": "Mastering WebAssembly and exploring AI integration in web applications"
+      },
+      "passion": {
+        "title": "Passionate About",
+        "description": "Web performance optimization, accessibility, and creating delightful user experiences"
+      }
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Contact information and availability.",
+    "sections": {
+      "get_in_touch": "Get In Touch",
+      "connect_with_me": "Connect with me",
+      "send_me_a_message": "Send Me a Message",
+      "frequently_asked_questions": "Frequently Asked Questions"
+    },
+    "form": {
+      "name": {
+        "label": "Name",
+        "placeholder": "Your name",
+        "error": "Name is required"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "your.email@example.com",
+        "error": "Email is required"
+      },
+      "subject": {
+        "label": "Subject",
+        "placeholder": "What is this about?",
+        "error": "Subject is required"
+      },
+      "message": {
+        "label": "Message",
+        "placeholder": "Your message here...",
+        "error": "Message is required"
+      }
+    }
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "subtitle": "A visual overview of my development activities, skills, and contributions."
+  },
+  "faqs": {
+    "1": {
+      "question": "What services do you offer?",
+      "answer": "I specialize in frontend and full-stack web development, focusing on React, TypeScript, and modern web technologies. My services include building responsive websites, web applications, e-commerce solutions, and custom UI components."
+    },
+    "2": {
+      "question": "What is your typical project timeline?",
+      "answer": "Project timelines vary depending on complexity and scope. A simple website might take 2-4 weeks, while a complex web application could take 2-3 months. I'll provide a detailed timeline estimate after discussing your specific requirements."
+    },
+    "3": {
+      "question": "Do you offer maintenance services?",
+      "answer": "Yes, I offer ongoing maintenance and support services for websites and applications I've built. This includes regular updates, bug fixes, and feature enhancements. We can discuss a maintenance plan that suits your needs."
+    },
+    "4": {
+      "question": "How do you handle project communication?",
+      "answer": "I believe in clear and consistent communication. Depending on your preference, we can use email, Slack, or project management tools like Trello or Asana. I provide regular updates and am available for scheduled video calls to discuss progress."
+    }
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "experience": "Experience",
+    "skills": "Skills",
+    "contact": "Contact",
+    "dashboard": "Dashboard",
+    "connect": "Connect",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "footer": {
+      "navigation": "Navigation",
+      "contact": "Contact",
+      "copyright": "Created with code, coffee, and dedication.",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service"
+    }
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "subtitle": "Your privacy is important. This policy explains how data is handled on this portfolio.",
+    "sections": [
+      {
+        "title": "Data Collection",
+        "description": "This website collects the minimal information necessary for its operation:",
+        "items": [
+          "Basic analytics data (pages visited, time spent)",
+          "Contact information you voluntarily provide",
+          "Theme preferences (light/dark) stored locally"
+        ]
+      },
+      {
+        "title": "Use of Information",
+        "description": "The collected data is used exclusively to:",
+        "items": [
+          "Improve the user experience on the site",
+          "Respond to inquiries and contact requests",
+          "Perform statistical analysis of site traffic"
+        ]
+      },
+      {
+        "title": "Cookies and Local Storage",
+        "description": "This site may use technical cookies and browser local storage to remember your preferences (such as the selected theme). No third-party tracking cookies are used."
+      },
+      {
+        "title": "Your Rights",
+        "description": "You have the right to access, rectify, or delete any personal information we have collected. To exercise these rights, please contact us through the provided channels."
+      }
+    ]
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "subtitle": "This is the terms of service for this website. By using this website, you agree to these terms.",
+    "sections": [
+      {
+        "title": "1. Website Usage",
+        "description": "This website is a professional portfolio showcasing my skills, projects, and experience as a developer. The content is intended solely for informational and professional evaluation purposes.",
+        "items": [
+          "Copying, distributing, or modifying the content without permission is not allowed",
+          "Commercial use of the content requires explicit permission",
+          "Any activity that may damage or interfere with the website’s operation is prohibited"
+        ]
+      },
+      {
+        "title": "2. Intellectual Property",
+        "description": "All content on this portfolio, including but not limited to:",
+        "items": [
+          "Source code and project examples",
+          "Designs, graphics, and images",
+          "Texts and descriptions",
+          "Technical documentation"
+        ],
+        "note": "Is protected by copyright and owned by the developer unless otherwise stated."
+      },
+      {
+        "title": "3. Limitation of Liability",
+        "description": "The information presented on this portfolio is provided \"as is\". Accuracy, completeness, or timeliness of the information is not guaranteed. Use of any information or code is at your own risk."
+      }
+    ]
+  },
+  "notFound": {
+    "title": "404",
+    "subtitle": "Oops! The page you're looking for doesn't exist.",
+    "cta": "Back to Home"
+  }
+}
